@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" size="1296,1136" id="pc01ViktorDesignPatterns2840" metadata="nsuml-1.4" initialized="true" showWireOptions="7" zoom="0.5" scrolledY="31">
+  <children xsi:type="editmodel:ClassEditModel" location="25,751" size="175,85" id="pc01ViktorDesignPatterns2841" runTimeClassModel="pc01ViktorDesignPatterns2842">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,18">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2842"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="278,109" size="205,85" targetConnections="//@children.5/@sourceConnections.0 //@children.6/@sourceConnections.0" id="pc01ViktorDesignPatterns2847" runTimeClassModel="pc01ViktorDesignPatterns2966;pc01ViktorDesignPatterns3027">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,36">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns3027"/>
+      <children xsi:type="editmodel:MethodEditModel" location="299,115" id="pc01ViktorDesignPatterns2966"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="257,399" size="287,67" targetConnections="//@children.3/@sourceConnections.0 //@children.4/@sourceConnections.0" id="pc01ViktorDesignPatterns2851" runTimeClassModel="pc01ViktorDesignPatterns2853">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="236,18">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2853"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="79,503" size="259,121" id="pc01ViktorDesignPatterns2866" runTimeClassModel="pc01ViktorDesignPatterns2878;pc01ViktorDesignPatterns2921;pc01ViktorDesignPatterns2879;pc01ViktorDesignPatterns2898">
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns2878"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="236,54">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2921"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2879"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2898"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pc01ViktorDesignPatterns2875" connectionRouterKind="Manual" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="208,-6" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="480,508" size="259,121" id="pc01ViktorDesignPatterns2870" runTimeClassModel="pc01ViktorDesignPatterns2887;pc01ViktorDesignPatterns2886;pc01ViktorDesignPatterns2931;pc01ViktorDesignPatterns2905">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns2886"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="242,72">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2931"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2887"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns2905"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pc01ViktorDesignPatterns2872" connectionRouterKind="Manual" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,24" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="39,191" size="205,139" id="pc01ViktorDesignPatterns2948" runTimeClassModel="pc01ViktorDesignPatterns3017;pc01ViktorDesignPatterns3009;pc01ViktorDesignPatterns3011;pc01ViktorDesignPatterns3014;pc01ViktorDesignPatterns3059">
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns3059"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns3009"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns3011"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns3014"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns3017"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pc01ViktorDesignPatterns2950" connectionRouterKind="Manual" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="200,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="506,207" size="262,121" id="pc01ViktorDesignPatterns3032" runTimeClassModel="pc01ViktorDesignPatterns3049;pc01ViktorDesignPatterns3034;pc01ViktorDesignPatterns3037;pc01ViktorDesignPatterns3045">
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns3045"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="182,54">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns3037"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns3034"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns3049"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pc01ViktorDesignPatterns3033" connectionRouterKind="Manual" source="//@children.6" target="//@children.1" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,-3" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="152,85"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="63,11" size="618,66" note="Besucher (Visitor)&#xD;&#xA;Kapsle eine auf den Elementen einer Objektstruktur auszuführende Operation als ein Objekt. Das Besuchermuster &#xD;&#xA;ermöglicht es Ihnen, eine neue Operation zu definieren, ohne die Klas¬sen der von ihr bearbeiteten Elemente zu verändern.&#xD;&#xA;"/>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>
