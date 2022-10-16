@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" size="773,491" id="pc01ViktorDesignPatterns662" metadata="nsuml-1.4" initialized="true" showWireOptions="7">
+  <children xsi:type="editmodel:ClassEditModel" location="69,113" size="140,67" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.0" id="pc01ViktorDesignPatterns663" runTimeClassModel="pc01ViktorDesignPatterns683">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,18">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns683"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="359,116" size="310,103" targetConnections="//@children.2/@sourceConnections.0" id="pc01ViktorDesignPatterns665" runTimeClassModel="pc01ViktorDesignPatterns667;pc01ViktorDesignPatterns670;pc01ViktorDesignPatterns679">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns667"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,36">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns670"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns679"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="pc01ViktorDesignPatterns4550" connectionRouterKind="Manhattan" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,32" id="pc01ViktorDesignPatterns4551" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" id="pc01ViktorDesignPatterns4552" aggregationKind="Aggregration" navigable="true" orderingKind="1" flags="2" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="86,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="17,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="375,302" size="274,103" targetConnections="//@children.4/@sourceConnections.1" id="pc01ViktorDesignPatterns686" runTimeClassModel="pc01ViktorDesignPatterns689;pc01ViktorDesignPatterns690;pc01ViktorDesignPatterns692">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns689"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="216,36">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns690"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns692"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pc01ViktorDesignPatterns687" connectionRouterKind="Manual" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="191,-4" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,103"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="60,570" size="175,67" id="pc01ViktorDesignPatterns697" runTimeClassModel="pc01ViktorDesignPatterns698">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,18">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns698"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:IndicationEditModel" connectionRouterKind="Manual" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,50" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,48"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="33,291" size="261,139" id="pc01ViktorDesignPatterns708" runTimeClassModel="pc01ViktorDesignPatterns715;pc01ViktorDesignPatterns718;pc01ViktorDesignPatterns740;pc01ViktorDesignPatterns748;pc01ViktorDesignPatterns756">
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns718"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns740"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="238,54">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns748"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns715"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns756"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pc01ViktorDesignPatterns709" connectionRouterKind="Manual" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,-7" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,67"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="pc01ViktorDesignPatterns786" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.1/@children.1" label="//@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.4/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="261,13" id="pc01ViktorDesignPatterns787" attachSource="true" roleLabel="//@children.4/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" id="pc01ViktorDesignPatterns788" navigable="true" flags="2" multiplicityLabel="//@children.4/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.1/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="77,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="7,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="335,475" size="418,276" targetConnections="//@children.3/@sourceConnections.0" note="public static void main(String[] args) {&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;Wechselkurse meineWechselkurse = new Wechselkurse();&#xD;&#xA;&#x9;&#x9;meineWechselkurse.setDollarkurs( 1.10 );&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;Firma meineFirma = new Firma( meineWechselkurse );&#xD;&#xA;&#x9;&#x9;Firma deineFirma = new Firma( meineWechselkurse );&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;meineWechselkurse.anmeldenBeobachter( meineFirma );&#xD;&#xA;&#x9;&#x9;// meineWechselkurse.anmeldenBeobachter( deineFirma );&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;// Alle angemeldeten Beobachter werden automatisch aktualisiert&#xD;&#xA;&#x9;&#x9;meineWechselkurse.setDollarkurs( 1.25 );&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;meineFirma.anzeigen();&#xD;&#xA;&#x9;&#x9;deineFirma.anzeigen();&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;}"/>
+  <children xsi:type="editmodel:NotepadEditModel" location="60,18" size="596,66" note="Beobachter (Observer)&#xD;&#xA;Definiere eine l-zu-n-Abhaengigkeit zwischen Objekten, so dass die aenderung des Zustands ei¬nes Objekts dazu fuehrt, &#xD;&#xA;dass alle abhaengigen Objekte benachrichtigt und automatisch aktua¬lisiert werden.&#xD;&#xA;"/>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

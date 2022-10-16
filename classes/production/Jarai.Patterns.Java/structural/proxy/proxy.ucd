@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" size="921,329" id="pc01ViktorDesignPatterns810" metadata="nsuml-1.4" initialized="true" showWireOptions="7" zoom="1.5" scrolledY="25">
+  <children xsi:type="editmodel:ClassEditModel" location="52,94" size="205,103" targetConnections="//@children.2/@sourceConnections.0 //@children.2/@sourceConnections.1" id="pc01ViktorDesignPatterns811" runTimeClassModel="pc01ViktorDesignPatterns954;pc01ViktorDesignPatterns813;pc01ViktorDesignPatterns936">
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns936"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="182,36">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns813"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns954"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="47,807" size="175,67" id="pc01ViktorDesignPatterns827" runTimeClassModel="pc01ViktorDesignPatterns828">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,18">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns828"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:IndicationEditModel" connectionRouterKind="Manual" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,44" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,68"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="57,240" size="277,139" targetConnections="//@children.4/@sourceConnections.0" id="pc01ViktorDesignPatterns833" runTimeClassModel="pc01ViktorDesignPatterns850;pc01ViktorDesignPatterns836;pc01ViktorDesignPatterns863;pc01ViktorDesignPatterns844;pc01ViktorDesignPatterns855">
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,54">
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns844"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns855"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="pc01ViktorDesignPatterns863"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="254,36">
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns850"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pc01ViktorDesignPatterns836"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="NOTEBOOKViktorDesignPatterns5091" connectionRouterKind="Manhattan" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0" id="NOTEBOOKViktorDesignPatterns5092" attachSource="true" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" id="NOTEBOOKViktorDesignPatterns5093" aggregationKind="Aggregration" navigable="true" flags="2" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="194,204" size="58,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-5.0" distanceFromWire="-57.0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="7,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pc01ViktorDesignPatterns835" connectionRouterKind="Manual" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.1" sourceEnd="//@children.2/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,102" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="55,908" size="539,262" targetConnections="//@children.1/@sourceConnections.0" note="public static void main(String[] args) {&#xD;&#xA;&#x9;&#x9;Datenbank &#x9;&#x9;meineDatenbank = new Datenbank();&#xD;&#xA;&#x9;&#x9;DatenbankProxy &#x9;meinDatenbankProxy = new DatenbankProxy( meineDatenbank );&#xD;&#xA;&#x9;&#x9;String&#x9;&#x9;&#x9;record;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;// Datenbankabfrage an den PROXY richten&#xD;&#xA;&#x9;&#x9;record = meinDatenbankProxy.abfragenDaten( 500 );&#xD;&#xA;&#x9;&#x9;System.out.println(&quot;Ergebnis: &quot; + record );&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;// Daten werden bei zweiten Aufruf aus dem Cache geliefert:&#xD;&#xA;&#x9;&#x9;record = meinDatenbankProxy.abfragenDaten( 500 );&#xD;&#xA;&#x9;&#x9;System.out.println(&quot;Ergebnis: &quot; + record );&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;// Proxy schuetzt vertrauliche Daten:&#xD;&#xA;&#x9;&#x9;record = meinDatenbankProxy.abfragenDaten( 0 );&#xD;&#xA;&#x9;&#x9;System.out.println(&quot;Ergebnis: &quot; + record );&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;}"/>
+  <children xsi:type="editmodel:NotepadEditModel" location="32,395" size="512,360" note="public String abfragenDaten(int key) {&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;String result;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;// Proxy verhindert Zugriff auf vertrauliche Daten.&#xD;&#xA;&#x9;&#x9;if( key &lt;= 100 )&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;System.out.print(&quot;Kein Zugriff.&quot;);&#xD;&#xA;&#x9;&#x9;&#x9;result = &quot;&lt;nichts>&quot;;&#xD;&#xA;&#x9;&#x9;}&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;// Proxy erspart zeitaufwaendigen Datebankzugriff, wenn Daten im Cache vorhanden&#xD;&#xA;&#x9;&#x9;else if( key == lastKey )&#x9;&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;System.out.print(&quot;Daten aus dem Cache abgerufen.&quot;);&#xD;&#xA;&#x9;&#x9;&#x9;result = lastResult;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else&#x9;// ansonsten Abfrage an die Datenbank weiterleiten&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;result &#x9;= datenbank.abfragenDaten( key );&#xD;&#xA;&#x9;&#x9;&#x9;lastKey &#x9;= key;&#xD;&#xA;&#x9;&#x9;&#x9;lastResult= result; &#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;return result;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;}">
+    <sourceConnections xsi:type="editmodel:IndicationEditModel" connectionRouterKind="Manual" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="277,128"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="43,23" size="447,38" note="Proxy (Proxy)&#xD;&#xA;Kontrolliere den Zugriff auf ein Objekt mit Hilfe eines vorgelagerten Stellvertreterobjekts."/>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>
