@@ -4,25 +4,21 @@
  */
 package behavioral.besucher;
 
-/**
- * @author Viktor
- *
- */
+
 public class Lkw extends Fahrzeug {
 
-	private final double doubleDaten;
+    private final double doubleDaten;
 
-	public double getDoubleDaten() {
-		return doubleDaten;
-	}
+    Lkw(double doubleDaten) {
+        this.doubleDaten = doubleDaten;
+    }
 
-	void nimmEntgegen(Besucher besucher){
-		besucher.besuche(this);
-	}
+    public double getDoubleDaten() {
+        return doubleDaten;
+    }
 
-
-	Lkw(double doubleDaten) {
-		this.doubleDaten = doubleDaten;
-	}
+    void nimmEntgegen(Besucher besucher) {
+        besucher.besuche(this);
+    }
 
 }

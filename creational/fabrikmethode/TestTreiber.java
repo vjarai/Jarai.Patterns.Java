@@ -3,59 +3,60 @@
  *
  */
 package creational.fabrikmethode;
-import java.io.*;
 
-/**
- * @author Viktor
- *
- */
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
 public class TestTreiber {
 
-	public static void main(String[] args) {
-		int  auswahl = 1;
+    public static void main(String[] args) {
+        int auswahl = 1;
 
-		Händler meinHändler;
-		Produkt meinProdukt;
-		
-		Ikea IkeaWallau = new Ikea("Wallau");
-		Ikea IkeaHeidelberg = new Ikea("Heidelberg");
-		Aldi AldiFrankfurt = new Aldi("Frankfurt");
-		
-		do{
-			
-			System.out.println("Wo wollen Sie einkaufen (1=Ikea Wallau, 2=Ikea Heidelberg, 3=Aldi)?");
-			
-			try{
-				auswahl = Integer.parseInt(new BufferedReader( new InputStreamReader(System.in)).readLine());
-			}
-			catch(IOException e) {
-				System.err.println("Caught IOException: " +	e.getMessage());
-			}
-			
-			switch(auswahl)
-			{
-				case 1:	meinHändler = IkeaWallau;
-						break;
-				case 2:	meinHändler = IkeaHeidelberg;
-						break;
-				case 3:	meinHändler = AldiFrankfurt;
-						break;
-				default:meinHändler = null;	 
-			}
-		
-			if( meinHändler != null)
-			{	
-				meinProdukt = meinHändler.verkaufen();	// Fabrikmethode aufrufen
-				
-				if( meinProdukt  != null )
-					meinProdukt.benutzen();
-				
-				meinHändler.anzeigen();
-			}
-			
-		}while( meinHändler != null); 
-		
-		System.out.println("Einkauf beendet.");
-		
-	}
+        Haendler meinHaendler;
+        Produkt meinProdukt;
+
+        Ikea IkeaWallau = new Ikea("Wallau");
+        Ikea IkeaHeidelberg = new Ikea("Heidelberg");
+        Aldi AldiFrankfurt = new Aldi("Frankfurt");
+
+        do {
+
+            System.out.println("Wo wollen Sie einkaufen (1=Ikea Wallau, 2=Ikea Heidelberg, 3=Aldi)?");
+
+            try {
+                auswahl = Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine());
+            } catch (IOException e) {
+                System.err.println("Caught IOException: " + e.getMessage());
+            }
+
+            switch (auswahl) {
+                case 1:
+                    meinHaendler = IkeaWallau;
+                    break;
+                case 2:
+                    meinHaendler = IkeaHeidelberg;
+                    break;
+                case 3:
+                    meinHaendler = AldiFrankfurt;
+                    break;
+                default:
+                    meinHaendler = null;
+            }
+
+            if (meinHaendler != null) {
+                meinProdukt = meinHaendler.verkaufen();    // Fabrikmethode aufrufen
+
+                if (meinProdukt != null)
+                    meinProdukt.benutzen();
+
+                meinHaendler.anzeigen();
+            }
+
+        } while (meinHaendler != null);
+
+        System.out.println("Einkauf beendet.");
+
+    }
 }

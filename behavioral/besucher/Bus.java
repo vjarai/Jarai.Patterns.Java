@@ -4,24 +4,22 @@
  */
 package behavioral.besucher;
 
-/**
- * @author Viktor
- *
- */
+
 public class Bus extends Fahrzeug {
 
-	private final int intDaten;
+    private final int intDaten;
 
-	public int getIntDaten() {
-		return intDaten;
-	}
+    Bus(int intDaten) {
+        this.intDaten = intDaten;
+    }
 
-	void nimmEntgegen(Besucher besucher){
-		besucher.besuche(this);
-		
-	}
-	Bus(int intDaten) {
-		this.intDaten = intDaten;
-	}
+    public int getIntDaten() {
+        return intDaten;
+    }
+
+    void nimmEntgegen(Besucher besucher) {
+        besucher.besuche(this);
+
+    }
 
 }

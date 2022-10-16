@@ -4,14 +4,11 @@
  */
 package creational.abstraktefabrik;
 
-/**
- * @author Viktor
- *
- */
+
 public abstract class Kleiderfabrik {
 
-	abstract Hemd erzeugeHemd();
+    abstract Hemd erzeugeHemd();
 
-	abstract Hose erzeugeHose();
+    abstract Hose erzeugeHose();
 
 }

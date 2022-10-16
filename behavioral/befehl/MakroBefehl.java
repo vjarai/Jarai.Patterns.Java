@@ -5,28 +5,27 @@ import java.util.Vector;
 
 public class MakroBefehl extends Befehl {
 
-	private final Vector<Befehl> makroBefehle = new Vector<>();
+    private final Vector<Befehl> makroBefehle = new Vector<>();
 
-	public MakroBefehl() {
-		super(null);
-	}
+    public MakroBefehl() {
+        super(null);
+    }
 
-	void ausführen() {
-		for (Befehl befehl : makroBefehle) {
-			befehl.ausführen();
-		}
-	}
+    void ausfuehren() {
+        for (Befehl befehl : makroBefehle) {
+            befehl.ausfuehren();
+        }
+    }
 
-	void rückgängig() {
-		for( int i = makroBefehle.size()-1; i >= 0; i--)
-		{
-			Befehl befehl = makroBefehle.get(i);
-			befehl.rückgängig();
-		}
-	}
+    void rueckgaengig() {
+        for (int i = makroBefehle.size() - 1; i >= 0; i--) {
+            Befehl befehl = makroBefehle.get(i);
+            befehl.rueckgaengig();
+        }
+    }
 
-	void hinzufügenBefehl(Befehl befehl) {
-		makroBefehle.add( befehl );
-	}
+    void hinzufuegenBefehl(Befehl befehl) {
+        makroBefehle.add(befehl);
+    }
 
 }

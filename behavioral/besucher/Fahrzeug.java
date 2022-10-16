@@ -4,12 +4,9 @@
  */
 package behavioral.besucher;
 
-/**
- * @author Viktor
- *
- */
+
 public abstract class Fahrzeug {
 
-	abstract void nimmEntgegen(Besucher besucher);
+    abstract void nimmEntgegen(Besucher besucher);
 
 }

@@ -4,17 +4,15 @@
  */
 package creational.abstraktefabrik;
 
-/**
- * @author Viktor
- *
- */
+
 public class DamenHemd extends Hemd {
-	
-	DamenHemd(String bezeichnung, int kragenweite) {
-			super( bezeichnung, kragenweite);
-		}
-	void anzeigen() {
-			System.out.println("Damenhemd: " + super.bezeichnung +", Größe: " + super.kragenweite);
-		}
+
+    DamenHemd(String bezeichnung, int kragenweite) {
+        super(bezeichnung, kragenweite);
+    }
+
+    void anzeigen() {
+        System.out.println("Damenhemd: " + super.bezeichnung + ", Groesse: " + super.kragenweite);
+    }
 
 }

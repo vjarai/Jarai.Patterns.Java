@@ -4,20 +4,17 @@
  */
 package creational.abstraktefabrik;
 
-/**
- * @author Viktor
- *
- */
+
 public abstract class Hose {
 
-	protected final int größe;
-	protected final String bezeichnung;
+    protected final int groesse;
+    protected final String bezeichnung;
 
-	Hose(String bezeichnung, int größe) {
-		this.bezeichnung = bezeichnung;
-		this.größe = größe;
-	}
+    Hose(String bezeichnung, int groesse) {
+        this.bezeichnung = bezeichnung;
+        this.groesse = groesse;
+    }
 
-	abstract void anzeigen();
+    abstract void anzeigen();
 
 }

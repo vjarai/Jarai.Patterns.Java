@@ -4,21 +4,18 @@
  */
 package behavioral.befehl;
 
-/**
- * @author Viktor
- *
- */
+
 public class SenkeArm extends Befehl {
 
-	public SenkeArm(Roboter roboter) {
-		super(roboter);
-	}
+    public SenkeArm(Roboter roboter) {
+        super(roboter);
+    }
 
-	void ausführen() {
-		roboter.senkeArm();
-	}
+    void ausfuehren() {
+        roboter.senkeArm();
+    }
 
-	void rückgängig() {
-		roboter.hebeArm();
-	}
+    void rueckgaengig() {
+        roboter.hebeArm();
+    }
 }

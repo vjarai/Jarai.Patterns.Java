@@ -1,10 +1,9 @@
-
 package creational.prototyp;
 
 public interface Klonbar {
 
-	Klonbar klone();
+    Klonbar klone();
 
-	void anzeigen();
+    void anzeigen();
 
 }

@@ -4,18 +4,15 @@
  */
 package creational.fabrikmethode;
 
-/**
- * @author Viktor
- *
- */
-public class Aldi extends Händler {
 
-	Produkt verkaufen() {
-		return null;
-	}
+public class Aldi extends Haendler {
 
-	Aldi(String standort) {
-		super(standort);
-	}
+    Aldi(String standort) {
+        super(standort);
+    }
+
+    Produkt verkaufen() {
+        return null;
+    }
 
 }

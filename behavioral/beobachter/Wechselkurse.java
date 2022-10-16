@@ -4,21 +4,18 @@
  */
 package behavioral.beobachter;
 
-/**
- * @author Viktor
- *
- */
+
 public class Wechselkurse extends BeobachtbaresObjekt {
 
-	private double dollarkurs;
+    private double dollarkurs;
 
-	public double getDollarkurs() {
-		return dollarkurs;
-	}
+    public double getDollarkurs() {
+        return dollarkurs;
+    }
 
-	public void setDollarkurs(double dollarkurs) {
-		this.dollarkurs = dollarkurs;
-		benachrichtigeAlleBeobachter();
-	}
+    public void setDollarkurs(double dollarkurs) {
+        this.dollarkurs = dollarkurs;
+        benachrichtigeAlleBeobachter();
+    }
 
 }

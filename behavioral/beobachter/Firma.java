@@ -4,26 +4,22 @@
  */
 package behavioral.beobachter;
 
-/**
- * @author Viktor
- *
- */
+
 public class Firma extends Beobachter {
 
-	private double dollarkurs;
+    private final Wechselkurse wechselkurse;
+    private double dollarkurs;
 
-	private final Wechselkurse wechselkurse;
+    Firma(Wechselkurse wechselkurse) {
+        this.wechselkurse = wechselkurse;
+    }
 
-	void aktualisieren() {
-		dollarkurs = wechselkurse.getDollarkurs();
-	}
+    void aktualisieren() {
+        dollarkurs = wechselkurse.getDollarkurs();
+    }
 
-	Firma(Wechselkurse wechselkurse) {
-		this.wechselkurse = wechselkurse;
-	}
-
-	void anzeigen() {
-			System.out.println("gespeicherter Kurs " + dollarkurs );
-	}
+    void anzeigen() {
+        System.out.println("gespeicherter Kurs " + dollarkurs);
+    }
 
 }

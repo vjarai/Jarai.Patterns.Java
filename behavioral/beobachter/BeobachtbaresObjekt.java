@@ -5,26 +5,24 @@
 package behavioral.beobachter;
 
 import java.util.LinkedList;
-/**
- * @author Viktor
- *
- */
+
+
 public abstract class BeobachtbaresObjekt {
 
-	private final LinkedList<Beobachter> beobachterListe = new LinkedList<>();
+    private final LinkedList<Beobachter> beobachterListe = new LinkedList<>();
 
-	void anmeldenBeobachter(Beobachter beobachter) {
-		beobachterListe.add( beobachter );
-	}
+    void anmeldenBeobachter(Beobachter beobachter) {
+        beobachterListe.add(beobachter);
+    }
 
-	void benachrichtigeAlleBeobachter() {
-		Beobachter beobachter;
+    void benachrichtigeAlleBeobachter() {
+        Beobachter beobachter;
 
-		for (Beobachter value : beobachterListe) {
-			beobachter = value;
-			beobachter.aktualisieren();
-		}
+        for (Beobachter value : beobachterListe) {
+            beobachter = value;
+            beobachter.aktualisieren();
+        }
 
-	}
+    }
 
 }

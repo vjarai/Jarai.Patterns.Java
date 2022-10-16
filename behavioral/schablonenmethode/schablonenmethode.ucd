@@ -49,7 +49,7 @@
       <children xsi:type="editmodel:AssociationEndEditModel" location="175,45"/>
     </sourceConnections>
   </children>
-  <children xsi:type="editmodel:NotepadEditModel" location="39,23" size="561,66" note="Schablonenmethode (Template Method)&#xD;&#xA;Definiere das Skelett eines Algorithmus in einer Operation und delegiere einzelne Schritte an Unterklassen. &#xD;&#xA;Die Verwendung einer Schablonenmethode ermöglicht es Unterklassen, be¬stimmte Schritte eines Algorithmus &#xD;&#xA;zu überschreiben, ohne seine Struktur zu verändern."/>
+  <children xsi:type="editmodel:NotepadEditModel" location="39,23" size="561,66" note="Schablonenmethode (Template Method)&#xD;&#xA;Definiere das Skelett eines Algorithmus in einer Operation und delegiere einzelne Schritte an Unterklassen. &#xD;&#xA;Die Verwendung einer Schablonenmethode ermoeglicht es Unterklassen, be¬stimmte Schritte eines Algorithmus &#xD;&#xA;zu ueberschreiben, ohne seine Struktur zu veraendern."/>
   <children xsi:type="editmodel:ClassEditModel" location="54,343" size="190,103" id="NOTEBOOKViktorDesignPatterns5502" runTimeClassModel="NOTEBOOKViktorDesignPatterns5527;NOTEBOOKViktorDesignPatterns5523">
     <children xsi:type="editmodel:CompartmentEditModel"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="167,54">

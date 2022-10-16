@@ -2,23 +2,23 @@ package creational.prototyp;
 
 public class KlonbarerInteger implements Klonbar {
 
-	private int intWert;
-	
-	public KlonbarerInteger( int i){
-		this.intWert = i;
-	}
+    private int intWert;
 
-	public Klonbar klone() {
-		return new KlonbarerInteger( intWert );
-	}
+    public KlonbarerInteger(int i) {
+        this.intWert = i;
+    }
 
-	public void anzeigen() {
-		System.out.println( intWert );
-	}
+    public Klonbar klone() {
+        return new KlonbarerInteger(intWert);
+    }
+
+    public void anzeigen() {
+        System.out.println(intWert);
+    }
 
 
-	public void setIntWert(int intWert) {
-		this.intWert = intWert;
-	}
+    public void setIntWert(int intWert) {
+        this.intWert = intWert;
+    }
 
 }

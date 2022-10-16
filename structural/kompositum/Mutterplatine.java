@@ -4,25 +4,22 @@
  */
 package structural.kompositum;
 
-/**
- * @author Viktor
- *
- */
+
 public class Mutterplatine extends Kompositum {
 
-	private final String hersteller;
+    private final String hersteller;
 
-	/**
-	 * 
-	 */
-	public Mutterplatine(String hersteller, double preis) {
-		super( preis );
-		this.hersteller = hersteller;
-	}
+    /**
+     *
+     */
+    public Mutterplatine(String hersteller, double preis) {
+        super(preis);
+        this.hersteller = hersteller;
+    }
 
-	void anzeigen() {
-		System.out.print("Mutterplatine von " + hersteller );
-		super.anzeigen();
-	}
+    void anzeigen() {
+        System.out.print("Mutterplatine von " + hersteller);
+        super.anzeigen();
+    }
 
 }

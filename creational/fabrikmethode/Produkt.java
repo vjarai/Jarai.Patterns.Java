@@ -4,25 +4,22 @@
  */
 package creational.fabrikmethode;
 
-/**
- * @author Viktor
- *
- */
+
 public abstract class Produkt {
 
-	private final double preis;
+    private final double preis;
 
-	private final String bezeichnung;
+    private final String bezeichnung;
 
-	abstract void benutzen();
+    Produkt(String bezeichnung, double preis) {
+        this.bezeichnung = bezeichnung;
+        this.preis = preis;
+    }
 
-	Produkt(String bezeichnung, double preis) {
-		this.bezeichnung = bezeichnung;
-		this.preis = preis;
-	}
+    abstract void benutzen();
 
-	double getPreis() {
-		return this.preis;
-	}
+    double getPreis() {
+        return this.preis;
+    }
 
 }

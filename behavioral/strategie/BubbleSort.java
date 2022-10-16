@@ -6,14 +6,11 @@ package behavioral.strategie;
 
 import java.util.Vector;
 
-/**
- * @author Viktor
- *
- */
+
 public class BubbleSort extends SortStrategie {
 
-	void sortiere(Vector daten) {
-		System.out.println("Sortiere mit Bubblesort");
-	}
+    void sortiere(Vector daten) {
+        System.out.println("Sortiere mit Bubblesort");
+    }
 
 }

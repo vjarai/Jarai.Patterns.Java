@@ -4,25 +4,22 @@
  */
 package structural.kompositum;
 
-/**
- * @author Viktor
- *
- */
+
 public class Ram extends Komponente {
-	
-	private final int megabytes;
 
-	/**
-	 * 
-	 */
-	public Ram( int megabytes, double preis) {
-		super(preis);
-		this.megabytes = megabytes;
-	}
+    private final int megabytes;
 
-	void anzeigen() {
-		System.out.print( megabytes + " Megabytes RAM ");
-		super.anzeigen();
-	}
+    /**
+     *
+     */
+    public Ram(int megabytes, double preis) {
+        super(preis);
+        this.megabytes = megabytes;
+    }
+
+    void anzeigen() {
+        System.out.print(megabytes + " Megabytes RAM ");
+        super.anzeigen();
+    }
 
 }

@@ -4,12 +4,9 @@
  */
 package behavioral.beobachter;
 
-/**
- * @author Viktor
- *
- */
+
 public abstract class Beobachter {
 
-	abstract void aktualisieren();
+    abstract void aktualisieren();
 
 }

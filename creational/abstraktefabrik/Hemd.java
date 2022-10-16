@@ -4,20 +4,17 @@
  */
 package creational.abstraktefabrik;
 
-/**
- * @author Viktor
- *
- */
+
 public abstract class Hemd {
 
-	protected final String bezeichnung;
-	protected final int kragenweite;
+    protected final String bezeichnung;
+    protected final int kragenweite;
 
-	Hemd(String bezeichnung, int kragenweite) {
-		this.bezeichnung = bezeichnung;
-		this.kragenweite = kragenweite;
-	}
+    Hemd(String bezeichnung, int kragenweite) {
+        this.bezeichnung = bezeichnung;
+        this.kragenweite = kragenweite;
+    }
 
-	abstract void anzeigen();
+    abstract void anzeigen();
 
 }

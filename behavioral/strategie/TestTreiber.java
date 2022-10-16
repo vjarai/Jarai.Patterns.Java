@@ -5,26 +5,24 @@
 package behavioral.strategie;
 
 import java.util.Vector;
-/**
- * @author Viktor
- *
- */
+
+
 public class TestTreiber {
 
-	static private Vector daten;
+    static private Vector daten;
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int auswahl = 2;
-		
-		// Auswahl einer Strategie ZUR LAUFZEIT 
-		SortStrategie sortStrategie;
-		if( auswahl == 1)
-			sortStrategie = new BubbleSort();
-		else
-			sortStrategie = new QuickSort();
+        int auswahl = 2;
 
-		// verwenden der ausgewählten Strategie
-		sortStrategie.sortiere( daten );		
-	}
+        // Auswahl einer Strategie ZUR LAUFZEIT
+        SortStrategie sortStrategie;
+        if (auswahl == 1)
+            sortStrategie = new BubbleSort();
+        else
+            sortStrategie = new QuickSort();
+
+        // verwenden der ausgewaehlten Strategie
+        sortStrategie.sortiere(daten);
+    }
 }

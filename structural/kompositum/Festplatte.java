@@ -4,25 +4,22 @@
  */
 package structural.kompositum;
 
-/**
- * @author Viktor
- *
- */
+
 public class Festplatte extends Komponente {
 
-	private final String laufwerk;
+    private final String laufwerk;
 
-	/**
-	 * 
-	 */
-	public Festplatte( String laufwerk, double preis) {
-		super( preis );
-		this.laufwerk = laufwerk;
-	}
+    /**
+     *
+     */
+    public Festplatte(String laufwerk, double preis) {
+        super(preis);
+        this.laufwerk = laufwerk;
+    }
 
-	void anzeigen() {
-		System.out.print("Festplatte " + laufwerk);
-		super.anzeigen();
-	}
+    void anzeigen() {
+        System.out.print("Festplatte " + laufwerk);
+        super.anzeigen();
+    }
 
 }

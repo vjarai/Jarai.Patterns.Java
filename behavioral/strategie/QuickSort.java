@@ -3,13 +3,12 @@
  *
  */
 package behavioral.strategie;
+
 import java.util.Vector;
-/**
- * @author Viktor
- *
- */
+
+
 public class QuickSort extends SortStrategie {
-	void sortiere(Vector daten) {
-			System.out.println("Sortiere mit Quicksort");
-		}
+    void sortiere(Vector daten) {
+        System.out.println("Sortiere mit Quicksort");
+    }
 } 

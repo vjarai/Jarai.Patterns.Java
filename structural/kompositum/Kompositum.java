@@ -3,32 +3,31 @@
  *
  */
 package structural.kompositum;
+
 import java.util.LinkedList;
-/**
- * @author Viktor
- *
- */
-public abstract class Kompositum extends Komponente{
 
-	protected final LinkedList<Komponente> komponentenListe = new LinkedList<>();		// Component interface
 
-	public Kompositum( double preis) {
-		super( preis );		
-	}
+public abstract class Kompositum extends Komponente {
 
-	void anzeigen(){
-		super.anzeigen();
-		Komponente komponente;
+    protected final LinkedList<Komponente> komponentenListe = new LinkedList<>();        // Component interface
 
-		for (Komponente value : komponentenListe) {
-			komponente = value;
-			komponente.anzeigen();
-		}
-			
-	}
+    public Kompositum(double preis) {
+        super(preis);
+    }
 
-	void hinzufügen(Komponente komponente ) {
-		komponentenListe.add( komponente );
-	}
+    void anzeigen() {
+        super.anzeigen();
+        Komponente komponente;
+
+        for (Komponente value : komponentenListe) {
+            komponente = value;
+            komponente.anzeigen();
+        }
+
+    }
+
+    void hinzufuegen(Komponente komponente) {
+        komponentenListe.add(komponente);
+    }
 
 }

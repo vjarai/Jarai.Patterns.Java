@@ -5,22 +5,19 @@
 package structural.proxy;
 
 
-/**
- * @author Viktor
- *
- */
+
 public class Datenbank {
 
-	private int abfragekosten = 0;
+    private int abfragekosten = 0;
 
-	public String abfragenDaten(int key) {
-		System.out.print("Datenbankabfrage ausgeführt.");
-		abfragekosten++;
-		return "Datensatz " + key;
-	}
+    public String abfragenDaten(int key) {
+        System.out.print("Datenbankabfrage ausgefuehrt.");
+        abfragekosten++;
+        return "Datensatz " + key;
+    }
 
-	void zeigeAbfragekosten() {
-		System.out.println("Abfragekosten: " + abfragekosten);
-	}
+    void zeigeAbfragekosten() {
+        System.out.println("Abfragekosten: " + abfragekosten);
+    }
 
 }

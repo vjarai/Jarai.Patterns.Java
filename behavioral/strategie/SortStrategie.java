@@ -5,13 +5,11 @@
 package behavioral.strategie;
 
 import java.util.Vector;
-/**
- * @author Viktor
- *
- */
+
+
 
 public abstract class SortStrategie {
 
-	abstract void sortiere(Vector daten);
+    abstract void sortiere(Vector daten);
 
 }

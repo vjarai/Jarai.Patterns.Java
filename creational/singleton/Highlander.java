@@ -4,31 +4,28 @@
  */
 package creational.singleton;
 
-/**
- * @author Viktor
- *
- */
+
 public class Highlander {
 
-	private static Highlander präsident;		// statisches Attribut (Klassenvariable)
+    private static Highlander praesident;        // statisches Attribut (Klassenvariable)
 
-	private Highlander() {
-		System.out.println("Präsident wird erzeugt.");
-	}
+    private Highlander() {
+        System.out.println("Praesident wird erzeugt.");
+    }
 
 
-	static Highlander getInstance() {		// statische Methode (Klassenfunktion)
-		
-		if ( präsident == null )			// existiert bereits ein Präsident?
-		{
-			präsident = new Highlander();	// nein, dann neu anlegen.
-		}
-		
-		return präsident;					// den einzigen Präsidenten zurückliefern.
-	}
+    static Highlander getInstance() {        // statische Methode (Klassenfunktion)
 
-	void anzeigen() {
-		System.out.println("Guten Tag, ich bin der EINZIGE Präsident.");
-	}
+        if (praesident == null)            // existiert bereits ein Praesident?
+        {
+            praesident = new Highlander();    // nein, dann neu anlegen.
+        }
+
+        return praesident;                    // den einzigen Praesidenten zurueckliefern.
+    }
+
+    void anzeigen() {
+        System.out.println("Guten Tag, ich bin der EINZIGE Praesident.");
+    }
 
 }

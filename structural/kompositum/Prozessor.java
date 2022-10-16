@@ -4,26 +4,23 @@
  */
 package structural.kompositum;
 
-/**
- * @author Viktor
- *
- */
-public class Prozessor extends Komponente  {
 
-	private final int mhz;
+public class Prozessor extends Komponente {
 
-	/**
-	 * 
-	 */
-	public Prozessor(int mhz, double preis) {
-		super( preis );
-		this.mhz = mhz;
-		
-	}
+    private final int mhz;
 
-	void anzeigen() {
-		System.out.print( "Prozessor mit " + mhz + " Mhz " );
-		super.anzeigen();
-	}
+    /**
+     *
+     */
+    public Prozessor(int mhz, double preis) {
+        super(preis);
+        this.mhz = mhz;
+
+    }
+
+    void anzeigen() {
+        System.out.print("Prozessor mit " + mhz + " Mhz ");
+        super.anzeigen();
+    }
 
 }
