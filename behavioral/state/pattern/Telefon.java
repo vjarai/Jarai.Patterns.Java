@@ -2,7 +2,7 @@ package behavioral.state.pattern;
 
 
 public class Telefon {
-    private Zustand aktuellerZustand;
+    public Zustand aktuellerZustand;
 
 
     public Telefon() {
