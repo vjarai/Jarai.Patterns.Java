@@ -1,39 +1,38 @@
-/*
- * Created on 27.03.2004
- *
- */
 package behavioral.state.pattern;
 
 
 public class Telefon {
+    private Zustand aktuellerZustand;
 
-    private TelefonZustand aktuellerZustand = new HoererIstAufgelegt();
 
-    /**
-     *
-     */
     public Telefon() {
-    }
-
-    void waehleRufnummer(String rufnummer) {
-        aktuellerZustand = aktuellerZustand.waehleRufnummer(rufnummer);
-    }
-
-    void annehmenAnruf() {
-        aktuellerZustand = aktuellerZustand.annehmenAnruf();
-    }
-
-    void auflegenHoerer() {
-        aktuellerZustand = aktuellerZustand.auflegenHoerer();
+        aktuellerZustand = new Aufgelegt();
     }
 
 
-    void fuehrenUnterhaltung() {
-        aktuellerZustand.fuehrenUnterhaltung();
+    public Telefon(Zustand zustand) {
+        aktuellerZustand = zustand;
     }
 
-    void abhebenHoerer() {
-        aktuellerZustand = aktuellerZustand.abhebenHoerer();
+    public void Abheben() {
+        // Die tatsächlich aufgerufene Methode ist abhängig vom aktuellen Zustand (spätes binden)
+        aktuellerZustand = aktuellerZustand.Abheben();
     }
 
+    public void AnnehmenAnruf() {
+        aktuellerZustand = aktuellerZustand.AnnehmenAnruf();
+    }
+
+
+    public void Auflegen() {
+        aktuellerZustand = aktuellerZustand.Auflegen();
+    }
+
+    public void Sprechen() {
+        aktuellerZustand = aktuellerZustand.Sprechen();
+    }
+
+    public void Waehlen() {
+        aktuellerZustand = aktuellerZustand.Waehlen();
+    }
 }

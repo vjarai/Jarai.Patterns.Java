@@ -1,7 +1,6 @@
-package behavioral.state.prozedural.tests;
+package behavioral.state.pattern.tests;
 
-import behavioral.state.prozedural.Telefon;
-import behavioral.state.prozedural.TelefonZustand;
+import behavioral.state.pattern.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -36,7 +35,7 @@ class TelefonTests {
     @Test
     public void Kann_abheben_auflegen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        var telefon = new Telefon(new Abgehoben());
 
         // Act
         telefon.Auflegen();
@@ -46,7 +45,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Abgehoben_sprechen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        var telefon = new Telefon(new Abgehoben());
 
         // Act
 
@@ -58,7 +57,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Verbunden_waehlen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Verbunden);
+        var telefon = new Telefon(new Verbunden());
 
         // Act
 
@@ -69,7 +68,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Verbunden_abheben() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Verbunden);
+        var telefon = new Telefon(new Verbunden());
 
         // Act
 
@@ -80,7 +79,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Verbunden_annehmenAnruf() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Verbunden);
+        var telefon = new Telefon(new Verbunden());
 
         // Act
 
@@ -92,7 +91,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Abgehoben_annehmenAnruf() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        var telefon = new Telefon(new Abgehoben());
 
         // Act
 
@@ -103,7 +102,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Aufgelegt_waehlen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+        var telefon = new Telefon(new Aufgelegt());
 
         // Act
 
@@ -114,7 +113,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Aufgelegt_sprechen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+        var telefon = new Telefon(new Aufgelegt());
 
         // Act
 
@@ -126,7 +125,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Aufgelegt_auflegen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+        var telefon = new Telefon(new  Aufgelegt());
 
         // Act
 
@@ -138,7 +137,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Abgehoben_abheben() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        var telefon = new Telefon(new Abgehoben());
 
         // Act
 

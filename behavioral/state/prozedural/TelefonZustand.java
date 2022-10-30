@@ -1,7 +1,6 @@
 package behavioral.state.prozedural;
 
-public enum TelefonZustand
-{
+public enum TelefonZustand {
     Aufgelegt,
     Abgehoben,
     Verbunden,
