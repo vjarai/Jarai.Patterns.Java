@@ -8,8 +8,8 @@ package structural.proxy;
 public class TestTreiber {
 
     public static void main(String[] args) {
-        Datenbank meineDatenbank = new Datenbank();
-        DatenbankProxy meinDatenbankProxy = new DatenbankProxy(meineDatenbank);
+        var meineDatenbank = new Datenbank();
+        var meinDatenbankProxy = new DatenbankProxy(meineDatenbank);
         String record;
         Datenbank verwendeteDatenbank;
 

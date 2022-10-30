@@ -13,7 +13,7 @@ public class TestTreiber {
 
     public static void main(String[] args) {
 
-        int auswahl = 2;
+        var auswahl = 2;
 
         // Auswahl einer Strategie ZUR LAUFZEIT
         SortStrategie sortStrategie;

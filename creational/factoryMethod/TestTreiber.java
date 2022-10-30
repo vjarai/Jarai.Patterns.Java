@@ -12,14 +12,14 @@ import java.io.InputStreamReader;
 public class TestTreiber {
 
     public static void main(String[] args) {
-        int auswahl = 1;
+        var auswahl = 1;
 
         Haendler meinHaendler;
         Produkt meinProdukt;
 
-        Ikea IkeaWallau = new Ikea("Wallau");
-        Ikea IkeaHeidelberg = new Ikea("Heidelberg");
-        Aldi AldiFrankfurt = new Aldi("Frankfurt");
+        var IkeaWallau = new Ikea("Wallau");
+        var IkeaHeidelberg = new Ikea("Heidelberg");
+        var AldiFrankfurt = new Aldi("Frankfurt");
 
         do {
 

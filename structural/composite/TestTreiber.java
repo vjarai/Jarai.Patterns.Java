@@ -9,9 +9,9 @@ public class TestTreiber {
 
     public static void main(String[] args) {
 
-        Computer meinComputer = new Computer("IBM", 100);
+        var meinComputer = new Computer("IBM", 100);
 
-        Mutterplatine meineMutterplatine = new Mutterplatine("Asus", 120);
+        var meineMutterplatine = new Mutterplatine("Asus", 120);
         meineMutterplatine.hinzufuegen(new Prozessor(2400, 300));
         meineMutterplatine.hinzufuegen(new Ram(512, 250));
 

@@ -18,10 +18,10 @@ public class TestTreiber {
 
         System.out.println("Creating abstraction (screens) / implementation combinations...");
 
-        GreetingScreen gs1 = new GreetingScreen(i1);
-        GreetingScreen gs2 = new GreetingScreen(i2);
-        InformationScreen is1 = new structural.bridge.InformationScreen(i1);
-        InformationScreen is2 = new InformationScreen(i2);
+        var gs1 = new GreetingScreen(i1);
+        var gs2 = new GreetingScreen(i2);
+        var is1 = new structural.bridge.InformationScreen(i1);
+        var is2 = new InformationScreen(i2);
 
         System.out.println("Starting test:\n");
 

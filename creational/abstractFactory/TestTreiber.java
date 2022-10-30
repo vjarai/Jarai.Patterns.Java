@@ -9,7 +9,7 @@ public class TestTreiber {
 
     public static void main(String[] args) {
 
-        int auswahl = 0;
+        var auswahl = 0;
         Kleiderfabrik meineKleiderfabrik;
 
         // Konkrete Fabrik kann zur LAUFZEIT ausgewaehlt werden:
@@ -19,8 +19,8 @@ public class TestTreiber {
             meineKleiderfabrik = new DamenKleiderfabrik();
 
         // Konkretefabrik erstellt Instanzen von Hemd/Hose ABGELEITETER Klassen
-        Hemd meinHemd = meineKleiderfabrik.erzeugeHemd();
-        Hose meineHose = meineKleiderfabrik.erzeugeHose();
+        var meinHemd = meineKleiderfabrik.erzeugeHemd();
+        var meineHose = meineKleiderfabrik.erzeugeHose();
 
         meinHemd.anzeigen();
         meineHose.anzeigen();

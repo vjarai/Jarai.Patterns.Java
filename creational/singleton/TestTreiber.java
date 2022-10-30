@@ -13,7 +13,7 @@ public class TestTreiber {
         // Praesident p = new Praesident();
 
         // Aufruf der Klassenfunktion getInstance()
-        Highlander p = Highlander.getInstance();    // Praesident wird erstellt...
+        var p = Highlander.getInstance();    // Praesident wird erstellt...
 
 
         p = Highlander.getInstance();            // vorhandener Praesident wird zurueckgeliefert.

@@ -17,10 +17,10 @@ public class TestTreiber {
 
     public static void main(String[] args) {
 
-        Drucker meinDrucker = new Drucker();
-        Plotter meinPlotter = new Plotter();
+        var meinDrucker = new Drucker();
+        var meinPlotter = new Plotter();
 
-        Report meinReport = new Report();
+        var meinReport = new Report();
 
         System.out.println("Drucke Report auf dem Drucker...");
         meinReport.druckeReport(meinDrucker);

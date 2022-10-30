@@ -4,7 +4,7 @@ public class TestTreiber {
 
     public static void main(String[] args) {
 
-        int auswahl = 1;
+        var auswahl = 1;
         Koch koch;
 
         // Erbauer (Koch) auswaehlen
@@ -13,7 +13,7 @@ public class TestTreiber {
         else
             koch = new DeutscherKoch();
 
-        KuechenChef kuechenChef = new KuechenChef(koch);
+        var kuechenChef = new KuechenChef(koch);
 
         // Direktor erstellt eine komplexe Mahlzeit
         kuechenChef.erstelleMahlzeit();
