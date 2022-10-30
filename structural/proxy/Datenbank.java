@@ -5,7 +5,6 @@
 package structural.proxy;
 
 
-
 public class Datenbank {
 
     private int abfragekosten = 0;
