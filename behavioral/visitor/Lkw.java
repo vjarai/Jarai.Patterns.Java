@@ -17,7 +17,7 @@ public class Lkw extends Fahrzeug {
         return doubleDaten;
     }
 
-    void nimmEntgegen(Besucher besucher) {
+    void acceptVisitor(Besucher besucher) {
         besucher.besuche(this);
     }
 

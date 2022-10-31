@@ -5,8 +5,8 @@
 package behavioral.visitor;
 
 
-public abstract class Fahrzeug {
+public abstract class Fahrzeug implements IVisitable {
 
-    abstract void nimmEntgegen(Besucher besucher);
+    abstract void acceptVisitor(Besucher besucher);
 
 }

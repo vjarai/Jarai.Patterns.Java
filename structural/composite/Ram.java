@@ -5,7 +5,7 @@
 package structural.composite;
 
 
-public class Ram extends Komponente {
+public class Ram extends Bauteil {
 
     private final int megabytes;
 

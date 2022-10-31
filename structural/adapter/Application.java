@@ -1,5 +1,5 @@
 /*
- * TestTreiber.java
+ * Application.java
  *
  * Created on 21. Maerz 2004, 17:08
  */
@@ -7,18 +7,18 @@
 package structural.adapter;
 
 
-public class TestTreiber {
+public class Application {
 
     /**
-     * Creates a new instance of TestTreiber
+     * Creates a new instance of Application
      */
-    public TestTreiber() {
+    public Application() {
     }
 
     public static void main(String[] args) {
 
         var meinDrucker = new Drucker();
-        var meinPlotter = new Plotter();
+        var meinPlotter = new PdfCreator();
 
         var meinReport = new Report();
 
@@ -37,7 +37,7 @@ public class TestTreiber {
         // Die Klassen Report, Drucker und Plotter duerfen NICHT veraendert werden.
 
         // Loesung: Durch PlotterAdapter kann ein Plotter als Drucker verwendet werden
-        meinReport.druckeReport(new PlotterAdapter(meinPlotter));
+        meinReport.druckeReport(new PdfCreatorToDruckerAdapter(meinPlotter));
 
     }
 

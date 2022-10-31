@@ -5,7 +5,7 @@
 package structural.composite;
 
 
-public class Computer extends Kompositum {
+public class Computer extends Baugruppe {
 
     private final String marke;
 

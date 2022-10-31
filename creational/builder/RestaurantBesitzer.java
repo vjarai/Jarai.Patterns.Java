@@ -1,10 +1,10 @@
 package creational.builder;
 
-public class KuechenChef {
+public class RestaurantBesitzer {
 
     private final Koch koch;
 
-    KuechenChef(Koch koch) {
+    RestaurantBesitzer(Koch koch) {
         this.koch = koch;
     }
 

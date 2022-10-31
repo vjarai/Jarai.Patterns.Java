@@ -17,7 +17,7 @@ public class Bus extends Fahrzeug {
         return intDaten;
     }
 
-    void nimmEntgegen(Besucher besucher) {
+    void acceptVisitor(Besucher besucher) {
         besucher.besuche(this);
 
     }

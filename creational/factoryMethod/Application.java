@@ -9,17 +9,17 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
-public class TestTreiber {
+public class Application {
 
     public static void main(String[] args) {
         var auswahl = 1;
 
-        Haendler meinHaendler;
+        Ikea meinHaendler;
         Produkt meinProdukt;
 
         var IkeaWallau = new Ikea("Wallau");
         var IkeaHeidelberg = new Ikea("Heidelberg");
-        var AldiFrankfurt = new Aldi("Frankfurt");
+
 
         do {
 
@@ -37,9 +37,6 @@ public class TestTreiber {
                     break;
                 case 2:
                     meinHaendler = IkeaHeidelberg;
-                    break;
-                case 3:
-                    meinHaendler = AldiFrankfurt;
                     break;
                 default:
                     meinHaendler = null;

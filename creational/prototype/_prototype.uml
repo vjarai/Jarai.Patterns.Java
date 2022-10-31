@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.prototype</OriginalElement>
+  <nodes>
+    <node x="-80.38500497829912" y="345.01408919723434">creational.prototype.KopierWerkzeug</node>
+    <node x="36.72974567733126" y="-14.04111229182908">creational.prototype.Klonbar</node>
+    <node x="-25.992320738055952" y="161.74449261674772">creational.prototype.KlonbarerString</node>
+    <node x="196.71389904007665" y="310.3367626205676">creational.prototype.TestTreiber</node>
+    <node x="197.9099950935061" y="128.08814909914713">creational.prototype.KlonbarerInteger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.prototype.KlonbarerString" target="creational.prototype.Klonbar" relationship="REALIZATION">
+      <point x="81.00032073805595" y="-4.926167477066201E-4" />
+      <point x="167.0" y="222.244" />
+      <point x="167.0" y="144.244" />
+      <point x="103.22999999999999" y="144.244" />
+      <point x="2.543226687379274E-4" y="38.00011229182908" />
+    </edge>
+    <edge source="creational.prototype.KlonbarerInteger" target="creational.prototype.Klonbar" relationship="REALIZATION">
+      <point x="-81.4999950935061" y="-1.4909914715133255E-4" />
+      <point x="167.0" y="188.588" />
+      <point x="167.0" y="144.244" />
+      <point x="103.22999999999999" y="144.244" />
+      <point x="2.543226687379274E-4" y="38.00011229182908" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="150.0" y="202.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -9,13 +9,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
-public class Ikea extends Haendler {
+public class Ikea {
 
     private static double konzernUmsatz = 0;
     private double filialUmsatz = 0;
+    private final String standort;
 
     Ikea(String standort) {
-        super(standort);
+
+        this.standort = standort;
     }
 
     Produkt verkaufen() {

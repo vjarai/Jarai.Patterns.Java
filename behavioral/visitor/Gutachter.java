@@ -1,5 +1,7 @@
 package behavioral.visitor;
 
+import java.util.Vector;
+
 public class Gutachter extends Besucher {
 
     private double summe = 0;
@@ -15,4 +17,9 @@ public class Gutachter extends Besucher {
         System.out.println("Summe aller Lkw: " + summe);
     }
 
+    public void begutachte(Vector<Fahrzeug> fuhrpark) {
+        for (var fahrzeug : fuhrpark)
+            fahrzeug.acceptVisitor(this);
+
+    }
 }

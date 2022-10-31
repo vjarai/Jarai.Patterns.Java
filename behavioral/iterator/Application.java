@@ -2,7 +2,7 @@ package behavioral.iterator;
 
 //import java.util.Vector;
 
-public class TestTreiber {
+public class Application {
 
     static public void main(String[] arg) {
         Integer[] daten = {1, 2, 3, 4, 5};

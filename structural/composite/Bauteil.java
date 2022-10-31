@@ -5,14 +5,14 @@
 package structural.composite;
 
 
-public class Komponente {
+public class Bauteil {
 
     protected final double preis;
 
     /**
      *
      */
-    public Komponente(double preis) {
+    public Bauteil(double preis) {
         this.preis = preis;
     }
 

@@ -1,6 +1,6 @@
 package behavioral.mediator;
 
-public class TestTreiber {
+public class Application {
 
     public static void Main(String[] args) {
         // Create chatroom

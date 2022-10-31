@@ -1,6 +1,6 @@
 package creational.builder;
 
-public class TestTreiber {
+public class Application {
 
     public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ public class TestTreiber {
         else
             koch = new DeutscherKoch();
 
-        var kuechenChef = new KuechenChef(koch);
+        var kuechenChef = new RestaurantBesitzer(koch);
 
         // Direktor erstellt eine komplexe Mahlzeit
         kuechenChef.erstelleMahlzeit();

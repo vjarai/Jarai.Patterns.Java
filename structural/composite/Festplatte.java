@@ -5,7 +5,7 @@
 package structural.composite;
 
 
-public class Festplatte extends Komponente {
+public class Festplatte extends Bauteil {
 
     private final String laufwerk;
 

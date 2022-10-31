@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.adapter</OriginalElement>
+  <nodes>
+    <node x="-86.23919140871652" y="209.8079097376167">structural.adapter.Drucker</node>
+    <node x="-93.23919140871652" y="-49.69209026238332">structural.adapter.PdfCreator</node>
+    <node x="89.76533759086021" y="389.70476968409514">structural.adapter.Report</node>
+    <node x="-95.23919140871652" y="54.30790973761671">structural.adapter.PdfCreatorToDrucker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.adapter.PdfCreatorToDrucker" target="structural.adapter.Drucker" relationship="GENERALIZATION">
+      <point x="0.0" y="49.5" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="structural.adapter.PdfCreatorToDrucker" target="structural.adapter.PdfCreator" relationship="TO_ONE">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1676737160120847" showDependencies="true" x="256.9999999999999" y="147.99999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

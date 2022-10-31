@@ -1,13 +1,6 @@
 package structural.bridge;
 
-public class TestTreiber {
-
-    /**
-     * Implements the driver for this example. The two different screens
-     * and screen implementations are tested in all possible combinations.
-     *
-     * @param args required by Java, but ignored
-     */
+public class Application {
 
     public static void main(String[] args) {
 

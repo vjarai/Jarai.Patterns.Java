@@ -2,7 +2,7 @@ package behavioral.visitor;
 
 import java.util.Vector;
 
-public class TestTreiber {
+public class Application {
     public static void main(String[] args) {
 
         int i;
@@ -14,16 +14,13 @@ public class TestTreiber {
         fuhrpark.add(new Bus(4));
         fuhrpark.add(new Lkw(5.0f));
 
-        var g = new Gutachter();
+        var gutachter = new Gutachter();
+        gutachter.begutachte(fuhrpark);
+        gutachter.zeigeSumme();
 
-        for (i = 0; i < fuhrpark.size(); i++) {
-            fuhrpark.get(i).nimmEntgegen(g);
-        }
-        g.zeigeSumme();
+        var putzfrau = new Putzfrau();
+        putzfrau.putzen(fuhrpark);
 
-        var p = new Putzfrau();
-        for (i = 0; i < fuhrpark.size(); i++) {
-            fuhrpark.get(i).nimmEntgegen(p);
-        }
     }
 }
+

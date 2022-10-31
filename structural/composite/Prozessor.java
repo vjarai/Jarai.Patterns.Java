@@ -5,7 +5,7 @@
 package structural.composite;
 
 
-public class Prozessor extends Komponente {
+public class Prozessor extends Bauteil {
 
     private final int mhz;
 

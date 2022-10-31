@@ -5,7 +5,7 @@
 package behavioral.command;
 
 
-public class TestTreiber {
+public class Application {
 
     public static void main(String[] args) {
         Roboter meinRoboter = new Roboter();

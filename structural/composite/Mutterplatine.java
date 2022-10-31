@@ -5,7 +5,7 @@
 package structural.composite;
 
 
-public class Mutterplatine extends Kompositum {
+public class Mutterplatine extends Baugruppe {
 
     private final String hersteller;
 
