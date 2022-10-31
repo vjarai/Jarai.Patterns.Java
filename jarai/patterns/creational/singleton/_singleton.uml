@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>creational.singleton</OriginalElement>
-  <nodes>
-    <node x="-62.0" y="59.0">creational.singleton.Highlander</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="39.0" y="81.5" />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="137.66666666666669" y="272.6666666666667" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

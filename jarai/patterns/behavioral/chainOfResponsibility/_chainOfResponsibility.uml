@@ -1,68 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.chainOfResponsibility</OriginalElement>
-  <nodes>
-    <node x="300.6934155815098" y="261.15998770729055">behavioral.chainOfResponsibility.Putzfrau</node>
-    <node x="334.3200421416406" y="49.87513801992767">behavioral.chainOfResponsibility.Verkaeufer</node>
-    <node x="483.07136734778885" y="227.96485244364123">behavioral.chainOfResponsibility.Buchhalter</node>
-    <node x="2.4130461741190175" y="-14.261456152972556">behavioral.chainOfResponsibility.Bearbeiter</node>
-    <node x="299.6670443959902" y="171.24350887641282">behavioral.chainOfResponsibility.Mitarbeiter</node>
-    <node x="142.7385163815563" y="167.71976864653158">behavioral.chainOfResponsibility.Firma</node>
-    <node x="-1.7553399959919034" y="270.4308966573016">behavioral.chainOfResponsibility.Abteilung</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="behavioral.chainOfResponsibility.Firma" target="behavioral.chainOfResponsibility.Bearbeiter" relationship="GENERALIZATION">
-      <point x="-42.999516381556305" y="2.3135346840774673E-4" />
-      <point x="128.0" y="182.22" />
-      <point x="128.0" y="150.22" />
-      <point x="150.239" y="150.22" />
-      <point x="18.825953825880987" y="60.50045615297256" />
-    </edge>
-    <edge source="behavioral.chainOfResponsibility.Buchhalter" target="behavioral.chainOfResponsibility.Mitarbeiter" relationship="GENERALIZATION">
-      <point x="-3.673477888241905E-4" y="-26.99985244364123" />
-      <point x="600.071" y="146.0" />
-      <point x="384.5" y="146.0" />
-      <point x="23.332955604009783" y="-14.499508876412833" />
-    </edge>
-    <edge source="behavioral.chainOfResponsibility.Abteilung" target="behavioral.chainOfResponsibility.Bearbeiter" relationship="GENERALIZATION">
-      <point x="57.00033999599191" y="1.0334269839518129E-4" />
-      <point x="128.0" y="284.93100000000004" />
-      <point x="128.0" y="150.22" />
-      <point x="150.239" y="150.22" />
-      <point x="18.825953825880987" y="60.50045615297256" />
-    </edge>
-    <edge source="behavioral.chainOfResponsibility.Verkaeufer" target="behavioral.chainOfResponsibility.Mitarbeiter" relationship="GENERALIZATION">
-      <point x="-4.214164061977499E-5" y="26.999861980072332" />
-      <point x="451.32" y="146.0" />
-      <point x="384.5" y="146.0" />
-      <point x="23.332955604009783" y="-14.499508876412833" />
-    </edge>
-    <edge source="behavioral.chainOfResponsibility.Mitarbeiter" target="behavioral.chainOfResponsibility.Bearbeiter" relationship="GENERALIZATION">
-      <point x="-4.4395990244083805E-5" y="-14.499508876412833" />
-      <point x="361.167" y="150.22" />
-      <point x="150.239" y="150.22" />
-      <point x="18.825953825880987" y="60.50045615297256" />
-    </edge>
-    <edge source="behavioral.chainOfResponsibility.Putzfrau" target="behavioral.chainOfResponsibility.Mitarbeiter" relationship="GENERALIZATION">
-      <point x="52.4995844184902" y="-1.1949877072905508" />
-      <point x="465.571" y="274.46500000000003" />
-      <point x="465.571" y="146.0" />
-      <point x="384.5" y="146.0" />
-      <point x="23.332955604009783" y="-14.499508876412833" />
-    </edge>
-  </edges>
-  <settings layout="Wide" zoom="1.5" showDependencies="true" x="368.0" y="152.5" />
-  <SelectedNodes>
-    <node>behavioral.chainOfResponsibility.Bearbeiter</node>
-    <node>behavioral.chainOfResponsibility.Mitarbeiter</node>
-    <node>behavioral.chainOfResponsibility.Buchhalter</node>
-    <node>behavioral.chainOfResponsibility.Abteilung</node>
-    <node>behavioral.chainOfResponsibility.Firma</node>
-    <node>behavioral.chainOfResponsibility.Putzfrau</node>
-    <node>behavioral.chainOfResponsibility.Verkaeufer</node>
-  </SelectedNodes>
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="466.6666666666667" y="343.6666666666667" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>

@@ -1,11 +1,11 @@
 package jarai.patterns.behavioral.mediator;
 
-public class Participant {
+public class ChatParticipant {
     Chatroom Chatroom;
     String Name;
 
 
-    public Participant(String name) {
+    public ChatParticipant(String name) {
         this.Name = name;
     }
 

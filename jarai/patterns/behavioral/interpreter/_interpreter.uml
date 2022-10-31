@@ -1,45 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.interpreter</OriginalElement>
-  <nodes>
-    <node x="-91.33277478485007" y="106.60963251932682">behavioral.interpreter.OneExpression</node>
-    <node x="118.86933459889747" y="180.6330675430675">behavioral.interpreter.HundredExpression</node>
-    <node x="611.2243330378714" y="165.0819285632702">behavioral.interpreter.TenExpression</node>
-    <node x="358.55334557705305" y="-14.861569913509385">behavioral.interpreter.Expression</node>
-    <node x="127.30485537088424" y="383.55515837355296">behavioral.interpreter.Context</node>
-    <node x="358.23389085653366" y="235.92172931551357">behavioral.interpreter.ThousandExpression</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="behavioral.interpreter.OneExpression" target="behavioral.interpreter.Expression" relationship="GENERALIZATION">
-      <point x="74.99977478485008" y="10.523367480673176" />
-      <point x="101.369" y="188.133" />
-      <point x="101.369" y="165.0" />
-      <point x="444.053" y="165.0" />
-      <point x="-3.4557705305360287E-4" y="81.99956991350939" />
-    </edge>
-    <edge source="behavioral.interpreter.TenExpression" target="behavioral.interpreter.Expression" relationship="GENERALIZATION">
-      <point x="-73.00033303787131" y="7.340071436729787" />
-      <point x="561.734" y="243.422" />
-      <point x="561.734" y="165.0" />
-      <point x="444.053" y="165.0" />
-      <point x="-3.4557705305360287E-4" y="81.99956991350939" />
-    </edge>
-    <edge source="behavioral.interpreter.ThousandExpression" target="behavioral.interpreter.Expression" relationship="GENERALIZATION">
-      <point x="1.0914346626123006E-4" y="-70.99972931551358" />
-      <point x="451.234" y="165.0" />
-      <point x="444.053" y="165.0" />
-      <point x="-3.4557705305360287E-4" y="81.99956991350939" />
-    </edge>
-    <edge source="behavioral.interpreter.HundredExpression" target="behavioral.interpreter.Expression" relationship="GENERALIZATION">
-      <point x="-3.345988974672309E-4" y="-71.00006754306752" />
-      <point x="208.369" y="165.0" />
-      <point x="444.053" y="165.0" />
-      <point x="-3.4557705305360287E-4" y="81.99956991350939" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic" zoom="1.2430426716141" showDependencies="true" x="343.0" y="254.49999999999997" />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.2430426716141" showDependencies="true" x="581.0626865671642" y="714.0805970149254" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

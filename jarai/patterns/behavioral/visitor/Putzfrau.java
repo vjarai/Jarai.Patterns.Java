@@ -1,8 +1,6 @@
 package jarai.patterns.behavioral.visitor;
 
 
-import java.util.Vector;
-
 public class Putzfrau extends Besucher {
 
     void besuche(Bus e) {
@@ -13,7 +11,7 @@ public class Putzfrau extends Besucher {
         System.out.println("Putzfrau dampfstrahlt den Lkw");
     }
 
-    public void putzen(Vector<Fahrzeug> fuhrpark) {
+    public void putzen(Iterable<Fahrzeug> fuhrpark) {
         for (var fahrzeug : fuhrpark)
             fahrzeug.acceptVisitor(this);
     }

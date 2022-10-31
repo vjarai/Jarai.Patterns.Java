@@ -1,69 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>structural.composite</OriginalElement>
-  <nodes>
-    <node x="471.25" y="88.0">structural.composite.Festplatte</node>
-    <node x="318.25" y="88.0">structural.composite.Ram</node>
-    <node x="-128.0" y="226.0">structural.composite.Computer</node>
-    <node x="110.39705882352939" y="-50.0">structural.composite.Bauteil</node>
-    <node x="25.0" y="226.0">structural.composite.Mutterplatine</node>
-    <node x="165.25" y="88.0">structural.composite.Prozessor</node>
-    <node x="-110.75" y="77.0">structural.composite.Baugruppe</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="structural.composite.Festplatte" target="structural.composite.Bauteil" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.5" />
-      <point x="537.75" y="57.0" />
-      <point x="308.25" y="57.0" />
-      <point x="308.25" y="47.0" />
-      <point x="210.1470588235294" y="47.0" />
-      <point x="33.25" y="38.5" />
-    </edge>
-    <edge source="structural.composite.Mutterplatine" target="structural.composite.Baugruppe" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.5" />
-      <point x="96.0" y="201.0" />
-      <point x="17.25" y="201.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-    <edge source="structural.composite.Ram" target="structural.composite.Bauteil" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.5" />
-      <point x="384.75" y="57.0" />
-      <point x="308.25" y="57.0" />
-      <point x="308.25" y="47.0" />
-      <point x="210.1470588235294" y="47.0" />
-      <point x="33.25" y="38.5" />
-    </edge>
-    <edge source="structural.composite.Prozessor" target="structural.composite.Bauteil" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.5" />
-      <point x="231.75" y="57.0" />
-      <point x="308.25" y="57.0" />
-      <point x="308.25" y="47.0" />
-      <point x="210.1470588235294" y="47.0" />
-      <point x="33.25" y="38.5" />
-    </edge>
-    <edge source="structural.composite.Computer" target="structural.composite.Baugruppe" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.5" />
-      <point x="-61.5" y="201.0" />
-      <point x="17.25" y="201.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-    <edge source="structural.composite.Baugruppe" target="structural.composite.Bauteil" relationship="TO_MANY">
-      <point x="-0.0" y="-49.5" />
-      <point x="17.25" y="-11.5" />
-      <point x="-66.5" y="-0.0" />
-    </edge>
-    <edge source="structural.composite.Baugruppe" target="structural.composite.Bauteil" relationship="GENERALIZATION">
-      <point x="64.0" y="-49.5" />
-      <point x="81.25" y="57.0" />
-      <point x="308.25" y="57.0" />
-      <point x="308.25" y="47.0" />
-      <point x="210.1470588235294" y="47.0" />
-      <point x="33.25" y="38.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic" zoom="1.0132802124833997" showDependencies="true" x="248.5" y="136.5000000000001" />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0132802124833997" showDependencies="true" x="936.3715596330276" y="422.7057667103539" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

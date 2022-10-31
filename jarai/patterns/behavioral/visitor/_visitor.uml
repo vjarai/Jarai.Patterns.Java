@@ -1,54 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.visitor</OriginalElement>
-  <nodes>
-    <node x="236.0" y="326.0">behavioral.visitor.Bus</node>
-    <node x="-15.0" y="232.0">behavioral.visitor.Fahrzeug</node>
-    <node x="-55.0" y="163.0">behavioral.visitor.IVisitable</node>
-    <node x="-14.0" y="-130.0">behavioral.visitor.Gutachter</node>
-    <node x="25.0" y="326.0">behavioral.visitor.Lkw</node>
-    <node x="-14.0" y="20.0">behavioral.visitor.Putzfrau</node>
-    <node x="-54.0" y="-246.0">behavioral.visitor.Besucher</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="behavioral.visitor.Fahrzeug" target="behavioral.visitor.IVisitable" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="85.5" y="212.0" />
-      <point x="-50.0" y="212.0" />
-      <point x="-49.5" y="0.0" />
-    </edge>
-    <edge source="behavioral.visitor.Putzfrau" target="behavioral.visitor.Besucher" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="96.5" y="0.0" />
-      <point x="-49.0" y="0.0" />
-      <point x="-49.0" y="-150.0" />
-      <point x="-69.5" y="0.0" />
-    </edge>
-    <edge source="behavioral.visitor.Bus" target="behavioral.visitor.Fahrzeug" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="336.5" y="306.0" />
-      <point x="-10.0" y="306.0" />
-      <point x="-95.5" y="0.0" />
-    </edge>
-    <edge source="behavioral.visitor.Lkw" target="behavioral.visitor.Fahrzeug" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="125.5" y="306.0" />
-      <point x="-10.0" y="306.0" />
-      <point x="-95.5" y="0.0" />
-    </edge>
-    <edge source="behavioral.visitor.Gutachter" target="behavioral.visitor.Besucher" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="108.5" y="-150.0" />
-      <point x="-49.0" y="-150.0" />
-      <point x="-69.5" y="0.0" />
-    </edge>
-  </edges>
-  <settings layout="Compact" zoom="0.9638728323699421" showDependencies="true" x="201.0" y="100.0" />
-  <SelectedNodes>
-    <node>behavioral.visitor.IVisitable</node>
-  </SelectedNodes>
+  <edges />
+  <settings layout="Hierarchic" zoom="0.9638728323699421" showDependencies="true" x="508.54722638680664" y="693.71964017991" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Inner Classes</Category>

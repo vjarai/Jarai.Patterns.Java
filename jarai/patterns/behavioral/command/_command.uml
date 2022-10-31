@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.command</OriginalElement>
-  <nodes>
-    <node x="8.0" y="328.0">behavioral.command.SenkeArm</node>
-    <node x="8.0" y="176.5">behavioral.command.Befehl</node>
-    <node x="-263.1666666666667" y="188.0">behavioral.command.Roboter</node>
-    <node x="328.0" y="188.0">behavioral.command.HebeArm</node>
-    <node x="197.5" y="-14.5">behavioral.command.MakroBefehl</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="behavioral.command.MakroBefehl" target="behavioral.command.Befehl" relationship="TO_MANY">
-      <point x="-108.5" y="0.0" />
-      <point x="86.0" y="46.0" />
-      <point x="0.0" y="-49.5" />
-    </edge>
-    <edge source="behavioral.command.Befehl" target="behavioral.command.Roboter" relationship="TO_ONE">
-      <point x="-78.0" y="0.0" />
-      <point x="68.5" y="0.0" />
-    </edge>
-    <edge source="behavioral.command.HebeArm" target="behavioral.command.Befehl" relationship="GENERALIZATION">
-      <point x="-78.0" y="0.0" />
-      <point x="78.0" y="0.0" />
-    </edge>
-    <edge source="behavioral.command.MakroBefehl" target="behavioral.command.Befehl" relationship="GENERALIZATION">
-      <point x="-0.0" y="60.5" />
-      <point x="306.0" y="215.25" />
-      <point x="78.0" y="-10.75" />
-    </edge>
-    <edge source="behavioral.command.SenkeArm" target="behavioral.command.Befehl" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-  </edges>
-  <settings layout="Compact" zoom="1.5" showDependencies="true" x="160.5" y="204.5" />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="259.6666666666667" y="395.6666666666667" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

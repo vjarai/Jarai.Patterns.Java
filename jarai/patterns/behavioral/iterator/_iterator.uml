@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.iterator</OriginalElement>
-  <nodes>
-    <node x="-52.0" y="-14.5">behavioral.iterator.ArrayIterator</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="24.5" y="124.5" />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="222.66666666666669" y="506.6666666666667" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

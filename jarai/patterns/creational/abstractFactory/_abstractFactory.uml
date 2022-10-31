@@ -1,58 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>creational.abstractFactory</OriginalElement>
-  <nodes>
-    <node x="-90.0" y="382.0">creational.abstractFactory.HerrenHose</node>
-    <node x="-90.0" y="607.0">creational.abstractFactory.DamenKleiderfabrik</node>
-    <node x="-22.5" y="233.0">creational.abstractFactory.Hose</node>
-    <node x="63.0" y="382.0">creational.abstractFactory.DamenHose</node>
-    <node x="-18.0" y="-15.0">creational.abstractFactory.Hemd</node>
-    <node x="-90.0" y="134.0">creational.abstractFactory.HerrenHemd</node>
-    <node x="111.0" y="607.0">creational.abstractFactory.HerrenKleiderfabrik</node>
-    <node x="16.5" y="481.0">creational.abstractFactory.Kleiderfabrik</node>
-    <node x="67.0" y="134.0">creational.abstractFactory.DamenHemd</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="creational.abstractFactory.HerrenHose" target="creational.abstractFactory.Hose" relationship="GENERALIZATION">
-      <point x="0.0" y="-27.0" />
-      <point x="-23.5" y="357.0" />
-      <point x="53.0" y="357.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-    <edge source="creational.abstractFactory.HerrenKleiderfabrik" target="creational.abstractFactory.Kleiderfabrik" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.0" />
-      <point x="200.5" y="582.0" />
-      <point x="100.5" y="582.0" />
-      <point x="0.0" y="38.0" />
-    </edge>
-    <edge source="creational.abstractFactory.HerrenHemd" target="creational.abstractFactory.Hemd" relationship="GENERALIZATION">
-      <point x="0.0" y="-27.0" />
-      <point x="-21.5" y="109.0" />
-      <point x="57.5" y="109.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-    <edge source="creational.abstractFactory.DamenHose" target="creational.abstractFactory.Hose" relationship="GENERALIZATION">
-      <point x="0.0" y="-27.0" />
-      <point x="129.5" y="357.0" />
-      <point x="53.0" y="357.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-    <edge source="creational.abstractFactory.DamenKleiderfabrik" target="creational.abstractFactory.Kleiderfabrik" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.0" />
-      <point x="0.5" y="582.0" />
-      <point x="100.5" y="582.0" />
-      <point x="0.0" y="38.0" />
-    </edge>
-    <edge source="creational.abstractFactory.DamenHemd" target="creational.abstractFactory.Hemd" relationship="GENERALIZATION">
-      <point x="0.0" y="-27.0" />
-      <point x="136.5" y="109.0" />
-      <point x="57.5" y="109.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic" zoom="1.2583892617449663" showDependencies="false" x="208.0" y="343.99999999999994" />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.2583892617449663" showDependencies="false" x="325.61066666666665" y="571.2746666666667" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

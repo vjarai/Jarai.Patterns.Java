@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>creational.factoryMethod</OriginalElement>
-  <nodes>
-    <node x="350.4274353569638" y="186.4473530713721">creational.factoryMethod.TestTreiber</node>
-    <node x="-42.167762274131704" y="153.7724395340639">creational.factoryMethod.Stuhl</node>
-    <node x="170.92361134876256" y="308.9204868074242">creational.factoryMethod.Ikea</node>
-    <node x="155.0327910616394" y="168.2089352389698">creational.factoryMethod.Tisch</node>
-    <node x="159.33373756460452" y="-14.21404448551911">creational.factoryMethod.Produkt</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="creational.factoryMethod.Stuhl" target="creational.factoryMethod.Produkt" relationship="GENERALIZATION">
-      <point x="-2.37725868295513E-4" y="-27.000439534063887" />
-      <point x="24.832" y="131.0" />
-      <point x="234.834" y="131.0" />
-      <point x="2.6243539548431727E-4" y="60.50004448551911" />
-    </edge>
-    <edge source="creational.factoryMethod.Tisch" target="creational.factoryMethod.Produkt" relationship="GENERALIZATION">
-      <point x="2.0893836057211956E-4" y="-26.999935238969783" />
-      <point x="222.033" y="131.0" />
-      <point x="234.834" y="131.0" />
-      <point x="2.6243539548431727E-4" y="60.50004448551911" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic" zoom="1.3236301369863013" showDependencies="false" x="229.99999999999994" y="244.49999999999994" />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.3236301369863013" showDependencies="false" x="341.81371280724454" y="460.072445019405" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

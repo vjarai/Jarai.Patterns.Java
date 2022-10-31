@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.structural.proxy</OriginalElement>
+  <nodes>
+    <node x="-78.88409610612538" y="-14.217800392836985">jarai.patterns.structural.proxy.Datenbank</node>
+    <node x="174.0305626943915" y="131.3483298882244">jarai.patterns.structural.proxy.DatenbankProxy</node>
+    <node x="-39.95875658369752" y="149.49322147407665">jarai.patterns.structural.proxy.Application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.structural.proxy.DatenbankProxy" target="jarai.patterns.structural.proxy.Datenbank" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="267.0305626943915" y="23.782199607163015" />
+      <point x="95.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.structural.proxy.Application" target="jarai.patterns.structural.proxy.Datenbank" relationship="CREATE">
+      <point x="-19.425339522427862" y="-27.0" />
+      <point x="-0.0" y="38.0" />
+    </edge>
+    <edge source="jarai.patterns.structural.proxy.DatenbankProxy" target="jarai.patterns.structural.proxy.Datenbank" relationship="TO_ONE">
+      <point x="15.0" y="-27.0" />
+      <point x="282.0305626943915" y="8.782199607163015" />
+      <point x="95.0" y="-15.0" />
+    </edge>
+    <edge source="jarai.patterns.structural.proxy.Application" target="jarai.patterns.structural.proxy.DatenbankProxy" relationship="CREATE">
+      <point x="75.5" y="-18.144891585852235" />
+      <point x="-93.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="151.0" y="104.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

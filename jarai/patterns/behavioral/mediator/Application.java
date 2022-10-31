@@ -9,11 +9,11 @@ public class Application {
 
         // Create participants and register them
 
-        Participant george = new Tester("George");
-        Participant paul = new Tester("Paul");
-        Participant ringo = new Tester("Ringo");
-        Participant john = new Tester("John");
-        Participant yoko = new Developer("Yoko");
+        ChatParticipant george = new Tester("George");
+        ChatParticipant paul = new Tester("Paul");
+        ChatParticipant ringo = new Tester("Ringo");
+        ChatParticipant john = new Tester("John");
+        ChatParticipant yoko = new Developer("Yoko");
 
         chatroom.Register(george);
         chatroom.Register(paul);

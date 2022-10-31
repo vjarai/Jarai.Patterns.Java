@@ -1,6 +1,6 @@
 package jarai.patterns.behavioral.mediator;
 
-public class Tester extends Participant {
+public class Tester extends ChatParticipant {
 // Constructor
 
     public Tester(String name) {

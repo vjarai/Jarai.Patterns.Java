@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.state.pattern</OriginalElement>
-  <nodes>
-    <node x="-243.50792644261253" y="259.15409004438806">behavioral.state.pattern.Verbunden</node>
-    <node x="-412.6843837208327" y="-18.0">behavioral.state.pattern.Telefon</node>
-    <node x="-57.16677235256816" y="259.15409004438806">behavioral.state.pattern.Abgehoben</node>
-    <node x="128.1743817374762" y="259.15409004438806">behavioral.state.pattern.Aufgelegt</node>
-    <node x="-143.0" y="-18.0">behavioral.state.pattern.Zustand</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="behavioral.state.pattern.Verbunden" target="behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
-      <point x="0.0" y="-49.5" />
-      <point x="-166.50792644261253" y="212.0" />
-      <point x="-46.5" y="212.0" />
-      <point x="0.0" y="105.0" />
-    </edge>
-    <edge source="behavioral.state.pattern.Aufgelegt" target="behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
-      <point x="0.0" y="-49.5" />
-      <point x="224.6743817374762" y="212.0" />
-      <point x="-46.5" y="212.0" />
-      <point x="0.0" y="105.0" />
-    </edge>
-    <edge source="behavioral.state.pattern.Abgehoben" target="behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
-      <point x="0.0" y="-49.5" />
-      <point x="19.33322764743184" y="212.0" />
-      <point x="-46.5" y="212.0" />
-      <point x="0.0" y="105.0" />
-    </edge>
-  </edges>
-  <settings layout="Wide" zoom="1.4362477231329691" showDependencies="false" x="-32.0" y="167.5" />
-  <SelectedNodes>
-    <node>behavioral.state.pattern.Telefon</node>
-  </SelectedNodes>
+  <edges />
+  <settings layout="Hierarchic" zoom="1.4362477231329691" showDependencies="false" x="174.04629042485735" y="366.2320862396956" />
+  <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

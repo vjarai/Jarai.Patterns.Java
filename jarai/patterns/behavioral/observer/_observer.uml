@@ -1,39 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.observer</OriginalElement>
-  <nodes>
-    <node x="137.0" y="361.5">behavioral.observer.Firma</node>
-    <node x="-86.5" y="133.0">behavioral.observer.Wechselkurs</node>
-    <node x="137.5" y="-38.5">behavioral.observer.Beobachter</node>
-    <node x="124.0" y="81.5">behavioral.observer.BeobachtbaresObjekt</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="behavioral.observer.BeobachtbaresObjekt" target="behavioral.observer.Beobachter" relationship="TO_MANY">
-      <point x="0.0" y="-14.5" />
-      <point x="20.0" y="14.5" />
-    </edge>
-    <edge source="behavioral.observer.Wechselkurs" target="behavioral.observer.BeobachtbaresObjekt" relationship="GENERALIZATION">
-      <point x="70.5" y="-0.0" />
-      <point x="215.5" y="171.5" />
-      <point x="-4.5" y="14.5" />
-    </edge>
-    <edge source="behavioral.observer.Firma" target="behavioral.observer.Wechselkurs" relationship="TO_ONE">
-      <point x="-43.0" y="-0.0" />
-      <point x="-16.0" y="376.0" />
-      <point x="-0.0" y="38.5" />
-    </edge>
-    <edge source="behavioral.observer.Firma" target="behavioral.observer.Beobachter" relationship="GENERALIZATION">
-      <point x="-20.0" y="-14.5" />
-      <point x="160.0" y="336.0" />
-      <point x="100.0" y="336.0" />
-      <point x="100.0" y="56.0" />
-      <point x="160.0" y="56.0" />
-      <point x="-40.0" y="14.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="7.0" y="170.66666666666666" />
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="204.66666666666669" y="552.6666666666667" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

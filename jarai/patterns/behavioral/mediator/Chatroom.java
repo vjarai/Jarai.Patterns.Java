@@ -3,21 +3,21 @@ package jarai.patterns.behavioral.mediator;
 import java.util.HashMap;
 
 public class Chatroom {
-    private final HashMap<String, Participant> _participants = new HashMap<>();
+    private final HashMap<String, ChatParticipant> _participants = new HashMap<>();
 
-    public void Register(Participant participant) {
-        if (!_participants.containsKey(participant.Name)) {
-            _participants.put(participant.Name, participant);
+    public void Register(ChatParticipant chatParticipant) {
+        if (!_participants.containsKey(chatParticipant.Name)) {
+            _participants.put(chatParticipant.Name, chatParticipant);
         }
 
-        participant.Chatroom = this;
+        chatParticipant.Chatroom = this;
     }
 
     public void Send(String from, String to, String message) {
-        Participant participant = _participants.get(to);
+        ChatParticipant chatParticipant = _participants.get(to);
 
-        if (participant != null) {
-            participant.Receive(from, message);
+        if (chatParticipant != null) {
+            chatParticipant.Receive(from, message);
         }
     }
 }

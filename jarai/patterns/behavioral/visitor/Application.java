@@ -10,9 +10,6 @@ public class Application {
 
         fuhrpark.add(new Lkw(1.0f));
         fuhrpark.add(new Bus(2));
-        fuhrpark.add(new Lkw(3.0f));
-        fuhrpark.add(new Bus(4));
-        fuhrpark.add(new Lkw(5.0f));
 
         var gutachter = new Gutachter();
         gutachter.begutachte(fuhrpark);

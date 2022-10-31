@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.structural.bridge</OriginalElement>
+  <nodes>
+    <node x="-110.62038399973548" y="309.47552315736164">jarai.patterns.structural.bridge.GreetingScreen</node>
+    <node x="426.3775977080011" y="299.2264631879214">jarai.patterns.structural.bridge.InformationScreen</node>
+    <node x="295.18501957587284" y="-14.242875203111723">jarai.patterns.structural.bridge.ScreenImplementation</node>
+    <node x="125.62950153012983" y="144.56421148936568">jarai.patterns.structural.bridge.Screen</node>
+    <node x="106.7033166355599" y="321.4993876500507">jarai.patterns.structural.bridge.Application</node>
+    <node x="-116.68664096227704" y="129.86764582579136">jarai.patterns.structural.bridge.StarImplementation</node>
+    <node x="556.4445942641881" y="134.36058385412093">jarai.patterns.structural.bridge.CrossCapitalImplementation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.structural.bridge.InformationScreen" target="jarai.patterns.structural.bridge.Screen" relationship="GENERALIZATION">
+      <point x="4.0229199885288836E-4" y="-27.00046318792141" />
+      <point x="513.3779999999999" y="272.0" />
+      <point x="245.63000000000002" y="272.0" />
+      <point x="4.984698701662182E-4" y="49.49978851063433" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.Application" target="jarai.patterns.structural.bridge.StarImplementation" relationship="CREATE">
+      <point x="-74.07381510543007" y="-27.0" />
+      <point x="108.12950153012983" y="178.86764582579136" />
+      <point x="91.0" y="-0.0" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.Application" target="jarai.patterns.structural.bridge.InformationScreen" relationship="CREATE">
+      <point x="75.5" y="-19.5" />
+      <point x="-87.0" y="2.7729244621293105" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.Application" target="jarai.patterns.structural.bridge.GreetingScreen" relationship="CREATE">
+      <point x="-75.5" y="-12.023864492689086" />
+      <point x="77.5" y="-0.0" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.CrossCapitalImplementation" target="jarai.patterns.structural.bridge.ScreenImplementation" relationship="REALIZATION">
+      <point x="4.057358119098353E-4" y="-48.99958385412095" />
+      <point x="674.445" y="107.0" />
+      <point x="395.68500000000006" y="107.0" />
+      <point x="-1.9575872784116655E-5" y="48.99987520311172" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.Application" target="jarai.patterns.structural.bridge.CrossCapitalImplementation" relationship="CREATE">
+      <point x="75.5" y="22.22707553787069" />
+      <point x="674.4445942641881" y="370.7264631879214" />
+      <point x="-0.0" y="49.0" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.StarImplementation" target="jarai.patterns.structural.bridge.ScreenImplementation" relationship="REALIZATION">
+      <point x="-3.5903772293011116E-4" y="-48.999645825791355" />
+      <point x="-25.68699999999997" y="107.0" />
+      <point x="395.68500000000006" y="107.0" />
+      <point x="-1.9575872784116655E-5" y="48.99987520311172" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.GreetingScreen" target="jarai.patterns.structural.bridge.Screen" relationship="GENERALIZATION">
+      <point x="3.8399973550440336E-4" y="-26.999523157361665" />
+      <point x="-33.119999999999976" y="272.0" />
+      <point x="245.63000000000002" y="272.0" />
+      <point x="4.984698701662182E-4" y="49.49978851063433" />
+    </edge>
+    <edge source="jarai.patterns.structural.bridge.Screen" target="jarai.patterns.structural.bridge.ScreenImplementation" relationship="TO_ONE">
+      <point x="85.55551804574299" y="-38.0" />
+      <point x="-93.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="348.0" y="190.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
