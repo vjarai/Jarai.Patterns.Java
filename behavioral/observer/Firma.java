@@ -7,10 +7,10 @@ package behavioral.observer;
 
 public class Firma extends Beobachter {
 
-    private final Wechselkurse wechselkurse;
+    private final Wechselkurs wechselkurse;
     private double dollarkurs;
 
-    Firma(Wechselkurse wechselkurse) {
+    Firma(Wechselkurs wechselkurse) {
         this.wechselkurse = wechselkurse;
     }
 

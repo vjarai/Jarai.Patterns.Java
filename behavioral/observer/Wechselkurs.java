@@ -5,7 +5,7 @@
 package behavioral.observer;
 
 
-public class Wechselkurse extends BeobachtbaresObjekt {
+public class Wechselkurs extends BeobachtbaresObjekt {
 
     private double dollarkurs;
 

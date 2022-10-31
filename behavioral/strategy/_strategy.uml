@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.strategy</OriginalElement>
+  <nodes>
+    <node x="176.92199662827764" y="-14.39631418579215">behavioral.strategy.Arbeiter</node>
+    <node x="96.03469551692243" y="318.0280122478762">behavioral.strategy.TestTreiber</node>
+    <node x="-39.36818300927027" y="80.02198094365687">behavioral.strategy.Maler</node>
+    <node x="325.6657938883876" y="237.6662490840444">behavioral.strategy.Firma</node>
+    <node x="-67.10106200776112" y="203.9117520563135">behavioral.strategy.SortStrategie</node>
+    <node x="150.93556044832056" y="123.34057941304698">behavioral.strategy.Schreiner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.strategy.Schreiner" target="behavioral.strategy.Arbeiter" relationship="GENERALIZATION">
+      <point x="4.3955167947729024E-4" y="-26.999579413046987" />
+      <point x="215.93600000000004" y="93.0" />
+      <point x="241.92200000000003" y="93.0" />
+      <point x="3.371722357314866E-6" y="38.50031418579215" />
+    </edge>
+    <edge source="behavioral.strategy.Firma" target="behavioral.strategy.Arbeiter" relationship="TO_MANY">
+      <point x="-0.0" y="-60.5" />
+      <point x="436.1657938883876" y="24.10368581420785" />
+      <point x="65.0" y="-0.0" />
+    </edge>
+    <edge source="behavioral.strategy.Maler" target="behavioral.strategy.Arbeiter" relationship="GENERALIZATION">
+      <point x="65.0001830092703" y="23.819019056343123" />
+      <point x="133.43600000000004" y="130.841" />
+      <point x="133.43600000000004" y="93.0" />
+      <point x="241.92200000000003" y="93.0" />
+      <point x="3.371722357314866E-6" y="38.50031418579215" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1811023622047243" showDependencies="true" x="249.49999999999994" y="200.49999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

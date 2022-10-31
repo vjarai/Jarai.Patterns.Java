@@ -2,27 +2,15 @@ package behavioral.iterator;
 
 //import java.util.Vector;
 
-import java.util.LinkedList;
-
 public class TestTreiber {
 
-    public static void main(String[] args) {
+    static public void main(String[] arg) {
+        Integer[] daten = {1, 2, 3, 4, 5};
 
-        // Daten in einem vector speichern
-        //Vector daten = new Vector();
+        var i = new ArrayIterator(daten);
 
-        // Daten in einer verketteten Liste speichern
-        LinkedList<Integer> daten = new LinkedList<>();
+        while (i.hasNext())
+            System.out.println("Eintrag: " + i.next());
 
-        daten.add(10);
-        daten.add(100);
-        daten.add(200);
-        daten.add(50);
-
-        // Ein Iterator bietet container unabhaengigen Zugriff auf die Daten
-
-        for (Integer integer : daten) {
-            System.out.println(integer);
-        }
     }
 }

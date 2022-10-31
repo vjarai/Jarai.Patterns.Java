@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.memento</OriginalElement>
+  <nodes>
+    <node x="-45.704577855962484" y="209.29599704726652">behavioral.memento.Memento</node>
+    <node x="166.10200240789666" y="115.49143914718246">behavioral.memento.Urheber</node>
+    <node x="-389.2691911706438" y="119.60419744348945">behavioral.memento.Aufbewahrer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.memento.Urheber" target="behavioral.memento.Memento" relationship="CREATE">
+      <point x="-107.5" y="64.0" />
+      <point x="116.03204560930047" y="250.99143914718246" />
+      <point x="116.03204560930047" y="221.65810581384906" />
+      <point x="76.5" y="-26.137891233417463" />
+    </edge>
+    <edge source="behavioral.memento.Aufbewahrer" target="behavioral.memento.Urheber" relationship="TO_ONE">
+      <point x="68.3711935785405" y="60.5" />
+      <point x="-214.3979975921033" y="137.04781829533596" />
+      <point x="173.60200240789663" y="137.04781829533596" />
+      <point x="-100.0" y="-71.5" />
+    </edge>
+    <edge source="behavioral.memento.Aufbewahrer" target="behavioral.memento.Memento" relationship="TO_MANY">
+      <point x="-106.5" y="0.0" />
+      <point x="-85.3160458940885" y="180.10419744348945" />
+      <point x="-85.3160458940885" y="247.79599704726652" />
+      <point x="-76.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="157.0" y="186.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

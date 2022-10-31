@@ -9,7 +9,7 @@ public class TestTreiber {
 
     public static void main(String[] args) {
 
-        Wechselkurse meineWechselkurse = new Wechselkurse();
+        Wechselkurs meineWechselkurse = new Wechselkurs();
         meineWechselkurse.setDollarkurs(1.10);
 
         Firma meineFirma = new Firma(meineWechselkurse);
