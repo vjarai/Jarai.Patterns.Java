@@ -5,9 +5,9 @@ public class Application {
 
     public static void main(String[] args) {
 
-        Output original = new ConcreteOutput();
-        Output bracketed = new BracketDecorator(original);
-        Output stared = new StarDecorator(bracketed);
+        Printable original = new ConcretePrintable();
+        Printable bracketed = new BracketDecorator(original);
+        Printable stared = new StarDecorator(bracketed);
 
         stared.print("<String>");
 

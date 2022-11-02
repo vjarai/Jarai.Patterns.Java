@@ -2,13 +2,21 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="-188.5" y="50.5">jarai.patterns.behavioral.observer.Publisher</node>
+    <node x="-142.0" y="-72.5">jarai.patterns.behavioral.observer.Subscriber</node>
+  </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="204.66666666666669" y="552.6666666666667" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="376.6666666666667" y="71.83333333333331" />
+  <SelectedNodes>
+    <node>jarai.patterns.behavioral.observer.Publisher</node>
+  </SelectedNodes>
   <Categories>
+    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
     <Category>Properties</Category>
   </Categories>
   <SCOPE>All</SCOPE>

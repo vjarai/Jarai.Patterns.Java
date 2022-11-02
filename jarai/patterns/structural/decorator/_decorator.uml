@@ -3,59 +3,44 @@
   <ID>JAVA</ID>
   <OriginalElement>jarai.patterns.structural.decorator</OriginalElement>
   <nodes>
-    <node x="-81.06441178453281" y="159.39121165078544">jarai.patterns.structural.decorator.StarDecorator</node>
-    <node x="127.61804667437616" y="140.037707371689">jarai.patterns.structural.decorator.BracketDecorator</node>
-    <node x="360.10904944560025" y="105.5534144094392">jarai.patterns.structural.decorator.ConcreteOutput</node>
-    <node x="-11.781836325202846" y="279.4035380480613">jarai.patterns.structural.decorator.Application</node>
-    <node x="164.38091661168528" y="-14.814989684193186">jarai.patterns.structural.decorator.Output</node>
-    <node x="-75.83779577855677" y="7.785693488946379">jarai.patterns.structural.decorator.OutputDecorator</node>
+    <node x="-82.0" y="89.0">jarai.patterns.structural.decorator.ConcretePrintable</node>
+    <node x="52.25" y="195.0">jarai.patterns.structural.decorator.BracketDecorator</node>
+    <node x="59.75" y="301.0">jarai.patterns.structural.decorator.Application</node>
+    <node x="238.25" y="195.0">jarai.patterns.structural.decorator.StarDecorator</node>
+    <node x="140.35714285714283" y="89.0">jarai.patterns.structural.decorator.PrintableDecorator</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="jarai.patterns.structural.decorator.ConcreteOutput" target="jarai.patterns.structural.decorator.Output" relationship="REALIZATION">
-      <point x="-4.944560032527079E-5" y="-27.000414409439202" />
-      <point x="439.609" y="66.0" />
-      <point x="234.381" y="66.0" />
-      <point x="8.338831474929975E-5" y="26.99998968419319" />
-    </edge>
-    <edge source="jarai.patterns.structural.decorator.StarDecorator" target="jarai.patterns.structural.decorator.OutputDecorator" relationship="GENERALIZATION">
-      <point x="4.117845328082126E-4" y="-27.000211650785445" />
-      <point x="-9.564" y="101.0" />
-      <point x="6.662000000000001" y="101.0" />
-      <point x="-2.0422144323184455E-4" y="27.000306511053623" />
-    </edge>
-    <edge source="jarai.patterns.structural.decorator.OutputDecorator" target="jarai.patterns.structural.decorator.Output" relationship="REALIZATION">
-      <point x="82.49979577855677" y="-3.10069348894638" />
-      <point x="146.881" y="31.685" />
-      <point x="146.881" y="66.0" />
-      <point x="234.381" y="66.0" />
-      <point x="8.338831474929975E-5" y="26.99998968419319" />
+    <edge source="jarai.patterns.structural.decorator.StarDecorator" target="jarai.patterns.structural.decorator.PrintableDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="309.75" y="169.0" />
+      <point x="222.85714285714283" y="169.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="jarai.patterns.structural.decorator.Application" target="jarai.patterns.structural.decorator.BracketDecorator" relationship="CREATE">
-      <point x="71.399882999579" y="-27.0" />
-      <point x="-75.5" y="27.0" />
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
     </edge>
-    <edge source="jarai.patterns.structural.decorator.OutputDecorator" target="jarai.patterns.structural.decorator.Output" relationship="TO_ONE">
-      <point x="82.5" y="-19.5" />
-      <point x="-70.0" y="3.100683173139565" />
+    <edge source="jarai.patterns.structural.decorator.Application" target="jarai.patterns.structural.decorator.ConcretePrintable" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="135.25" y="275.0" />
+      <point x="-2.5000000000000284" y="275.0" />
+      <point x="0.0" y="27.0" />
     </edge>
-    <edge source="jarai.patterns.structural.decorator.BracketDecorator" target="jarai.patterns.structural.decorator.OutputDecorator" relationship="GENERALIZATION">
-      <point x="-4.667437619332304E-5" y="-26.999707371689" />
-      <point x="210.618" y="101.0" />
-      <point x="6.662000000000001" y="101.0" />
-      <point x="-2.0422144323184455E-4" y="27.000306511053623" />
-    </edge>
-    <edge source="jarai.patterns.structural.decorator.Application" target="jarai.patterns.structural.decorator.ConcreteOutput" relationship="CREATE">
-      <point x="75.5" y="-0.0" />
-      <point x="439.60904944560025" y="306.4035380480613" />
-      <point x="-0.0" y="27.0" />
+    <edge source="jarai.patterns.structural.decorator.BracketDecorator" target="jarai.patterns.structural.decorator.PrintableDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="135.25" y="169.0" />
+      <point x="222.85714285714283" y="169.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="jarai.patterns.structural.decorator.Application" target="jarai.patterns.structural.decorator.StarDecorator" relationship="CREATE">
-      <point x="-68.0" y="-27.0" />
-      <point x="5.282575459329962" y="27.0" />
+      <point x="0.0" y="-27.0" />
+      <point x="135.25" y="275.0" />
+      <point x="309.75" y="275.0" />
+      <point x="0.0" y="27.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="229.0" y="169.5" />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="199.33333333333337" y="180.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

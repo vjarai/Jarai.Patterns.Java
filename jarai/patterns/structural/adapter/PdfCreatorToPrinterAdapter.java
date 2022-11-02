@@ -5,11 +5,11 @@
 package jarai.patterns.structural.adapter;
 
 
-public class PdfCreatorToDruckerAdapter extends Drucker {
+public class PdfCreatorToPrinterAdapter extends Printer {
 
     private final PdfCreator pdfCreator;
 
-    public PdfCreatorToDruckerAdapter(PdfCreator pdfCreator) {
+    public PdfCreatorToPrinterAdapter(PdfCreator pdfCreator) {
         this.pdfCreator = pdfCreator;
     }
 

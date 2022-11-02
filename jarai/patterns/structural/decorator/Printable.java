@@ -1,7 +1,6 @@
 package jarai.patterns.structural.decorator;
 
-public interface Output {
-
+public interface Printable {
     void print(String s);
 }
 

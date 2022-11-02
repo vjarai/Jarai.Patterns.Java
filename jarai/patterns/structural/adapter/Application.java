@@ -4,15 +4,13 @@ package jarai.patterns.structural.adapter;
 
 public class Application {
 
-    /**
-     * Creates a new instance of Application
-     */
+
     public Application() {
     }
 
     public static void main(String[] args) {
 
-        var meinDrucker = new Drucker();
+        var meinDrucker = new Printer();
         var meinPlotter = new PdfCreator();
 
         var meinReport = new Report();
@@ -32,7 +30,7 @@ public class Application {
         // Die Klassen Report, Drucker und Plotter duerfen NICHT veraendert werden.
 
         // Loesung: Durch PlotterAdapter kann ein Plotter als Drucker verwendet werden
-        meinReport.druckeReport(new PdfCreatorToDruckerAdapter(meinPlotter));
+        meinReport.druckeReport(new PdfCreatorToPrinterAdapter(meinPlotter));
 
     }
 

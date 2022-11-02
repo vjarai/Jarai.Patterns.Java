@@ -1,14 +1,14 @@
 package jarai.patterns.structural.decorator;
 
-public class StarDecorator extends OutputDecorator {
+public class StarDecorator extends PrintableDecorator {
 
 
-    public StarDecorator(Output output) {
-        super(output);
+    public StarDecorator(Printable printable) {
+        super(printable);
     }
 
     public void print(String s) {
-        outputComponent.print(" *** " + s + " *** ");
+        printableComponent.print(" *** " + s + " *** ");
     }
 
 

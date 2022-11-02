@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.structural.flyweight</OriginalElement>
+  <nodes>
+    <node x="-51.0" y="396.0">jarai.patterns.structural.flyweight.TreeType</node>
+    <node x="-172.5" y="151.0">jarai.patterns.structural.flyweight.TreeFactory</node>
+    <node x="169.0" y="-36.0">jarai.patterns.structural.flyweight.Tree</node>
+    <node x="-290.0" y="-42.0">jarai.patterns.structural.flyweight.Forest</node>
+    <node x="-556.0" y="-57.0">jarai.patterns.structural.flyweight.Application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.structural.flyweight.Forest" target="jarai.patterns.structural.flyweight.Tree" relationship="CREATE">
+      <point x="139.5" y="-15.0" />
+      <point x="286.0" y="-7.5" />
+      <point x="30.0" y="-38.5" />
+    </edge>
+    <edge source="jarai.patterns.structural.flyweight.Tree" target="jarai.patterns.structural.flyweight.TreeType" relationship="TO_ONE">
+      <point x="0.0" y="-38.5" />
+      <point x="256.0" y="338.0" />
+      <point x="55.5" y="338.0" />
+      <point x="0.0" y="-38.5" />
+    </edge>
+    <edge source="jarai.patterns.structural.flyweight.Application" target="jarai.patterns.structural.flyweight.Forest" relationship="CREATE">
+      <point x="64.0" y="-49.5" />
+      <point x="-416.5" y="71.5" />
+      <point x="-150.5" y="71.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="jarai.patterns.structural.flyweight.Forest" target="jarai.patterns.structural.flyweight.Tree" relationship="TO_MANY">
+      <point x="139.5" y="0.0" />
+      <point x="271.0" y="7.5" />
+      <point x="15.0" y="-38.5" />
+    </edge>
+    <edge source="jarai.patterns.structural.flyweight.TreeFactory" target="jarai.patterns.structural.flyweight.TreeType" relationship="CREATE">
+      <point x="-47.5" y="38.5" />
+      <point x="-81.0" y="337.5" />
+      <point x="40.5" y="337.5" />
+      <point x="-15.0" y="-38.5" />
+    </edge>
+    <edge source="jarai.patterns.structural.flyweight.TreeFactory" target="jarai.patterns.structural.flyweight.TreeType" relationship="TO_MANY">
+      <point x="0.0" y="38.5" />
+      <point x="-33.5" y="294.0" />
+      <point x="55.5" y="294.0" />
+      <point x="0.0" y="-38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="76.0" y="193.5" />
+  <SelectedNodes>
+    <node>jarai.patterns.structural.flyweight.TreeType</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

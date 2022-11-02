@@ -2,13 +2,17 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="-668.5" y="129.0">jarai.patterns.behavioral.iterator.Application</node>
+  </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="222.66666666666669" y="506.6666666666667" />
+  <settings layout="Channel" zoom="1.5" showDependencies="true" x="-583.0000000000001" y="102.5" />
   <SelectedNodes />
   <Categories>
+    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Inner Classes</Category>
     <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>

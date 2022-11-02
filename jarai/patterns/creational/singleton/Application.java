@@ -6,16 +6,15 @@ public class Application {
 
     public static void main(String[] args) {
 
-        // Geht NICHT, da Konstruktor der KLasse Praesident private ist.
-        // Praesident p = new Praesident();
+        var instance1 = Singleton.getInstance();
+        var instance2 = Singleton.getInstance();
 
-        // Aufruf der Klassenfunktion getInstance()
-        var p = Highlander.getInstance();    // Praesident wird erstellt...
+        if (instance1 == instance2) {
+            System.out.println("Everything is fine!");
+        } else {
+            System.out.println("Houston, we have a problem!");
+        }
 
-
-        p = Highlander.getInstance();            // vorhandener Praesident wird zurueckgeliefert.
-
-        p.anzeigen();
 
     }
 }

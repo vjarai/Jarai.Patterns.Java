@@ -1,13 +1,13 @@
 package jarai.patterns.structural.decorator;
 
-public class BracketDecorator extends OutputDecorator {
+public class BracketDecorator extends PrintableDecorator {
 
 
-    public BracketDecorator(Output output) {
-        super(output);
+    public BracketDecorator(Printable printable) {
+        super(printable);
     }
 
     public void print(String s) {
-        outputComponent.print("[" + s + "]");
+        printableComponent.print("[" + s + "]");
     }
 }

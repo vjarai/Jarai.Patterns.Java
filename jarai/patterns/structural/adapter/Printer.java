@@ -1,12 +1,9 @@
 package jarai.patterns.structural.adapter;
 
 
-public class Drucker {
+public class Printer {
 
-    /**
-     * Creates a new instance of Drucker
-     */
-    public Drucker() {
+    public Printer() {
     }
 
     void druckeText(String text) {

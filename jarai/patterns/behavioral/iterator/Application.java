@@ -5,12 +5,13 @@ package jarai.patterns.behavioral.iterator;
 public class Application {
 
     static public void main(String[] arg) {
-        Integer[] daten = {1, 2, 3, 4, 5};
 
-        var i = new ArrayIterator(daten);
+        var container = new RecordContainer(new String[]{"Record1", "Record2", "Record3", "Record4", "Record5"});
 
-        while (i.hasNext())
-            System.out.println("Eintrag: " + i.next());
+        for (var iterator = container.iterator(); iterator.hasNext(); )
+            System.out.println("Erste Schleife : " + iterator.next());
 
+        for (var x : container)
+            System.out.println("Zweite Schleife: " + x);
     }
 }
