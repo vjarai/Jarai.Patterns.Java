@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.excercises.templateMethod.Game</OriginalElement>
+  <nodes>
+    <node x="-121.5" y="-94.0">jarai.patterns.excercises.proxy.Car</node>
+    <node x="-129.5" y="66.5">jarai.patterns.excercises.proxy.Application</node>
+    <node x="54.0" y="11.0">jarai.patterns.excercises.templateMethod.Game</node>
+    <node x="5.5" y="-94.0">jarai.patterns.excercises.proxy.AuthorizationCheckingCarProxy</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="78.00000000000011" y="34.75" />
+  <SelectedNodes>
+    <node>jarai.patterns.excercises.templateMethod.Game</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
