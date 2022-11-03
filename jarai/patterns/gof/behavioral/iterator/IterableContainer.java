@@ -3,11 +3,11 @@ package jarai.patterns.gof.behavioral.iterator;
 import java.util.NoSuchElementException;
 
 
-public class RecordContainer implements Iterable<String> {
-    String[] daten;
+public class IterableContainer implements Iterable<String> {
+    String[] records;
 
-    public RecordContainer(String[] daten) {
-        this.daten = daten;
+    public IterableContainer(String[] records) {
+        this.records = records;
     }
 
     @Override
@@ -19,12 +19,12 @@ public class RecordContainer implements Iterable<String> {
         private int aktuellePosition = 0;
 
         public boolean hasNext() {
-            return aktuellePosition < daten.length;
+            return aktuellePosition < records.length;
         }
 
         public String next() throws NoSuchElementException {
             if (hasNext())
-                return daten[aktuellePosition++];
+                return records[aktuellePosition++];
             else
                 throw new NoSuchElementException();
         }
