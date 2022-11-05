@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.excercises.templateMethod.Game</OriginalElement>
+  <nodes>
+    <node x="-70.0" y="-93.5">jarai.patterns.excercises.command.Drohne</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="386.0" y="54.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.excercises.command.Drohne</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

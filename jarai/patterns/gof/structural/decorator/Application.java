@@ -5,12 +5,15 @@ public class Application {
 
     public static void main(String[] args) {
 
-        Printable original = new ConcretePrintable();
-        Printable bracketed = new BracketDecorator(original);
-        Printable stared = new StarDecorator(bracketed);
+        var baum = new Weihnachtsbaum();
+        var baumMitLametta = new Lametta(baum);
+        var baumMitKerzen = new Kerzen(baumMitLametta);
+        var baumMitLichterkette = new Lichterkette(baumMitKerzen);
 
-        stared.print("<String>");
+        baumMitKerzen.anzuenden();
+        //baumMitLichterkette.einschalten();
 
-        System.out.println();
+        baumMitLichterkette.print();
+        System.out.println(".");
     }
 }

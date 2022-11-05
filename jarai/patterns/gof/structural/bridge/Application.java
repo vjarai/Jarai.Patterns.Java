@@ -6,8 +6,8 @@ public class Application {
 
         System.out.println("Creating implementations...");
 
-        ScreenImplementation i1 = new StarImplementation();
-        ScreenImplementation i2 = new CrossCapitalImplementation();
+        var i1 = new StarImplementation();
+        var i2 = new CrossCapitalImplementation();
 
         System.out.println("Creating abstraction (screens) / implementation combinations...");
 
