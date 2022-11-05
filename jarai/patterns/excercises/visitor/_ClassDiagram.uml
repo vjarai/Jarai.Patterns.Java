@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.excercises.visitor</OriginalElement>
+  <nodes>
+    <node x="-92.0" y="-27.0">jarai.patterns.excercises.visitor.IVisitable</node>
+    <node x="96.0" y="72.0">jarai.patterns.excercises.visitor.Handwerker</node>
+    <node x="-92.0" y="72.0">jarai.patterns.excercises.visitor.Waschbecken</node>
+    <node x="71.0" y="171.0">jarai.patterns.excercises.visitor.Putzfrau</node>
+    <node x="-92.0" y="171.0">jarai.patterns.excercises.visitor.Fernseher</node>
+    <node x="-92.0" y="270.0">jarai.patterns.excercises.visitor.Visitor</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="68.0" y="148.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
