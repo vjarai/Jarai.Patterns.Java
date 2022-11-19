@@ -8,7 +8,7 @@ public class Verkaeufer extends Mitarbeiter {
         super(name);
     }
 
-    boolean bearbeitenAnfrage(String anfrage) {
+    public boolean bearbeitenAnfrage(String anfrage) {
         if (anfrage.equals("Preis")) {
             System.out.println(name + " sagt: Preis ist 99.99");
             return true;

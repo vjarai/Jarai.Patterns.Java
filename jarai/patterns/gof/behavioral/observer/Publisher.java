@@ -7,33 +7,27 @@ import java.beans.PropertyChangeSupport;
 public class Publisher {
     private String news;
 
-    private PropertyChangeSupport support;
+    private final PropertyChangeSupport propertyChangeSupport;
 
     public Publisher() {
 
-        setSupport(new PropertyChangeSupport(this));
+        propertyChangeSupport = new PropertyChangeSupport(this);
     }
 
     public void addPropertyChangeListener(PropertyChangeListener pcl) {
 
-        getSupport().addPropertyChangeListener(pcl);
+        propertyChangeSupport.addPropertyChangeListener(pcl);
     }
 
     public void removePropertyChangeListener(PropertyChangeListener pcl) {
 
-        getSupport().removePropertyChangeListener(pcl);
+        propertyChangeSupport.removePropertyChangeListener(pcl);
     }
 
     public void setNews(String value) {
-        getSupport().firePropertyChange("news", this.news, value);
+        propertyChangeSupport.firePropertyChange("news", this.news, value);
         this.news = value;
     }
 
-    public PropertyChangeSupport getSupport() {
-        return support;
-    }
 
-    public void setSupport(PropertyChangeSupport support) {
-        this.support = support;
-    }
 }

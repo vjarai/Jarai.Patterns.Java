@@ -5,20 +5,11 @@ public class Application {
 
     public static void main(String[] args) {
 
-        // Firma anlegen
-        Firma meineFirma = new Firma("ABC GmbH");
+        var meineFirma = new Firma("ABC GmbH");
 
-        // Vetrieb zur Firma hinzufuegen
-        Abteilung vertrieb = new Abteilung("Vertrieb");
-        vertrieb.hinzufuegenBearbeiter(new Putzfrau("Putzfrau Schulz"));
-        vertrieb.hinzufuegenBearbeiter(new Verkaeufer("Verkaeufer Mueller"));
-        meineFirma.hinzufuegenBearbeiter(vertrieb);
-
-        // Buchhaltunggsabteilung zur Firma hinzufuegen
-        Abteilung buchhaltung = new Abteilung("Buchhaltung");
-        buchhaltung.hinzufuegenBearbeiter(new Putzfrau("Putzfrau Schmidt"));
-        buchhaltung.hinzufuegenBearbeiter(new Buchhalter("Buchhalter Meier"));
-        meineFirma.hinzufuegenBearbeiter(buchhaltung);
+        meineFirma.einstellen(new Putzfrau("Putzfrau Schulz"));
+        meineFirma.einstellen(new Verkaeufer("Verkaeufer Mueller"));
+        meineFirma.einstellen(new Buchhalter("Buchhalter Meier"));
 
         meineFirma.bearbeitenAnfrage("Kontostand");
         meineFirma.bearbeitenAnfrage("Preis");

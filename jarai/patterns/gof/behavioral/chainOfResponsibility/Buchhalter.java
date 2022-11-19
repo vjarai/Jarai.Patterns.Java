@@ -8,7 +8,7 @@ public class Buchhalter extends Mitarbeiter {
         super(name);
     }
 
-    boolean bearbeitenAnfrage(String anfrage) {
+    public boolean bearbeitenAnfrage(String anfrage) {
         if (anfrage.equals("Kontostand")) {
             System.out.println(name + " sagt: Kontostand ist 123.45");
             return true;

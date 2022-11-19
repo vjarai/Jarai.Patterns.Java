@@ -1,10 +1,16 @@
 package jarai.patterns.gof.behavioral.chainOfResponsibility;
 
 
-public class Mitarbeiter extends Bearbeiter {
+public class Mitarbeiter {
+
+    public String name;
 
     Mitarbeiter(String name) {
-        super(name);
+
+        this.name = name;
     }
 
+    public boolean bearbeitenAnfrage(String anfrage) {
+        return false;
+    }
 }
