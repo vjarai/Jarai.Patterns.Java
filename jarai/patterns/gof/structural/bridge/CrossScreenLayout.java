@@ -1,7 +1,6 @@
 package jarai.patterns.gof.structural.bridge;
 
-public class CrossCapitalImplementation implements ScreenImplementation {
-
+public class CrossScreenLayout implements ScreenLayout {
 
 
     public void printLine() {

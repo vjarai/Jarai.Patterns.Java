@@ -1,6 +1,6 @@
 package jarai.patterns.gof.structural.bridge;
 
-public interface ScreenImplementation {
+public interface ScreenLayout {
 
     void printLine();
 

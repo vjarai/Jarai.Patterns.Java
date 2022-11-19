@@ -2,15 +2,15 @@ package jarai.patterns.gof.structural.bridge;
 
 import java.util.Date;
 
-public class InformationScreen extends Screen {
+public class InformationForm extends Form {
 
 
-    public InformationScreen(ScreenImplementation si) {
-        super(si);
+    public InformationForm(ScreenLayout layout) {
+        super(layout);
     }
 
 
-    public void drawInfo() {
+    public void show() {
         Date date = new Date();
         drawTextBox("Current system time: " + date);
     }
