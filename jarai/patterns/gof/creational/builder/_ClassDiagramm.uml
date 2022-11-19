@@ -2,61 +2,10 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes>
-    <node x="-333.0" y="-129.09375">jarai.patterns.creational.builder.Car</node>
-    <node x="88.0" y="105.90625">jarai.patterns.creational.builder.GPSNavigator</node>
-    <node x="-96.0" y="-89.09375">jarai.patterns.creational.builder.Engine</node>
-    <node x="49.0" y="-89.09375">jarai.patterns.creational.builder.TripComputer</node>
-    <node x="-333.0" y="226.90625">jarai.patterns.creational.builder.Builder</node>
-    <node x="-96.0" y="105.90625">jarai.patterns.creational.builder.CarType</node>
-    <node x="220.0" y="-89.09375">jarai.patterns.creational.builder.Transmission</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="jarai.patterns.creational.builder.Car" target="jarai.patterns.creational.builder.GPSNavigator" relationship="TO_ONE">
-      <point x="0.0" y="-88.0" />
-      <point x="-116.0" y="-124.09375" />
-      <point x="-116.0" y="85.90625" />
-      <point x="159.5" y="85.90625" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="jarai.patterns.creational.builder.Car" target="jarai.patterns.creational.builder.Transmission" relationship="TO_ONE">
-      <point x="0.0" y="-88.0" />
-      <point x="-116.0" y="-124.09375" />
-      <point x="-116.0" y="-109.09375" />
-      <point x="320.0" y="-109.09375" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="jarai.patterns.creational.builder.Car" target="jarai.patterns.creational.builder.Engine" relationship="TO_ONE">
-      <point x="0.0" y="-88.0" />
-      <point x="-116.0" y="-124.09375" />
-      <point x="-116.0" y="-109.09375" />
-      <point x="-28.5" y="-109.09375" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="jarai.patterns.creational.builder.Car" target="jarai.patterns.creational.builder.TripComputer" relationship="TO_ONE">
-      <point x="0.0" y="-89.5" />
-      <point x="-114.5" y="-125.59375" />
-      <point x="-114.5" y="-110.59375" />
-      <point x="131.0" y="-110.59375" />
-      <point x="1.5" y="0.0" />
-    </edge>
-    <edge source="jarai.patterns.creational.builder.TripComputer" target="jarai.patterns.creational.builder.Car" relationship="TO_ONE">
-      <point x="-1.5" y="0.0" />
-      <point x="128.0" y="-107.59375" />
-      <point x="-117.5" y="-107.59375" />
-      <point x="-117.5" y="-122.59375" />
-      <point x="0.0" y="-86.5" />
-    </edge>
-    <edge source="jarai.patterns.creational.builder.Car" target="jarai.patterns.creational.builder.CarType" relationship="TO_ONE">
-      <point x="0.0" y="-88.0" />
-      <point x="-116.0" y="-124.09375" />
-      <point x="-116.0" y="85.90625" />
-      <point x="-9.0" y="85.90625" />
-      <point x="0.0" y="0.0" />
-    </edge>
-  </edges>
-  <settings layout="Compact" zoom="1.5" showDependencies="true" x="53.500000000000114" y="140.50000000000003" />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="487.0" y="220.0" />
   <SelectedNodes />
   <Categories>
     <Category>Methods</Category>

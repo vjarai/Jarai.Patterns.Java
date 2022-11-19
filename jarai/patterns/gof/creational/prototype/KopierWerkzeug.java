@@ -3,7 +3,7 @@ package jarai.patterns.gof.creational.prototype;
 
 public class KopierWerkzeug {
 
-    Klonbar erstelleObject(Klonbar prototyp) {
+    Klonbar erstelleKopie(Klonbar prototyp) {
         return prototyp.klone();
     }
 
