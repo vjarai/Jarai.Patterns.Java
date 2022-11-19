@@ -1,10 +1,9 @@
 package jarai.patterns.gof.structural.decorator;
 
-public class Lichterkette extends WeihnachtsbaumDecorator {
-    private Weihnachtsbaum weihnachtsbaum;
+public class LichterkettenDecorator extends WeihnachtsbaumDecorator {
     private boolean isBurning;
 
-    public Lichterkette(Weihnachtsbaum weihnachtsbaum) {
+    public LichterkettenDecorator(Weihnachtsbaum weihnachtsbaum) {
 
         super(weihnachtsbaum);
     }
@@ -13,8 +12,8 @@ public class Lichterkette extends WeihnachtsbaumDecorator {
         isBurning = true;
     }
 
-    public void print() {
-        baum.print();
+    public void show() {
+        dekorierterBaum.show();
         System.out.print(", mit " + (isBurning ? "eingeschalteter" : "ausgeschalteter") + " Lichterkette");
     }
 }

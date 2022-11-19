@@ -3,29 +3,26 @@
   <ID>JAVA</ID>
   <OriginalElement>jarai.patterns.excercises.templateMethod.Game</OriginalElement>
   <nodes>
-    <node x="119.5" y="65.5">jarai.patterns.excercises.adapter.AndroidDevice</node>
-    <node x="21.09375" y="-38.5">jarai.patterns.excercises.adapter.IUsbChargable</node>
-    <node x="296.5" y="-38.5">jarai.patterns.excercises.adapter.ILightningChargable</node>
-    <node x="296.5" y="65.5">jarai.patterns.excercises.adapter.AppleDevice</node>
-    <node x="-98.5" y="65.5">jarai.patterns.excercises.adapter.UsbCharger</node>
+    <node x="372.83333333333337" y="149.16666666666663">jarai.patterns.excercises.adapter.AppleDevice</node>
+    <node x="-173.5" y="23.833333333333314">jarai.patterns.excercises.adapter.UsbCharger</node>
+    <node x="103.33333333333331" y="35.333333333333314">jarai.patterns.excercises.adapter.IUsbChargeable</node>
+    <node x="103.33333333333331" y="149.16666666666663">jarai.patterns.excercises.adapter.AndroidDevice</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="jarai.patterns.excercises.adapter.AppleDevice" target="jarai.patterns.excercises.adapter.ILightningChargable" relationship="REALIZATION">
+    <edge source="jarai.patterns.excercises.adapter.UsbCharger" target="jarai.patterns.excercises.adapter.IUsbChargeable" relationship="DEPENDENCY">
+      <point x="102.0" y="0.0" />
+      <point x="-78.5" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.excercises.adapter.AndroidDevice" target="jarai.patterns.excercises.adapter.IUsbChargeable" relationship="REALIZATION">
       <point x="0.0" y="-38.5" />
       <point x="0.0" y="27.0" />
     </edge>
-    <edge source="jarai.patterns.excercises.adapter.UsbCharger" target="jarai.patterns.excercises.adapter.IUsbChargable" relationship="DEPENDENCY">
-      <point x="91.5" y="-38.5" />
-      <point x="-7.59375" y="27.0" />
-    </edge>
-    <edge source="jarai.patterns.excercises.adapter.AndroidDevice" target="jarai.patterns.excercises.adapter.IUsbChargable" relationship="REALIZATION">
-      <point x="-71.0" y="-38.5" />
-      <point x="27.40625" y="27.0" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="202.5" y="125.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="358.0" y="188.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.excercises.adapter.AppleDevice</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

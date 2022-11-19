@@ -1,9 +1,10 @@
 package jarai.patterns.gof.structural.decorator;
 
-public class Kerzen extends WeihnachtsbaumDecorator {
+public class KerzenDecorator extends WeihnachtsbaumDecorator {
     private boolean isBurning;
 
-    public Kerzen(Weihnachtsbaum weihnachtsbaum) {
+    public KerzenDecorator(Weihnachtsbaum weihnachtsbaum) {
+
         super(weihnachtsbaum);
     }
 
@@ -11,8 +12,8 @@ public class Kerzen extends WeihnachtsbaumDecorator {
         isBurning = true;
     }
 
-    public void print() {
-        baum.print();
+    public void show() {
+        dekorierterBaum.show();
         System.out.print(", mit " + (isBurning ? "brennenden" : "NICHT brennenden") + " Kerzen");
     }
 }
