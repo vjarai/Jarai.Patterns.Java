@@ -5,10 +5,10 @@ public class Application {
 
     public static void main(String[] args) {
 
-        var baum = new Weihnachtsbaum();
-        var baumMitLametta = new LamettaDecorator(baum);
-        var baumMitKerzen = new KerzenDecorator(baumMitLametta);
-        var baumMitLichterkette = new LichterkettenDecorator(baumMitKerzen);
+        Weihnachtsbaum baum = new Weihnachtsbaum();
+        LamettaDecorator baumMitLametta = new LamettaDecorator(baum);
+        KerzenDecorator baumMitKerzen = new KerzenDecorator(baumMitLametta);
+        LichterkettenDecorator baumMitLichterkette = new LichterkettenDecorator(baumMitKerzen);
 
         baumMitKerzen.anzuenden();
         //baumMitLichterkette.einschalten();

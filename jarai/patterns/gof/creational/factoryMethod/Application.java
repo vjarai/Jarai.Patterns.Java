@@ -1,16 +1,16 @@
 
 package jarai.patterns.gof.creational.factoryMethod;
 
+import java.io.IOException;
+
 public class Application {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         var ikeaWallau = new Ikea("Wallau");
-        var ikeaHeidelberg = new Ikea("Heidelberg");
 
         var meinProdukt = ikeaWallau.verkaufen();    // Fabrikmethode aufrufen
 
         meinProdukt.benutzen();
-        meinProdukt = null;
     }
 }

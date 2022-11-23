@@ -2,18 +2,9 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes>
-    <node x="187.16666666666663" y="105.66666666666669">jarai.patterns._refresher.Kfz</node>
-    <node x="-21.000000000000014" y="105.66666666666669">jarai.patterns._refresher.Motor</node>
-    <node x="202.49999999999994" y="275.6666666666667">jarai.patterns._refresher.Pkw</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="jarai.patterns._refresher.Pkw" target="jarai.patterns._refresher.Kfz" relationship="DEPENDENCY">
-      <point x="-17.833333333333314" y="-27.0" />
-      <point x="0.0" y="27.0" />
-    </edge>
-  </edges>
+  <edges />
   <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="507.0" y="321.0" />
   <SelectedNodes />
   <Categories>

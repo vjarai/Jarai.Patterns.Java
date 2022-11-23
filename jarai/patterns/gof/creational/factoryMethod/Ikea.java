@@ -8,52 +8,36 @@ import java.io.InputStreamReader;
 
 public class Ikea {
 
-    private static double konzernUmsatz = 0;
     private final String standort;
-    private double filialUmsatz = 0;
 
     Ikea(String standort) {
 
         this.standort = standort;
     }
 
-    Produkt verkaufen() {
-        int auswahl = 0;
+    Moebel verkaufen() throws IOException {
+
         System.out.println("Willkommen bei Ikea " + this.standort);
         System.out.println(" Was wollen Sie kaufen (1 = Tisch, 2 = Stuhl ?");
 
-        try {
-            auswahl = Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine());
-        } catch (IOException e) {
-            System.err.println("Caught IOException: " +
-                    e.getMessage());
-        }
+        int auswahl = Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine());
 
-        Produkt gekauftesProdukt;
+        Moebel gekauftesMoebel;
 
         switch (auswahl) {
             case 1:
-                gekauftesProdukt = new Tisch("Tisch", 100);
+                gekauftesMoebel = new Tisch("Tisch", 100);
                 break;
             case 2:
-                gekauftesProdukt = new Stuhl("Stuhl", 50);
+                gekauftesMoebel = new Stuhl("Stuhl", 50);
                 break;
             default:
-                gekauftesProdukt = null;
+                gekauftesMoebel = null;
         }
 
-
-        if (gekauftesProdukt != null) {
-            this.filialUmsatz += gekauftesProdukt.getPreis();
-            Ikea.konzernUmsatz += gekauftesProdukt.getPreis();
-        }
-
-        return gekauftesProdukt;
+        return gekauftesMoebel;
     }
 
-    void anzeigen() {
-        System.out.println("Ikea Filialumsatz : " + this.standort + " " + this.filialUmsatz + " EUR");
-        System.out.println("Ikea Konzernumsatz: " + Ikea.konzernUmsatz + " EUR");
-    }
+
 
 }

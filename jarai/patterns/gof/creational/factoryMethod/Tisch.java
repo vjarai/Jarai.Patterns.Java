@@ -2,14 +2,14 @@
 package jarai.patterns.gof.creational.factoryMethod;
 
 
-public class Tisch extends Produkt {
+public class Tisch extends Moebel {
 
     /**
      *
      */
 
     Tisch(String bezeichnung, double preis) {
-        super(bezeichnung, preis);
+        super(bezeichnung);
     }
 
     public void benutzen() {

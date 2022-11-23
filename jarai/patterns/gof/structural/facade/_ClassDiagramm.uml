@@ -2,10 +2,18 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="50.449423815620776" y="138.82842509603074">jarai.patterns.gof.structural.facade.Screen</node>
+    <node x="-213.00384122919343" y="126.30857874519847">jarai.patterns.gof.structural.facade.Tuner</node>
+    <node x="489.4443021766965" y="79.95646606914204">jarai.patterns.gof.structural.facade.Projector</node>
+    <node x="50.449423815620776" y="354.0768245838668">jarai.patterns.gof.structural.facade.TheaterLights</node>
+    <node x="-484.45710627400763" y="71.30857874519847">jarai.patterns.gof.structural.facade.DvdPlayer</node>
+    <node x="-204.00384122919343" y="433.71318822023045">jarai.patterns.gof.structural.facade.PopcornPopper</node>
+    <node x="260.5864276568502" y="79.9564660691421">jarai.patterns.gof.structural.facade.CdPlayer</node>
+  </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="0.8448087431693989" showDependencies="false" x="1956.8130659767141" y="934.6966364812419" />
+  <settings layout="Hierarchic" zoom="0.8238396624472574" showDependencies="false" x="261.4999999999999" y="359.97439180537776" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>

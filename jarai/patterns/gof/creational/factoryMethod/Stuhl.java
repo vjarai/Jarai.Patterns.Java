@@ -2,9 +2,9 @@
 package jarai.patterns.gof.creational.factoryMethod;
 
 
-public class Stuhl extends Produkt {
+public class Stuhl extends Moebel {
     Stuhl(String bezeichnung, double preis) {
-        super(bezeichnung, preis);
+        super(bezeichnung);
     }
 
     public void benutzen() {

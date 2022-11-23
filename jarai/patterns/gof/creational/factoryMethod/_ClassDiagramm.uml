@@ -5,7 +5,7 @@
   <nodes />
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="1.3236301369863013" showDependencies="false" x="832.6959896507116" y="549.5265200517465" />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="-333.0" y="77.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

@@ -9,6 +9,7 @@ public class KlonbarerInteger implements Klonbar {
     }
 
     public Klonbar klone() {
+
         return new KlonbarerInteger(intWert);
     }
 
