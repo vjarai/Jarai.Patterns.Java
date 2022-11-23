@@ -1,7 +1,7 @@
 package jarai.patterns.gof.behavioral.visitor;
 
 
-public abstract class Besucher {
+public abstract class Visitor {
 
     abstract void besuche(Lkw e);
 

@@ -1,7 +1,7 @@
 package jarai.patterns.gof.behavioral.visitor;
 
 
-public class Reinigungskraft extends Besucher {
+public class ReinigungsVisitor extends Visitor {
 
     void besuche(Bus e) {
 

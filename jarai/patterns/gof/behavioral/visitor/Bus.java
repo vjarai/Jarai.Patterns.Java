@@ -3,7 +3,7 @@ package jarai.patterns.gof.behavioral.visitor;
 
 public class Bus implements IVisitable {
 
-    public void acceptVisitor(Besucher besucher) {
+    public void acceptVisitor(Visitor besucher) {
         besucher.besuche(this);
     }
 

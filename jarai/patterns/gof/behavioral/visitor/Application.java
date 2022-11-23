@@ -8,10 +8,10 @@ public class Application {
         fuhrpark.add(new Lkw());
         fuhrpark.add(new Bus());
 
-        var gutachter = new Gutachter();
+        var gutachter = new GutachterVisitor();
         fuhrpark.acceptVisitor(gutachter);
 
-        var reinigungskraft = new Reinigungskraft();
+        var reinigungskraft = new ReinigungsVisitor();
         fuhrpark.acceptVisitor(reinigungskraft);
 
     }

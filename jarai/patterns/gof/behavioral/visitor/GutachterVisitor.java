@@ -1,6 +1,6 @@
 package jarai.patterns.gof.behavioral.visitor;
 
-public class Gutachter extends Besucher {
+public class GutachterVisitor extends Visitor {
 
     void besuche(Lkw e) {
 

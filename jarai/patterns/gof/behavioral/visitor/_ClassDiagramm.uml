@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>jarai.patterns.gof.behavioral.visitor.Gutachter</OriginalElement>
+  <OriginalElement />
   <nodes>
     <node x="-993.741935483871" y="229.0">jarai.patterns.gof.behavioral.visitor.Bus</node>
     <node x="-1240.3225806451615" y="229.0">jarai.patterns.gof.behavioral.visitor.Lkw</node>
     <node x="-784.8870967741935" y="69.69354838709677">jarai.patterns.gof.behavioral.visitor.Fuhrpark</node>
-    <node x="-368.0" y="207.0">jarai.patterns.gof.behavioral.visitor.Gutachter</node>
     <node x="-1102.709677419355" y="111.58064516129036">jarai.patterns.gof.behavioral.visitor.IVisitable</node>
-    <node x="-543.0" y="207.0">jarai.patterns.gof.behavioral.visitor.Reinigungskraft</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="1.1923076923076923" showDependencies="false" x="-504.5000000000001" y="287.19354838709677" />
+  <settings layout="Hierarchic" zoom="1.1923076923076923" showDependencies="false" x="-504.5000000000001" y="285.0967741935484" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
