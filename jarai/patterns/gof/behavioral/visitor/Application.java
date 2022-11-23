@@ -1,21 +1,18 @@
 package jarai.patterns.gof.behavioral.visitor;
 
-import java.util.Vector;
-
 public class Application {
     public static void main(String[] args) {
 
         int i;
-        var fuhrpark = new Vector<Fahrzeug>();
+        var fuhrpark = new Fuhrpark();
 
-        fuhrpark.add(new Lkw(1.0f));
+        fuhrpark.add(new Lkw());
         fuhrpark.add(new Bus(2));
 
         var gutachter = new Gutachter();
         gutachter.begutachte(fuhrpark);
-        gutachter.zeigeSumme();
 
-        var putzfrau = new Putzfrau();
+        var putzfrau = new Reinigungskraft();
         putzfrau.putzen(fuhrpark);
 
     }

@@ -14,9 +14,8 @@ public class Bus extends Fahrzeug {
         return intDaten;
     }
 
-    void acceptVisitor(Besucher besucher) {
+    public void acceptVisitor(Besucher besucher) {
         besucher.besuche(this);
-
     }
 
 }
