@@ -1,4 +1,3 @@
-
 package jarai.patterns.gof.structural.composite;
 
 

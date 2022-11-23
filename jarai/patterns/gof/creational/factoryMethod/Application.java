@@ -1,4 +1,3 @@
-
 package jarai.patterns.gof.creational.factoryMethod;
 
 import java.io.IOException;

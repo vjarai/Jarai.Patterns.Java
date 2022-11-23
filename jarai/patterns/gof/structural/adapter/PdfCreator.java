@@ -1,5 +1,3 @@
-
-
 package jarai.patterns.gof.structural.adapter;
 
 public class PdfCreator {

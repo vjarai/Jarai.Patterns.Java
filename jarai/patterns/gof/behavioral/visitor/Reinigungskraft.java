@@ -13,10 +13,4 @@ public class Reinigungskraft extends Besucher {
         System.out.println("Reinigungskraft dampfstrahlt den Lkw");
     }
 
-    public void putzen(Fuhrpark fuhrpark) {
-        for (var fahrzeug : fuhrpark) {
-            fahrzeug.acceptVisitor(this);
-            //besuche(fahrzeug);
-        }
-    }
 }

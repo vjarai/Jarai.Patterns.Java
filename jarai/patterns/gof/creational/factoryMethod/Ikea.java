@@ -1,4 +1,3 @@
-
 package jarai.patterns.gof.creational.factoryMethod;
 
 import java.io.BufferedReader;
@@ -37,7 +36,6 @@ public class Ikea {
 
         return gekauftesMoebel;
     }
-
 
 
 }

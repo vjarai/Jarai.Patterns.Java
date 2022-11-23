@@ -9,10 +9,10 @@ public class Application {
         fuhrpark.add(new Bus());
 
         var gutachter = new Gutachter();
-        gutachter.begutachte(fuhrpark);
+        fuhrpark.acceptVisitor(gutachter);
 
-        var putzfrau = new Reinigungskraft();
-        putzfrau.putzen(fuhrpark);
+        var reinigungskraft = new Reinigungskraft();
+        fuhrpark.acceptVisitor(reinigungskraft);
 
     }
 }

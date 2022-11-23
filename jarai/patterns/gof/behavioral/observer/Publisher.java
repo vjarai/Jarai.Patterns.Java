@@ -5,9 +5,8 @@ import java.beans.PropertyChangeSupport;
 
 
 public class Publisher {
-    private String news;
-
     private final PropertyChangeSupport propertyChangeSupport;
+    private String news;
 
     public Publisher() {
 
