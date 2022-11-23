@@ -10,14 +10,14 @@ public class Gutachter extends Besucher {
 
     void besuche(Bus e) {
 
-        System.out.println("Gutachter ignoriert Bus");
+        System.out.println("Gutachter begutachtet Bus");
     }
 
 
     public void begutachte(Fuhrpark fuhrpark) {
         for (var fahrzeug : fuhrpark) {
-            //fahrzeug.acceptVisitor(this);
-            besuche(fahrzeug);
+            fahrzeug.acceptVisitor(this);
+            //besuche(fahrzeug);
         }
 
     }

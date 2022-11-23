@@ -3,7 +3,7 @@ package jarai.patterns.gof.behavioral.visitor;
 
 public abstract class Besucher {
 
-    void besuche(Fahrzeug kfz) {
+    void besuche(IVisitable kfz) {
 
     }
 

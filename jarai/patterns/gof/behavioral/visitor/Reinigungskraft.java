@@ -14,7 +14,9 @@ public class Reinigungskraft extends Besucher {
     }
 
     public void putzen(Fuhrpark fuhrpark) {
-        for (var fahrzeug : fuhrpark)
+        for (var fahrzeug : fuhrpark) {
             fahrzeug.acceptVisitor(this);
+            //besuche(fahrzeug);
+        }
     }
 }

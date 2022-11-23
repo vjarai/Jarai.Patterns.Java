@@ -3,17 +3,17 @@ package jarai.patterns.gof.behavioral.visitor;
 import java.util.Iterator;
 import java.util.Vector;
 
-public class Fuhrpark implements Iterable<Fahrzeug> {
+public class Fuhrpark implements Iterable<IVisitable> {
 
-    public Vector<Fahrzeug> fahrzeuge = new Vector<Fahrzeug>();
+    public Vector<IVisitable> fahrzeuge = new Vector<IVisitable>();
 
 
-    public void add(Fahrzeug fahrzeug) {
+    public void add(IVisitable fahrzeug) {
         fahrzeuge.add(fahrzeug);
     }
 
     @Override
-    public Iterator<Fahrzeug> iterator() {
+    public Iterator<IVisitable> iterator() {
         return fahrzeuge.iterator();
     }
 }

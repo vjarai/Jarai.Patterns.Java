@@ -3,51 +3,39 @@
   <ID>JAVA</ID>
   <OriginalElement>jarai.patterns.gof.behavioral.visitor.Gutachter</OriginalElement>
   <nodes>
-    <node x="738.9802854378324" y="147.10401548137395">jarai.patterns.gof.behavioral.visitor.Besucher</node>
-    <node x="-70.51717464925008" y="296.10401548137395">jarai.patterns.gof.behavioral.visitor.Bus</node>
-    <node x="150.48282535074992" y="296.10401548137395">jarai.patterns.gof.behavioral.visitor.Lkw</node>
-    <node x="429.26511852926956" y="90.10401548137392">jarai.patterns.gof.behavioral.visitor.Fuhrpark</node>
-    <node x="559.2302854378324" y="296.10401548137395">jarai.patterns.gof.behavioral.visitor.Gutachter</node>
-    <node x="27.98282535074992" y="157.60401548137395">jarai.patterns.gof.behavioral.visitor.IVisitable</node>
-    <node x="804.9802854378324" y="296.10401548137395">jarai.patterns.gof.behavioral.visitor.Reinigungskraft</node>
+    <node x="-82.0" y="380.5">jarai.patterns.gof.behavioral.visitor.Besucher</node>
+    <node x="-809.9637096774194" y="238.96572580645164">jarai.patterns.gof.behavioral.visitor.Bus</node>
+    <node x="-547.0060483870968" y="238.96572580645164">jarai.patterns.gof.behavioral.visitor.Lkw</node>
+    <node x="-284.04838709677426" y="93.31451612903221">jarai.patterns.gof.behavioral.visitor.Fuhrpark</node>
+    <node x="-188.5" y="551.5">jarai.patterns.gof.behavioral.visitor.Gutachter</node>
+    <node x="143.0" y="205.5">jarai.patterns.gof.behavioral.visitor.Application</node>
+    <node x="-682.1854838709678" y="127.31451612903223">jarai.patterns.gof.behavioral.visitor.IVisitable</node>
+    <node x="22.5" y="563.0">jarai.patterns.gof.behavioral.visitor.Reinigungskraft</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="jarai.patterns.gof.behavioral.visitor.Bus" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="REALIZATION">
-      <point x="1.746492500842578E-4" y="-61.500015481373964" />
-      <point x="29.983000000000004" y="253.0" />
-      <point x="128.483" y="253.0" />
-      <point x="1.746492500842578E-4" y="26.999984518626064" />
-    </edge>
     <edge source="jarai.patterns.gof.behavioral.visitor.Gutachter" target="jarai.patterns.gof.behavioral.visitor.Besucher" relationship="GENERALIZATION">
-      <point x="-2.8543783241730125E-4" y="-60.500015481373964" />
-      <point x="654.73" y="272.0" />
-      <point x="813.48" y="272.0" />
-      <point x="-2.8543783241730125E-4" y="49.49998451862601" />
-    </edge>
-    <edge source="jarai.patterns.gof.behavioral.visitor.Lkw" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="REALIZATION">
-      <point x="1.746492500842578E-4" y="-61.500015481373964" />
-      <point x="250.983" y="253.0" />
-      <point x="128.483" y="253.0" />
-      <point x="1.746492500842578E-4" y="26.999984518626064" />
+      <point x="0.0" y="-72.0" />
+      <point x="-93.0" y="527.0" />
+      <point x="6.5" y="527.0" />
+      <point x="0.0" y="60.5" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.visitor.Reinigungskraft" target="jarai.patterns.gof.behavioral.visitor.Besucher" relationship="GENERALIZATION">
-      <point x="-2.8543783241730125E-4" y="-60.500015481373964" />
-      <point x="888.48" y="272.0" />
-      <point x="813.48" y="272.0" />
-      <point x="-2.8543783241730125E-4" y="49.49998451862601" />
+      <point x="0.0" y="-60.5" />
+      <point x="106.0" y="527.0" />
+      <point x="6.5" y="527.0" />
+      <point x="0.0" y="60.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="460.5" y="294.0" />
+  <settings layout="Hierarchic" zoom="0.9860834990059643" showDependencies="false" x="-8.5" y="338.24999999999994" />
   <SelectedNodes>
-    <node>jarai.patterns.gof.behavioral.visitor.IVisitable</node>
+    <node>jarai.patterns.gof.behavioral.visitor.Application</node>
   </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>
     <Category>Inner Classes</Category>
     <Category>Methods</Category>
-    <Category>Properties</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

@@ -2,17 +2,7 @@
 package jarai.patterns.gof.behavioral.visitor;
 
 
-public class Bus extends Fahrzeug {
-
-    private final int intDaten;
-
-    Bus(int intDaten) {
-        this.intDaten = intDaten;
-    }
-
-    public int getIntDaten() {
-        return intDaten;
-    }
+public class Bus implements IVisitable {
 
     public void acceptVisitor(Besucher besucher) {
         besucher.besuche(this);
