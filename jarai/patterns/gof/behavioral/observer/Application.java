@@ -9,6 +9,7 @@ public class Application {
         var subscriber = new Subscriber();
 
         publisher.addPropertyChangeListener(subscriber);
+
         publisher.setNews("news");
 
     }

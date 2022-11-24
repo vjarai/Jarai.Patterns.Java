@@ -2,10 +2,32 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="7.333333333333371" y="64.0">jarai.patterns.gof.behavioral.command.SenkeArm</node>
+    <node x="-392.5" y="-73.33333333333334">jarai.patterns.gof.behavioral.command.Roboter</node>
+    <node x="-218.66666666666669" y="64.0">jarai.patterns.gof.behavioral.command.HebeArm</node>
+    <node x="-91.11111111111109" y="-84.83333333333334">jarai.patterns.gof.behavioral.command.Befehl</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="259.6666666666667" y="395.6666666666667" />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.command.Befehl" target="jarai.patterns.gof.behavioral.command.Roboter" relationship="TO_ONE">
+      <point x="-78.0" y="0.0" />
+      <point x="68.5" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.command.HebeArm" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="GENERALIZATION">
+      <point x="-3.3333333331597714E-4" y="-38.0" />
+      <point x="-140.667" y="40.0" />
+      <point x="-13.111" y="40.0" />
+      <point x="1.1111111108519367E-4" y="49.500333333333344" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.command.SenkeArm" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="GENERALIZATION">
+      <point x="-3.3333333337282056E-4" y="-38.0" />
+      <point x="85.333" y="40.0" />
+      <point x="-13.111" y="40.0" />
+      <point x="1.1111111108519367E-4" y="49.500333333333344" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="-104.5" y="37.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

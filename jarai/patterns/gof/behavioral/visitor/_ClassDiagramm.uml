@@ -17,15 +17,13 @@
       <point x="0.0" y="0.0" />
       <point x="0.0" y="0.0" />
     </edge>
-    <edge source="jarai.patterns.gof.behavioral.visitor.Lkw" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="REALIZATION">
+    <edge source="jarai.patterns.gof.behavioral.visitor.Fuhrpark" target="jarai.patterns.gof.behavioral.visitor.Visitor" relationship="DEPENDENCY">
       <point x="0.0" y="0.0" />
       <point x="0.0" y="0.0" />
     </edge>
-    <edge source="jarai.patterns.gof.behavioral.visitor.ReinigungsVisitor" target="jarai.patterns.gof.behavioral.visitor.Visitor" relationship="GENERALIZATION">
-      <point x="3.225806453315272E-4" y="-38.0" />
-      <point x="-280.79" y="77.00000000000003" />
-      <point x="-193.29000000000002" y="77.00000000000003" />
-      <point x="3.225806453315272E-4" y="38.0" />
+    <edge source="jarai.patterns.gof.behavioral.visitor.Lkw" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.visitor.GutachterVisitor" target="jarai.patterns.gof.behavioral.visitor.Visitor" relationship="GENERALIZATION">
       <point x="3.225806453599489E-4" y="-38.0" />
@@ -33,12 +31,11 @@
       <point x="-193.29000000000002" y="77.00000000000003" />
       <point x="3.225806453315272E-4" y="38.0" />
     </edge>
-    <edge source="jarai.patterns.gof.behavioral.visitor.ReinigungsVisitor" target="jarai.patterns.gof.behavioral.visitor.Lkw" relationship="DEPENDENCY">
-      <point x="-83.49967741935467" y="-0.4350000000000307" />
-      <point x="-442.188" y="141.565" />
-      <point x="-442.188" y="175.0" />
-      <point x="-907.624" y="175.0" />
-      <point x="-3.440860213004271E-4" y="27.00048387096774" />
+    <edge source="jarai.patterns.gof.behavioral.visitor.ReinigungsVisitor" target="jarai.patterns.gof.behavioral.visitor.Visitor" relationship="GENERALIZATION">
+      <point x="3.225806453315272E-4" y="-38.0" />
+      <point x="-280.79" y="77.00000000000003" />
+      <point x="-193.29000000000002" y="77.00000000000003" />
+      <point x="3.225806453315272E-4" y="38.0" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.visitor.Fuhrpark" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="TO_MANY">
       <point x="-103.0" y="8.387096774193594" />

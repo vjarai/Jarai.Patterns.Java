@@ -3,7 +3,7 @@ package jarai.patterns.gof.behavioral.interpreter;
 import java.util.ArrayList;
 
 public class Application {
-    public static void Main() {
+    public static void main(String[] args) {
         String roman = "MCMXXVIII";
         var context = new Context(roman);
 

@@ -2,36 +2,11 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes>
-    <node x="383.0" y="193.0">jarai.patterns.behavioral.mediator.Developer</node>
-    <node x="-75.5" y="373.0">jarai.patterns.behavioral.mediator.Application</node>
-    <node x="163.0" y="193.0">jarai.patterns.behavioral.mediator.Tester</node>
-    <node x="-141.0" y="170.5">jarai.patterns.behavioral.mediator.Chatroom</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="jarai.patterns.behavioral.mediator.Application" target="jarai.patterns.behavioral.mediator.Developer" relationship="CREATE">
-      <point x="75.5" y="15.0" />
-      <point x="480.0" y="415.0" />
-      <point x="0.0" y="27.0" />
-    </edge>
-    <edge source="jarai.patterns.behavioral.mediator.Application" target="jarai.patterns.behavioral.mediator.Tester" relationship="CREATE">
-      <point x="75.5" y="0.0" />
-      <point x="260.0" y="400.0" />
-      <point x="0.0" y="27.0" />
-    </edge>
-    <edge source="jarai.patterns.behavioral.mediator.Application" target="jarai.patterns.behavioral.mediator.Chatroom" relationship="CREATE">
-      <point x="0.0" y="-27.0" />
-      <point x="0.0" y="49.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Compact" zoom="1.037940379403794" showDependencies="true" x="228.00000000000006" y="193.25000000000006" />
-  <SelectedNodes>
-    <node>jarai.patterns.behavioral.mediator.Chatroom</node>
-    <node>jarai.patterns.behavioral.mediator.Tester</node>
-    <node>jarai.patterns.behavioral.mediator.Developer</node>
-    <node>jarai.patterns.behavioral.mediator.Application</node>
-  </SelectedNodes>
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.037940379403794" showDependencies="true" x="873.0274151436032" y="386.65274151436034" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>

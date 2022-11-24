@@ -18,8 +18,9 @@ public class Fuhrpark implements Iterable<IVisitable> {
     }
 
     public void acceptVisitor(Visitor visitor) {
-        for (var fahrzeug : fahrzeuge) {
+        for (IVisitable fahrzeug : fahrzeuge) {
             fahrzeug.acceptVisitor(visitor);
+            //visitor.visit(fahrzeug);
         }
 
     }

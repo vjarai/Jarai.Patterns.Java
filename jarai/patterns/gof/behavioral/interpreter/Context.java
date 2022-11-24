@@ -1,15 +1,11 @@
 package jarai.patterns.gof.behavioral.interpreter;
 
 public class Context {
-    // Gets or sets input
-    public String Input;
-    // Gets or sets output
-    public int Output;
-    String input;
-    int output;
+    String Input;
+    int Output;
 
     // Constructor
     public Context(String input) {
-        this.input = input;
+        this.Input = input;
     }
 }

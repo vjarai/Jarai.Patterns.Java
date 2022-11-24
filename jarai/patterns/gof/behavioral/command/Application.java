@@ -10,7 +10,9 @@ public class Application {
         meinMakrobefehl.hinzufuegenBefehl(new HebeArm(meinRoboter));
         meinMakrobefehl.hinzufuegenBefehl(new HebeArm(meinRoboter));
         meinMakrobefehl.hinzufuegenBefehl(new SenkeArm(meinRoboter));
+
         meinMakrobefehl.ausfuehren();
+
         meinMakrobefehl.rueckgaengig();
     }
 }
