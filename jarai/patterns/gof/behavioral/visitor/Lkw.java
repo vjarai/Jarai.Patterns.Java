@@ -5,7 +5,7 @@ public class Lkw implements IVisitable {
 
     public void acceptVisitor(Visitor besucher) {
 
-        besucher.besuche(this);
+        besucher.visit(this);
     }
 
 }
