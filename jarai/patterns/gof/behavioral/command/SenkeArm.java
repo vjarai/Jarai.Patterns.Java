@@ -3,15 +3,11 @@ package jarai.patterns.gof.behavioral.command;
 
 public class SenkeArm extends Befehl {
 
-    public SenkeArm(Roboter roboter) {
-        super(roboter);
-    }
-
-    void ausfuehren() {
+    void ausfuehren(Roboter roboter) {
         roboter.senkeArm();
     }
 
-    void rueckgaengig() {
+    void rueckgaengig(Roboter roboter) {
         roboter.hebeArm();
     }
 }

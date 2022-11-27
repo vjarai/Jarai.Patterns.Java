@@ -5,27 +5,23 @@ import java.util.Vector;
 
 public class MakroBefehl extends Befehl {
 
-    private final Vector<Befehl> makroBefehle = new Vector<>();
+    private final Vector<Befehl> childBefehle = new Vector<>();
 
-    public MakroBefehl() {
-        super(null);
-    }
-
-    void ausfuehren() {
-        for (Befehl befehl : makroBefehle) {
-            befehl.ausfuehren();
+    void ausfuehren(Roboter meinRoboter) {
+        for (Befehl befehl : childBefehle) {
+            befehl.ausfuehren(meinRoboter);
         }
     }
 
-    void rueckgaengig() {
-        for (int i = makroBefehle.size() - 1; i >= 0; i--) {
-            Befehl befehl = makroBefehle.get(i);
-            befehl.rueckgaengig();
+    void rueckgaengig(Roboter meinRoboter) {
+        for (int i = childBefehle.size() - 1; i >= 0; i--) {
+            Befehl befehl = childBefehle.get(i);
+            befehl.rueckgaengig(meinRoboter);
         }
     }
 
-    void hinzufuegenBefehl(Befehl befehl) {
-        makroBefehle.add(befehl);
+    void add(Befehl befehl) {
+        childBefehle.add(befehl);
     }
 
 }

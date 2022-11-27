@@ -3,14 +3,8 @@ package jarai.patterns.gof.behavioral.command;
 
 public abstract class Befehl {
 
-    protected final Roboter roboter;
+    abstract void ausfuehren(Roboter meinRoboter);
 
-    Befehl(Roboter roboter) {
-        this.roboter = roboter;
-    }
-
-    abstract void ausfuehren();
-
-    abstract void rueckgaengig();
+    abstract void rueckgaengig(Roboter meinRoboter);
 
 }
