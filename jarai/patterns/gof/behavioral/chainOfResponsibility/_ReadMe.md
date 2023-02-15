@@ -1,5 +1,4 @@
-Chain of Responsibility
-=======================
+# Chain of Responsibility
 
 The Chain of Responsibility pattern avoids coupling the sender of a request to its receiver
 and gives more than one object a chance to handle the request.

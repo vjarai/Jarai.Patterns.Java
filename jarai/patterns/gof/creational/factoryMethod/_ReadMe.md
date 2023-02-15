@@ -1,5 +1,4 @@
-Factory Method
-==============
+# Factory Method
 
 The Factory Method  pattern defines an interface for creating an object,
 but let subclasses decide which class to instantiate.

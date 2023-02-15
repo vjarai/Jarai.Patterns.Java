@@ -2,11 +2,27 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="72.0" y="-26.5">jarai.patterns._refresher.Motor</node>
+    <node x="-47.5" y="154.0">jarai.patterns._refresher.Lkw</node>
+    <node x="-45.5" y="-22.66666666666667">jarai.patterns._refresher.Kfz</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="507.0" y="321.0" />
-  <SelectedNodes />
+  <edges>
+    <edge source="jarai.patterns._refresher.Kfz" target="jarai.patterns._refresher.Motor" relationship="TO_ONE">
+      <point x="-0.0" y="-27.0" />
+      <point x="-6.5" y="0.5" />
+      <point x="-47.5" y="-0.0" />
+    </edge>
+    <edge source="jarai.patterns._refresher.Lkw" target="jarai.patterns._refresher.Kfz" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="172.66666666666669" y="162.66666666666666" />
+  <SelectedNodes>
+    <node>jarai.patterns._refresher.Kfz</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

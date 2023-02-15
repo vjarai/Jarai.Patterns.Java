@@ -1,5 +1,4 @@
-Proxy
-=====
+# Proxy
 
 The Proxy pattern provides a surrogate or placeholder for another object to control access to it.
 
@@ -8,9 +7,8 @@ A decorator adds one or more responsibilities to an object, whereas a proxy cont
 
 Frequency of use: medium-high
 
+## Proxy Examples:
 
-Proxy Examples:
-===============
 * Access control (protection proxy).
 * Local access to a remote service (remote proxy).
 * Caching request results (caching proxy).
