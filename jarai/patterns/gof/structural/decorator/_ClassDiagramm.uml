@@ -3,48 +3,52 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="560.4769736842105" y="393.66666666666663">jarai.patterns.gof.structural.decorator.KerzenDecorator</node>
-    <node x="737.3103070175439" y="393.66666666666663">jarai.patterns.gof.structural.decorator.LichterkettenDecorator</node>
-    <node x="610.3103070175439" y="304.16666666666663">jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator</node>
-    <node x="354.7269736842105" y="404.66666666666663">jarai.patterns.gof.structural.decorator.LamettaDecorator</node>
-    <node x="665.6436403508771" y="69.16666666666666">jarai.patterns.gof.structural.decorator.Weihnachtsbaum</node>
+    <node x="354.0" y="256.0">jarai.patterns.gof.structural.decorator.KerzenDecorator</node>
+    <node x="536.0" y="256.0">jarai.patterns.gof.structural.decorator.LichterkettenDecorator</node>
+    <node x="523.0" y="175.0">jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator</node>
+    <node x="756.0" y="267.0">jarai.patterns.gof.structural.decorator.LamettaDecorator</node>
+    <node x="549.5" y="69.0">jarai.patterns.gof.structural.decorator.Weihnachtsbaum</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator" target="jarai.patterns.gof.structural.decorator.Weihnachtsbaum" relationship="TO_ONE">
-      <point x="-114.5" y="-1.6666666666666572" />
-      <point x="350.5718201754386" y="317.0" />
-      <point x="350.5718201754386" y="115.66666666666666" />
-      <point x="83.0" y="19.5" />
-    </edge>
     <edge source="jarai.patterns.gof.structural.decorator.LamettaDecorator" target="jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator" relationship="GENERALIZATION">
-      <point x="-0.0" y="-27.0" />
-      <point x="439.7269736842105" y="361.16666666666663" />
-      <point x="626.9769736842105" y="361.16666666666663" />
-      <point x="-97.83333333333337" y="14.5" />
+      <point x="0.0" y="-27.0" />
+      <point x="840.0" y="230.0" />
+      <point x="636.0" y="230.0" />
+      <point x="0.0" y="14.5" />
     </edge>
-    <edge source="jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator" target="jarai.patterns.gof.structural.decorator.Weihnachtsbaum" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.5" />
-      <point x="724.8103070175439" y="85.33333333333331" />
-      <point x="83.0" y="-10.833333333333343" />
+    <edge source="jarai.patterns.gof.structural.decorator.KerzenDecorator" target="jarai.patterns.gof.structural.decorator.Weihnachtsbaum" relationship="DEPENDENCY">
+      <point x="-40.5" y="-38.0" />
+      <point x="394.5" y="230.0" />
+      <point x="430.0" y="230.0" />
+      <point x="430.0" y="144.0" />
+      <point x="576.6666666666666" y="144.0" />
+      <point x="-54.33333333333337" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator" target="jarai.patterns.gof.structural.decorator.Weihnachtsbaum" relationship="TO_ONE">
+      <point x="-56.5" y="-14.5" />
+      <point x="579.5" y="154.0" />
+      <point x="631.0" y="154.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="jarai.patterns.gof.structural.decorator.LichterkettenDecorator" target="jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator" relationship="GENERALIZATION">
-      <point x="-0.0" y="-38.0" />
-      <point x="114.5" y="-0.0" />
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="14.5" />
     </edge>
-    <edge source="jarai.patterns.gof.structural.decorator.LamettaDecorator" target="jarai.patterns.gof.structural.decorator.Weihnachtsbaum" relationship="DEPENDENCY">
-      <point x="-85.0" y="-0.0" />
-      <point x="335.5718201754386" y="431.66666666666663" />
-      <point x="335.5718201754386" y="96.16666666666666" />
-      <point x="-83.0" y="-0.0" />
+    <edge source="jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator" target="jarai.patterns.gof.structural.decorator.Weihnachtsbaum" relationship="GENERALIZATION">
+      <point x="56.5" y="-14.5" />
+      <point x="692.5" y="154.0" />
+      <point x="685.3333333333334" y="154.0" />
+      <point x="54.33333333333337" y="27.0" />
     </edge>
     <edge source="jarai.patterns.gof.structural.decorator.KerzenDecorator" target="jarai.patterns.gof.structural.decorator.WeihnachtsbaumDecorator" relationship="GENERALIZATION">
-      <point x="-0.0" y="-38.0" />
-      <point x="641.9769736842105" y="332.0" />
-      <point x="-114.5" y="13.333333333333343" />
+      <point x="40.5" y="-38.0" />
+      <point x="475.5" y="230.0" />
+      <point x="636.0" y="230.0" />
+      <point x="0.0" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="424.64364035087715" y="265.0" />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="649.0" y="210.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

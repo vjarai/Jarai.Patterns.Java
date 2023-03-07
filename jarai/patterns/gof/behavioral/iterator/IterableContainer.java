@@ -11,9 +11,6 @@ public class IterableContainer implements Iterable<String> {
     }
 
     @Override
-    /*/public java.util.Iterator<String> iterator() {
-        return Arrays.stream(records).iterator();
-    }*/
     public java.util.Iterator<String> iterator() {
         return new Iterator();
     }
@@ -21,10 +18,12 @@ public class IterableContainer implements Iterable<String> {
     public class Iterator implements java.util.Iterator<String> {
         private int aktuellePosition = 0;
 
+        @Override
         public boolean hasNext() {
             return aktuellePosition < records.length;
         }
 
+        @Override
         public String next() throws NoSuchElementException {
             if (hasNext())
                 return records[aktuellePosition++];

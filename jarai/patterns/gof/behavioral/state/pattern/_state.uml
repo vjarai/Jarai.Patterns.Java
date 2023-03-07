@@ -2,11 +2,37 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="98.5" y="164.0">jarai.patterns.gof.behavioral.state.pattern.Zustand</node>
+    <node x="-96.0" y="237.85795454545456">jarai.patterns.gof.behavioral.state.pattern.Application</node>
+    <node x="-93.0" y="424.0">jarai.patterns.gof.behavioral.state.pattern.Aufgelegt</node>
+    <node x="290.0" y="424.0">jarai.patterns.gof.behavioral.state.pattern.Verbunden</node>
+    <node x="103.0" y="-104.5">jarai.patterns.gof.behavioral.state.pattern.Telefon</node>
+    <node x="118.0" y="424.0">jarai.patterns.gof.behavioral.state.pattern.Abgehoben</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic" zoom="1.4362477231329691" showDependencies="false" x="174.04629042485735" y="366.2320862396956" />
-  <SelectedNodes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.state.pattern.Aufgelegt" target="jarai.patterns.gof.behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="2.5" y="399.5" />
+      <point x="194.0" y="399.5" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.state.pattern.Abgehoben" target="jarai.patterns.gof.behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.state.pattern.Verbunden" target="jarai.patterns.gof.behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="366.5" y="399.5" />
+      <point x="194.0" y="399.5" />
+      <point x="0.0" y="105.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9513513513513514" showDependencies="false" x="183.5" y="219.25" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.behavioral.state.pattern.Application</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

@@ -2,11 +2,21 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="-81.0" y="-61.0">jarai.patterns.gof.creational.prototype.KlonbarerInteger</node>
+    <node x="-66.0" y="93.5">jarai.patterns.gof.creational.prototype.Klonbar</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="1149.3333333333335" y="657.0" />
-  <SelectedNodes />
+  <edges>
+    <edge source="jarai.patterns.gof.creational.prototype.KlonbarerInteger" target="jarai.patterns.gof.creational.prototype.Klonbar" relationship="REALIZATION">
+      <point x="0.0" y="60.5" />
+      <point x="0.0" y="-38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5000000000000002" showDependencies="false" x="10.0" y="72.5" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.creational.prototype.Klonbar</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>

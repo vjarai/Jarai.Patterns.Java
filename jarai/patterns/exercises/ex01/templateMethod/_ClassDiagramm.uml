@@ -2,11 +2,15 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="-83.0" y="-94.0">jarai.patterns.exercises.ex01.templateMethod.Game</node>
+  </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="701.0" y="289.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="9.5" y="10.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.exercises.ex01.templateMethod.Game</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

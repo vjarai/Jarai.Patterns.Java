@@ -3,17 +3,17 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="50.449423815620776" y="138.82842509603074">jarai.patterns.gof.structural.facade.Screen</node>
-    <node x="-213.00384122919343" y="126.30857874519847">jarai.patterns.gof.structural.facade.Tuner</node>
-    <node x="489.4443021766965" y="79.95646606914204">jarai.patterns.gof.structural.facade.Projector</node>
-    <node x="50.449423815620776" y="354.0768245838668">jarai.patterns.gof.structural.facade.TheaterLights</node>
-    <node x="-484.45710627400763" y="71.30857874519847">jarai.patterns.gof.structural.facade.DvdPlayer</node>
-    <node x="-204.00384122919343" y="433.71318822023045">jarai.patterns.gof.structural.facade.PopcornPopper</node>
-    <node x="260.5864276568502" y="79.9564660691421">jarai.patterns.gof.structural.facade.CdPlayer</node>
+    <node x="225.6914212548014" y="409.4366197183098">jarai.patterns.gof.structural.facade.PopcornPopper</node>
+    <node x="480.1446862996156" y="114.55185659411012">jarai.patterns.gof.structural.facade.Screen</node>
+    <node x="216.6914212548014" y="102.03201024327785">jarai.patterns.gof.structural.facade.Tuner</node>
+    <node x="919.1395646606913" y="55.67989756722142">jarai.patterns.gof.structural.facade.Projector</node>
+    <node x="690.2816901408451" y="55.679897567221474">jarai.patterns.gof.structural.facade.CdPlayer</node>
+    <node x="480.1446862996156" y="329.8002560819462">jarai.patterns.gof.structural.facade.TheaterLights</node>
+    <node x="-54.76184379001279" y="47.03201024327785">jarai.patterns.gof.structural.facade.DvdPlayer</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic" zoom="0.8238396624472574" showDependencies="false" x="261.4999999999999" y="359.97439180537776" />
+  <settings layout="Hierarchic" zoom="0.8238396624472575" showDependencies="false" x="527.9961587708065" y="328.92829705505744" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
