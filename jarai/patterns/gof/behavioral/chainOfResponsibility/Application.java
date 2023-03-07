@@ -7,7 +7,7 @@ public class Application {
 
         var meineFirma = new Firma("ABC GmbH");
 
-        meineFirma.einstellen(new Putzfrau("Putzfrau Schulz"));
+        meineFirma.einstellen(new Putzhilfe("Putzfrau Schulz"));
         meineFirma.einstellen(new Verkaeufer("Verkaeufer Mueller"));
         meineFirma.einstellen(new Buchhalter("Buchhalter Meier"));
 

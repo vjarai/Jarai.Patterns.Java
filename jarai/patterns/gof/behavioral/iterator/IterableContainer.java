@@ -1,6 +1,5 @@
 package jarai.patterns.gof.behavioral.iterator;
 
-import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 
@@ -12,8 +11,11 @@ public class IterableContainer implements Iterable<String> {
     }
 
     @Override
-    public java.util.Iterator<String> iterator() {
+    /*/public java.util.Iterator<String> iterator() {
         return Arrays.stream(records).iterator();
+    }*/
+    public java.util.Iterator<String> iterator() {
+        return new Iterator();
     }
 
     public class Iterator implements java.util.Iterator<String> {

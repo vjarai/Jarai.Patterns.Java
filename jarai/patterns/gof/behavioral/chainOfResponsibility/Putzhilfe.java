@@ -1,9 +1,9 @@
 package jarai.patterns.gof.behavioral.chainOfResponsibility;
 
 
-public class Putzfrau extends Mitarbeiter {
+public class Putzhilfe extends Mitarbeiter {
 
-    public Putzfrau(String name) {
+    public Putzhilfe(String name) {
         super(name);
     }
 

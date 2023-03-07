@@ -5,13 +5,8 @@ import java.beans.PropertyChangeSupport;
 
 
 public class Publisher {
-    private final PropertyChangeSupport propertyChangeSupport;
+    private final PropertyChangeSupport propertyChangeSupport = new PropertyChangeSupport(this);
     private String news;
-
-    public Publisher() {
-
-        propertyChangeSupport = new PropertyChangeSupport(this);
-    }
 
     public void addPropertyChangeListener(PropertyChangeListener pcl) {
 
