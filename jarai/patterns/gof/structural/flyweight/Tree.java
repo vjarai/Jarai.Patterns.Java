@@ -14,6 +14,9 @@ public class Tree {
     }
 
     public void draw(Graphics g) {
-        type.draw(g, x, y);
+        g.setColor(Color.BLACK);
+        g.fillRect(x - 1, y, 3, 5);
+        g.setColor(type.color);
+        g.fillOval(x - 5, y - 10, 10, 10);
     }
 }

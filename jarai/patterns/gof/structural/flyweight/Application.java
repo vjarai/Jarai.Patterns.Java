@@ -9,7 +9,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        Forest forest = new Forest();
+        Forest forest = new Forest(new TreeTypeFactory());
 
         for (int i = 0; i < TREES_TO_DRAW / TREE_TYPES; i++) {
 
