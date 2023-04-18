@@ -5,14 +5,15 @@ public class Application {
 
     public static void main(String[] args) {
 
-        var meineFirma = new Firma("ABC GmbH");
+        var alexa = new Alexa();
 
-        meineFirma.einstellen(new Putzhilfe("Putzfrau Schulz"));
-        meineFirma.einstellen(new Verkaeufer("Verkaeufer Mueller"));
-        meineFirma.einstellen(new Buchhalter("Buchhalter Meier"));
+        alexa.addSkill(new WettervorhersageSkill());
+        alexa.addSkill(new LampenSkill());
+        alexa.addSkill(new RadioSkill());
 
-        meineFirma.bearbeitenAnfrage("Kontostand");
-        meineFirma.bearbeitenAnfrage("Preis");
-        meineFirma.bearbeitenAnfrage("Sinn des lebens");
+        alexa.bearbeitenAnfrage("Spiele Radio HR3");
+        alexa.bearbeitenAnfrage("Wie wird das Wetter");
+        alexa.bearbeitenAnfrage("Schalte Licht Wohnzimmer ein");
+        alexa.bearbeitenAnfrage("Was ist der Sinn des Lebens?");
     }
 }

@@ -2,13 +2,13 @@ package jarai.patterns.gof.behavioral.memento;
 
 import java.util.Vector;
 
-public class Aufbewahrer {
+public class UndoBuffer {
 
     private final Vector<Memento> mementos = new Vector<>();
 
     private final Urheber urheber;
 
-    Aufbewahrer(Urheber urheber) {
+    UndoBuffer(Urheber urheber) {
         this.urheber = urheber;
     }
 

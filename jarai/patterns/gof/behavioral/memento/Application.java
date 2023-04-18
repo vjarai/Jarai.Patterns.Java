@@ -5,20 +5,20 @@ public class Application {
     public static void main(String[] args) {
 
         Urheber urheber = new Urheber();
-        Aufbewahrer aufbewahrer = new Aufbewahrer(urheber);
+        UndoBuffer undoBuffer = new UndoBuffer(urheber);
 
         urheber.setzeZustand("Zustand0");
         urheber.zeigeZustand();
-        aufbewahrer.speichereZustand();
+        undoBuffer.speichereZustand();
 
         urheber.setzeZustand("Zustand1");
         urheber.zeigeZustand();
-        aufbewahrer.speichereZustand();
+        undoBuffer.speichereZustand();
 
-        aufbewahrer.rueckgaengigZustand(0);
+        undoBuffer.rueckgaengigZustand(0);
         urheber.zeigeZustand();
 
-        aufbewahrer.rueckgaengigZustand(1);
+        undoBuffer.rueckgaengigZustand(1);
         urheber.zeigeZustand();
     }
 }
