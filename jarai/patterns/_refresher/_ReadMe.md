@@ -11,5 +11,6 @@
   Fachbegriff: Vererbung <br>
   Wofür verwenden: Austauschbarkeit
 
-    
+
+
 

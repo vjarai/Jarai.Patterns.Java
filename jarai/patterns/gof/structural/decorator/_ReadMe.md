@@ -7,3 +7,7 @@ Frequency of use: medium
 
 Although decorators can have similar implementations as proxies, decorators have a different purpose.
 A decorator adds one or more responsibilities to an object, whereas a proxy typically controls access to an object.
+
+Example: Logging Decorator
+
+![image](./_decorator.png)
