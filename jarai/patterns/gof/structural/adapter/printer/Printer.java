@@ -1,4 +1,4 @@
-package jarai.patterns.gof.structural.adapter;
+package jarai.patterns.gof.structural.adapter.printer;
 
 
 public class Printer {

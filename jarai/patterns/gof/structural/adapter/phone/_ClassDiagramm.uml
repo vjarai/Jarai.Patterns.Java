@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.gof.structural.adapter.phone</OriginalElement>
+  <nodes>
+    <node x="434.25390625" y="83.0">jarai.patterns.gof.structural.adapter.phone.AppleNetzteil</node>
+    <node x="43.50390625" y="83.0">jarai.patterns.gof.structural.adapter.phone.UsbNetzteil</node>
+    <node x="645.5" y="212.0">jarai.patterns.gof.structural.adapter.phone.AppleTelefon</node>
+    <node x="355.0966796875" y="438.5">jarai.patterns.gof.structural.adapter.phone.LightToUsbingAdapter</node>
+    <node x="270.5966796875" y="311.5">jarai.patterns.gof.structural.adapter.phone.Application</node>
+    <node x="87.0966796875" y="438.5">jarai.patterns.gof.structural.adapter.phone.UsbToLightningAdapter</node>
+    <node x="-107.5" y="212.0">jarai.patterns.gof.structural.adapter.phone.AndroidTelefon</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.LightToUsbingAdapter" target="jarai.patterns.gof.structural.adapter.phone.UsbNetzteil" relationship="GENERALIZATION">
+      <point x="-0.0" y="38.5" />
+      <point x="481.0966796875" y="533.0" />
+      <point x="-125.0" y="533.0" />
+      <point x="-125.0" y="121.5" />
+      <point x="-92.5" y="-0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.Application" target="jarai.patterns.gof.structural.adapter.phone.UsbToLightningAdapter" relationship="CREATE">
+      <point x="-18.5" y="38.5" />
+      <point x="116.5" y="-38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.Application" target="jarai.patterns.gof.structural.adapter.phone.UsbNetzteil" relationship="CREATE">
+      <point x="-0.0" y="-38.5" />
+      <point x="346.0966796875" y="136.5" />
+      <point x="92.5" y="15.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.LightToUsbingAdapter" target="jarai.patterns.gof.structural.adapter.phone.AppleNetzteil" relationship="TO_ONE">
+      <point x="60.6572265625" y="-38.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.Application" target="jarai.patterns.gof.structural.adapter.phone.LightToUsbingAdapter" relationship="CREATE">
+      <point x="16.5" y="38.5" />
+      <point x="-118.5" y="-38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.AppleTelefon" target="jarai.patterns.gof.structural.adapter.phone.AppleNetzteil" relationship="DEPENDENCY">
+      <point x="0.0" y="-38.5" />
+      <point x="747.0" y="181.0" />
+      <point x="622.37890625" y="181.0" />
+      <point x="80.625" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.AndroidTelefon" target="jarai.patterns.gof.structural.adapter.phone.UsbNetzteil" relationship="DEPENDENCY">
+      <point x="0.0" y="-38.5" />
+      <point x="-11.5" y="191.0" />
+      <point x="112.87890625" y="191.0" />
+      <point x="-23.125" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.Application" target="jarai.patterns.gof.structural.adapter.phone.AppleTelefon" relationship="CREATE">
+      <point x="15.0" y="-38.5" />
+      <point x="361.0966796875" y="250.5" />
+      <point x="-101.5" y="-0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.UsbToLightningAdapter" target="jarai.patterns.gof.structural.adapter.phone.AppleNetzteil" relationship="GENERALIZATION">
+      <point x="-0.0" y="38.5" />
+      <point x="211.0966796875" y="548.0" />
+      <point x="866.0" y="548.0" />
+      <point x="866.0" y="121.5" />
+      <point x="107.5" y="-0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.Application" target="jarai.patterns.gof.structural.adapter.phone.AndroidTelefon" relationship="CREATE">
+      <point x="-75.5" y="-0.0" />
+      <point x="-11.5" y="350.0" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.Application" target="jarai.patterns.gof.structural.adapter.phone.AppleNetzteil" relationship="CREATE">
+      <point x="75.5" y="-15.0" />
+      <point x="526.75390625" y="335.0" />
+      <point x="-15.0" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.phone.UsbToLightningAdapter" target="jarai.patterns.gof.structural.adapter.phone.UsbNetzteil" relationship="TO_ONE">
+      <point x="-75.0927734375" y="-38.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="481.0966796875" y="477.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.structural.adapter.phone.LightToUsbingAdapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
