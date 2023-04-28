@@ -9,7 +9,6 @@ public class Application {
 
     public static void main(String[] args) {
 
-
         var iphone = new AppleTelefon();
         var samsungPhone = new AndroidTelefon();
 

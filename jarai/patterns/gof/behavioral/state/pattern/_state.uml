@@ -3,36 +3,36 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="98.5" y="164.0">jarai.patterns.gof.behavioral.state.pattern.Zustand</node>
-    <node x="-96.0" y="237.85795454545456">jarai.patterns.gof.behavioral.state.pattern.Application</node>
-    <node x="-93.0" y="424.0">jarai.patterns.gof.behavioral.state.pattern.Aufgelegt</node>
-    <node x="290.0" y="424.0">jarai.patterns.gof.behavioral.state.pattern.Verbunden</node>
-    <node x="103.0" y="-104.5">jarai.patterns.gof.behavioral.state.pattern.Telefon</node>
-    <node x="118.0" y="424.0">jarai.patterns.gof.behavioral.state.pattern.Abgehoben</node>
+    <node x="854.4602272727273" y="601.6420454545455">jarai.patterns.gof.behavioral.state.pattern.Verbunden</node>
+    <node x="667.4602272727273" y="73.14204545454544">jarai.patterns.gof.behavioral.state.pattern.Telefon</node>
+    <node x="662.9602272727273" y="341.64204545454544">jarai.patterns.gof.behavioral.state.pattern.Zustand</node>
+    <node x="468.46022727272725" y="415.5">jarai.patterns.gof.behavioral.state.pattern.Application</node>
+    <node x="471.46022727272725" y="601.6420454545455">jarai.patterns.gof.behavioral.state.pattern.Aufgelegt</node>
+    <node x="682.4602272727273" y="601.6420454545455">jarai.patterns.gof.behavioral.state.pattern.Abgehoben</node>
   </nodes>
   <notes />
   <edges>
     <edge source="jarai.patterns.gof.behavioral.state.pattern.Aufgelegt" target="jarai.patterns.gof.behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
-      <point x="0.0" y="-49.5" />
-      <point x="2.5" y="399.5" />
-      <point x="194.0" y="399.5" />
-      <point x="0.0" y="105.0" />
+      <point x="-2.2727272721567715E-4" y="-49.50004545454544" />
+      <point x="567.96" y="577.0" />
+      <point x="759.46" y="577.0" />
+      <point x="-2.2727272721567715E-4" y="104.99995454545461" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.state.pattern.Abgehoben" target="jarai.patterns.gof.behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
-      <point x="0.0" y="-49.5" />
-      <point x="0.0" y="105.0" />
+      <point x="-2.2727272721567715E-4" y="-49.50004545454544" />
+      <point x="758.96" y="577.0" />
+      <point x="759.46" y="577.0" />
+      <point x="-2.2727272721567715E-4" y="104.99995454545461" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.state.pattern.Verbunden" target="jarai.patterns.gof.behavioral.state.pattern.Zustand" relationship="GENERALIZATION">
-      <point x="0.0" y="-49.5" />
-      <point x="366.5" y="399.5" />
-      <point x="194.0" y="399.5" />
-      <point x="0.0" y="105.0" />
+      <point x="-2.2727272721567715E-4" y="-49.50004545454544" />
+      <point x="931.46" y="577.0" />
+      <point x="759.46" y="577.0" />
+      <point x="-2.2727272721567715E-4" y="104.99995454545461" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.9513513513513514" showDependencies="false" x="183.5" y="219.25" />
-  <SelectedNodes>
-    <node>jarai.patterns.gof.behavioral.state.pattern.Application</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="748.5" y="397.0" />
+  <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

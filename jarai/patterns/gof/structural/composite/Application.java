@@ -15,6 +15,7 @@ public class Application {
         meinComputer.hinzufuegen(new Festplatte("C:", 100));
         meinComputer.hinzufuegen(new Festplatte("D:", 100));
 
+
         meinComputer.anzeigen();
 
     }

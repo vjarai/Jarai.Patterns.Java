@@ -1,8 +1,11 @@
 package jarai.patterns.exercises.ex03.proxy;
 
-public class AuthorizationCheckingCarProxy {
+public class AuthorizationCheckingCarProxy extends Car {
+    public Car car;
+
     public AuthorizationCheckingCarProxy(Car car) {
         // ToDo: Save original car
+        this.car = car;
     }
 
     public boolean IsAuthorized() {

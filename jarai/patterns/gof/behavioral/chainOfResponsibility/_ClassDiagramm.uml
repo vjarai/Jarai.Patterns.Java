@@ -3,37 +3,37 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="700.7352941176471" y="99.5">jarai.patterns.gof.behavioral.chainOfResponsibility.LampenSkill</node>
-    <node x="448.7352941176471" y="99.5">jarai.patterns.gof.behavioral.chainOfResponsibility.RadioSkill</node>
-    <node x="-129.07361963190186" y="-69.82822085889575">jarai.patterns.gof.behavioral.chainOfResponsibility.Alexa</node>
-    <node x="285.5" y="237.0">jarai.patterns.gof.behavioral.chainOfResponsibility.Application</node>
-    <node x="196.73529411764707" y="87.5">jarai.patterns.gof.behavioral.chainOfResponsibility.WettervorhersageSkill</node>
-    <node x="471.4951281125947" y="-69.82822085889575">jarai.patterns.gof.behavioral.chainOfResponsibility.AlexaSkill</node>
+    <node x="973.974557921328" y="482.91104294478527">jarai.patterns.gof.behavioral.chainOfResponsibility.WettervorhersageSkill</node>
+    <node x="1248.7343919162756" y="325.5828220858895">jarai.patterns.gof.behavioral.chainOfResponsibility.AlexaSkill</node>
+    <node x="1062.7392638036808" y="632.4110429447853">jarai.patterns.gof.behavioral.chainOfResponsibility.Application</node>
+    <node x="1477.9745579213281" y="494.91104294478527">jarai.patterns.gof.behavioral.chainOfResponsibility.LampenSkill</node>
+    <node x="1225.9745579213281" y="494.91104294478527">jarai.patterns.gof.behavioral.chainOfResponsibility.RadioSkill</node>
+    <node x="648.1656441717791" y="325.5828220858895">jarai.patterns.gof.behavioral.chainOfResponsibility.Alexa</node>
   </nodes>
   <notes />
   <edges>
     <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Application" target="jarai.patterns.gof.behavioral.chainOfResponsibility.RadioSkill" relationship="CREATE">
       <point x="75.5" y="-15.0" />
-      <point x="555.7352941176471" y="249.0" />
+      <point x="1322.9745579213281" y="644.4110429447853" />
       <point x="-0.0" y="27.0" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.RadioSkill" target="jarai.patterns.gof.behavioral.chainOfResponsibility.AlexaSkill" relationship="GENERALIZATION">
       <point x="106.99970588235294" y="0.0" />
-      <point x="682.0" y="126.5" />
+      <point x="682.0" y="521.9110429447853" />
       <point x="682.0" y="43.672" />
-      <point x="578.495" y="43.672" />
+      <point x="1366.2342638036807" y="43.672" />
       <point x="-1.2811259477985004E-4" y="38.500220858895744" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.WettervorhersageSkill" target="jarai.patterns.gof.behavioral.chainOfResponsibility.AlexaSkill" relationship="GENERALIZATION">
       <point x="-2.9411764705855603E-4" y="-27.0" />
-      <point x="303.735" y="43.672" />
-      <point x="578.495" y="43.672" />
+      <point x="303.735" y="482.91104294478527" />
+      <point x="303.735" y="424.58304294478523" />
       <point x="-1.2811259477985004E-4" y="38.500220858895744" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Application" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Alexa" relationship="CREATE">
       <point x="0.0" y="-27.0" />
-      <point x="361.0" y="212.0" />
-      <point x="-12.073619631901863" y="212.0" />
+      <point x="1138.2392638036808" y="212.0" />
+      <point x="755.1656441717791" y="212.0" />
       <point x="0.0" y="60.5" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Alexa" target="jarai.patterns.gof.behavioral.chainOfResponsibility.AlexaSkill" relationship="TO_MANY">
@@ -46,20 +46,20 @@
     </edge>
     <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Application" target="jarai.patterns.gof.behavioral.chainOfResponsibility.LampenSkill" relationship="CREATE">
       <point x="75.5" y="-0.0" />
-      <point x="807.7352941176471" y="264.0" />
+      <point x="1574.9745579213281" y="659.4110429447853" />
       <point x="-0.0" y="27.0" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.LampenSkill" target="jarai.patterns.gof.behavioral.chainOfResponsibility.AlexaSkill" relationship="GENERALIZATION">
       <point x="-107.00029411764706" y="0.0" />
-      <point x="682.0" y="126.5" />
+      <point x="682.0" y="521.9110429447853" />
       <point x="682.0" y="43.672" />
-      <point x="578.495" y="43.672" />
+      <point x="1366.2342638036807" y="43.672" />
       <point x="-1.2811259477985004E-4" y="38.500220858895744" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.6626016260162602" showDependencies="true" x="959.1165644171779" y="131.25460122699383" />
+  <settings layout="Hierarchic" zoom="0.6626016260162602" showDependencies="true" x="1384.564417177914" y="677.1226993865031" />
   <SelectedNodes>
-    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.AlexaSkill</node>
+    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.Application</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

@@ -3,22 +3,165 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="225.6914212548014" y="409.4366197183098">jarai.patterns.gof.structural.facade.PopcornPopper</node>
-    <node x="480.1446862996156" y="114.55185659411012">jarai.patterns.gof.structural.facade.Screen</node>
-    <node x="216.6914212548014" y="102.03201024327785">jarai.patterns.gof.structural.facade.Tuner</node>
-    <node x="919.1395646606913" y="55.67989756722142">jarai.patterns.gof.structural.facade.Projector</node>
-    <node x="690.2816901408451" y="55.679897567221474">jarai.patterns.gof.structural.facade.CdPlayer</node>
-    <node x="480.1446862996156" y="329.8002560819462">jarai.patterns.gof.structural.facade.TheaterLights</node>
-    <node x="-54.76184379001279" y="47.03201024327785">jarai.patterns.gof.structural.facade.DvdPlayer</node>
+    <node x="834.4901685393259" y="6.0">jarai.patterns.gof.structural.facade.Amplifier</node>
+    <node x="420.0" y="357.0">jarai.patterns.gof.structural.facade.PopcornPopper</node>
+    <node x="1089.8455056179776" y="368.0">jarai.patterns.gof.structural.facade.Screen</node>
+    <node x="1427.8455056179776" y="346.0">jarai.patterns.gof.structural.facade.Projector</node>
+    <node x="568.0856741573034" y="-297.0">jarai.patterns.gof.structural.facade.Tuner</node>
+    <node x="1258.8455056179776" y="-341.0">jarai.patterns.gof.structural.facade.DvdPlayer</node>
+    <node x="614.0" y="313.0">jarai.patterns.gof.structural.facade.CdPlayer</node>
+    <node x="817.7106741573034" y="598.0">jarai.patterns.gof.structural.facade.HomeTheaterFacade</node>
+    <node x="1243.8455056179776" y="357.0">jarai.patterns.gof.structural.facade.TheaterLights</node>
+    <node x="924.3651685393259" y="837.0">jarai.patterns.gof.structural.facade.Application</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic" zoom="0.8238396624472575" showDependencies="false" x="527.9961587708065" y="328.92829705505744" />
-  <SelectedNodes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.Screen" relationship="TO_ONE">
+      <point x="158.13483146067415" y="-93.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.PopcornPopper" relationship="TO_ONE">
+      <point x="-181.0" y="0.0" />
+      <point x="507.0" y="691.5" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.Screen" relationship="CREATE">
+      <point x="75.5" y="-15.0" />
+      <point x="1197.2106741573034" y="860.5" />
+      <point x="40.36516853932585" y="60.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.DvdPlayer" target="jarai.patterns.gof.structural.facade.Amplifier" relationship="TO_ONE">
+      <point x="4.943820224525552E-4" y="137.5" />
+      <point x="1358.846" y="-30.0" />
+      <point x="925.99" y="-30.0" />
+      <point x="-1.6853932584126596E-4" y="-126.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.DvdPlayer" relationship="CREATE">
+      <point x="-15.0" y="38.5" />
+      <point x="984.8651685393259" y="946.5" />
+      <point x="1645.3455056179776" y="946.5" />
+      <point x="1645.3455056179776" y="-203.5" />
+      <point x="100.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.Amplifier" relationship="CREATE">
+      <point x="-75.5" y="15.0" />
+      <point x="387.5" y="890.5" />
+      <point x="387.5" y="-358.5" />
+      <point x="940.99" y="-358.5" />
+      <point x="14.999831460674159" y="-126.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Amplifier" target="jarai.patterns.gof.structural.facade.DvdPlayer" relationship="TO_ONE">
+      <point x="91.49983146067416" y="0.0" />
+      <point x="1152.0" y="132.5" />
+      <point x="1152.0" y="-203.5" />
+      <point x="-99.99950561797755" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.CdPlayer" relationship="CREATE">
+      <point x="-75.5" y="-30.0" />
+      <point x="711.0" y="845.5" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.Amplifier" relationship="TO_ONE">
+      <point x="36.27932584269661" y="-93.5" />
+      <point x="1034.99" y="-30.0" />
+      <point x="925.99" y="-30.0" />
+      <point x="-1.6853932584126596E-4" y="-126.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.Tuner" relationship="CREATE">
+      <point x="-75.5" y="0.0" />
+      <point x="402.5" y="875.5" />
+      <point x="402.5" y="-203.5" />
+      <point x="-96.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.Tuner" relationship="TO_ONE">
+      <point x="3.258426966112893E-4" y="-93.5" />
+      <point x="998.711" y="276.5" />
+      <point x="798.0" y="276.5" />
+      <point x="798.0" y="-203.5" />
+      <point x="96.00032584269661" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.PopcornPopper" relationship="CREATE">
+      <point x="-75.5" y="-15.0" />
+      <point x="492.0" y="860.5" />
+      <point x="-15.0" y="71.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Projector" target="jarai.patterns.gof.structural.facade.DvdPlayer" relationship="TO_ONE">
+      <point x="4.943820224525552E-4" y="-82.5" />
+      <point x="1527.846" y="-9.5" />
+      <point x="1152.0" y="-9.5" />
+      <point x="1152.0" y="-203.5" />
+      <point x="-99.99950561797755" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.TheaterLights" relationship="CREATE">
+      <point x="75.5" y="30.0" />
+      <point x="1340.8455056179776" y="905.5" />
+      <point x="15.0" y="71.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.TheaterLights" relationship="TO_ONE">
+      <point x="181.0" y="0.0" />
+      <point x="1325.8455056179776" y="691.5" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.Projector" relationship="CREATE">
+      <point x="0.0" y="38.5" />
+      <point x="999.8651685393259" y="931.5" />
+      <point x="1542.8455056179776" y="931.5" />
+      <point x="15.0" y="82.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Amplifier" target="jarai.patterns.gof.structural.facade.Tuner" relationship="TO_ONE">
+      <point x="-91.50016853932584" y="0.0" />
+      <point x="798.0" y="132.5" />
+      <point x="798.0" y="-203.5" />
+      <point x="96.00032584269661" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Tuner" target="jarai.patterns.gof.structural.facade.Amplifier" relationship="TO_ONE">
+      <point x="3.258426966112893E-4" y="93.5" />
+      <point x="664.086" y="-30.0" />
+      <point x="925.99" y="-30.0" />
+      <point x="-1.6853932584126596E-4" y="-126.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.Projector" relationship="TO_ONE">
+      <point x="181.0" y="15.0" />
+      <point x="1527.8455056179776" y="706.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Amplifier" target="jarai.patterns.gof.structural.facade.CdPlayer" relationship="TO_ONE">
+      <point x="-1.6853932584126596E-4" y="126.5" />
+      <point x="925.99" y="428.5" />
+      <point x="97.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.CdPlayer" target="jarai.patterns.gof.structural.facade.Amplifier" relationship="TO_ONE">
+      <point x="0.0" y="-115.5" />
+      <point x="711.0" y="-30.0" />
+      <point x="925.99" y="-30.0" />
+      <point x="-1.6853932584126596E-4" y="-126.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.CdPlayer" relationship="TO_ONE">
+      <point x="-14.999674157303389" y="-93.5" />
+      <point x="983.711" y="428.5" />
+      <point x="97.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.Application" target="jarai.patterns.gof.structural.facade.HomeTheaterFacade" relationship="CREATE">
+      <point x="-1.154494382022449" y="-38.5" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.facade.HomeTheaterFacade" target="jarai.patterns.gof.structural.facade.DvdPlayer" relationship="TO_ONE">
+      <point x="51.27932584269661" y="-93.5" />
+      <point x="1049.99" y="147.5" />
+      <point x="1152.0" y="147.5" />
+      <point x="1152.0" y="-203.5" />
+      <point x="-99.99950561797755" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8227450980392157" showDependencies="true" x="1028.9999999999998" y="296.49999999999994" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.structural.facade.Application</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>
     <Category>Methods</Category>
+    <Category>Properties</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

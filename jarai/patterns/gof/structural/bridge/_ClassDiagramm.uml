@@ -3,57 +3,57 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="346.5" y="3.0">jarai.patterns.gof.structural.bridge.ScreenLayout</node>
-    <node x="42.5" y="164.0">jarai.patterns.gof.structural.bridge.Form</node>
-    <node x="366.80263157894734" y="326.0">jarai.patterns.gof.structural.bridge.GreetingForm</node>
-    <node x="440.5" y="153.0">jarai.patterns.gof.structural.bridge.StarScreenLayout</node>
-    <node x="246.50000000000003" y="153.0">jarai.patterns.gof.structural.bridge.CrossScreenLayout</node>
-    <node x="23.0" y="326.0">jarai.patterns.gof.structural.bridge.InformationForm</node>
+    <node x="352.5" y="142.0">jarai.patterns.gof.structural.bridge.CrossScreenLayout</node>
+    <node x="103.0526315789474" y="153.0">jarai.patterns.gof.structural.bridge.Form</node>
+    <node x="548.5" y="142.0">jarai.patterns.gof.structural.bridge.StarScreenLayout</node>
+    <node x="226.0" y="315.0">jarai.patterns.gof.structural.bridge.InformationForm</node>
+    <node x="261.0" y="-8.0">jarai.patterns.gof.structural.bridge.ScreenLayout</node>
+    <node x="2.0" y="315.0">jarai.patterns.gof.structural.bridge.GreetingForm</node>
   </nodes>
   <notes />
   <edges>
     <edge source="jarai.patterns.gof.structural.bridge.InformationForm" target="jarai.patterns.gof.structural.bridge.Form" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.5" />
+      <point x="-55.5" y="-38.5" />
+      <point x="281.5" y="289.0" />
+      <point x="194.5526315789474" y="289.0" />
       <point x="0.0" y="49.5" />
     </edge>
     <edge source="jarai.patterns.gof.structural.bridge.StarScreenLayout" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="REALIZATION">
       <point x="0.0" y="-60.5" />
-      <point x="522.5" y="132.0" />
-      <point x="430.80263157894734" y="132.0" />
-      <point x="430.80263157894734" y="122.0" />
-      <point x="428.0" y="122.0" />
-      <point x="0.0" y="49.0" />
+      <point x="632.0" y="121.0" />
+      <point x="533.5526315789474" y="121.0" />
+      <point x="533.5526315789474" y="111.0" />
+      <point x="396.0" y="111.0" />
+      <point x="54.0" y="49.0" />
     </edge>
     <edge source="jarai.patterns.gof.structural.bridge.Form" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="TO_ONE">
       <point x="0.0" y="-49.5" />
-      <point x="134.5" y="122.0" />
-      <point x="373.66666666666674" y="122.0" />
-      <point x="-54.333333333333314" y="49.0" />
+      <point x="194.5526315789474" y="121.0" />
+      <point x="288.0" y="121.0" />
+      <point x="-54.0" y="49.0" />
     </edge>
     <edge source="jarai.patterns.gof.structural.bridge.CrossScreenLayout" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="REALIZATION">
       <point x="0.0" y="-60.5" />
-      <point x="333.5" y="132.0" />
-      <point x="430.80263157894734" y="132.0" />
-      <point x="430.80263157894734" y="122.0" />
-      <point x="428.0" y="122.0" />
+      <point x="440.5" y="121.0" />
+      <point x="533.5526315789474" y="121.0" />
+      <point x="533.5526315789474" y="111.0" />
+      <point x="396.0" y="111.0" />
+      <point x="54.0" y="49.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.bridge.InformationForm" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="DEPENDENCY">
+      <point x="55.5" y="-38.5" />
+      <point x="392.5" y="289.0" />
+      <point x="342.0" y="289.0" />
       <point x="0.0" y="49.0" />
     </edge>
     <edge source="jarai.patterns.gof.structural.bridge.GreetingForm" target="jarai.patterns.gof.structural.bridge.Form" relationship="GENERALIZATION">
-      <point x="-51.0" y="-38.5" />
-      <point x="417.80263157894734" y="300.0" />
-      <point x="134.5" y="300.0" />
+      <point x="0.0" y="-38.5" />
+      <point x="104.0" y="289.0" />
+      <point x="194.5526315789474" y="289.0" />
       <point x="0.0" y="49.5" />
     </edge>
-    <edge source="jarai.patterns.gof.structural.bridge.GreetingForm" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="DEPENDENCY">
-      <point x="51.0" y="-38.5" />
-      <point x="519.8026315789473" y="300.0" />
-      <point x="615.0" y="300.0" />
-      <point x="615.0" y="122.0" />
-      <point x="482.33333333333337" y="122.0" />
-      <point x="54.33333333333337" y="49.0" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.3071428571428572" showDependencies="true" x="329.0" y="213.0" />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="369.0" y="202.0" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>

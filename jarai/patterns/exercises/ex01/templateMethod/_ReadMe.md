@@ -1,5 +1,4 @@
-Übung Template Method
-=====================
+#Übung Template Method
 
 Programmieren Sie das Spiel Zahlenraten, indem Sie eine eigene Klasse von Game ableiten
 und alle von der Template Methode play() aufgerufenen abstrakten Methoden implementieren.

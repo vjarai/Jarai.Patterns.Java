@@ -5,6 +5,7 @@ public class HebeArm extends Befehl {
 
 
     void ausfuehren(Roboter roboter) {
+
         roboter.hebeArm();
     }
 
