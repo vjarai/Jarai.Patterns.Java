@@ -3,50 +3,48 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="225.0" y="-151.0">jarai.patterns.gof.creational.abstractFactory.Hose</node>
-    <node x="-116.0" y="223.0">jarai.patterns.gof.creational.abstractFactory.HerrenKleiderfabrik</node>
-    <node x="42.0" y="-2.0">jarai.patterns.gof.creational.abstractFactory.DamenHemd</node>
-    <node x="234.5" y="-2.0">jarai.patterns.gof.creational.abstractFactory.HerrenHose</node>
-    <node x="84.0" y="223.0">jarai.patterns.gof.creational.abstractFactory.DamenKleiderfabrik</node>
-    <node x="-43.5" y="-151.0">jarai.patterns.gof.creational.abstractFactory.Hemd</node>
-    <node x="-116.0" y="-2.0">jarai.patterns.gof.creational.abstractFactory.HerrenHemd</node>
-    <node x="-10.5" y="97.0">jarai.patterns.gof.creational.abstractFactory.Kleiderfabrik</node>
+    <node x="755.7551440329219" y="114.0493827160494">jarai.patterns.gof.creational.abstractFactory.HerrenHose</node>
+    <node x="405.25514403292186" y="339.0493827160494">jarai.patterns.gof.creational.abstractFactory.HerrenKleiderfabrik</node>
+    <node x="510.75514403292186" y="213.0493827160494">jarai.patterns.gof.creational.abstractFactory.Kleiderfabrik</node>
+    <node x="746.2551440329219" y="-34.950617283950606">jarai.patterns.gof.creational.abstractFactory.Hose</node>
+    <node x="605.2551440329219" y="339.0493827160494">jarai.patterns.gof.creational.abstractFactory.DamenKleiderfabrik</node>
+    <node x="563.2551440329219" y="114.0493827160494">jarai.patterns.gof.creational.abstractFactory.DamenHemd</node>
+    <node x="405.25514403292186" y="114.0493827160494">jarai.patterns.gof.creational.abstractFactory.HerrenHemd</node>
+    <node x="477.75514403292186" y="-34.950617283950606">jarai.patterns.gof.creational.abstractFactory.Hemd</node>
   </nodes>
   <notes />
   <edges>
     <edge source="jarai.patterns.gof.creational.abstractFactory.HerrenHemd" target="jarai.patterns.gof.creational.abstractFactory.Hemd" relationship="GENERALIZATION">
-      <point x="0.0" y="-27.0" />
-      <point x="-47.0" y="-27.0" />
-      <point x="32.0" y="-27.0" />
-      <point x="0.0" y="49.5" />
+      <point x="-1.4403292186671024E-4" y="-27.000382716049387" />
+      <point x="473.755" y="90.0" />
+      <point x="553.255" y="90.0" />
+      <point x="-1.4403292186671024E-4" y="49.49961728395061" />
     </edge>
     <edge source="jarai.patterns.gof.creational.abstractFactory.DamenKleiderfabrik" target="jarai.patterns.gof.creational.abstractFactory.Kleiderfabrik" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.0" />
-      <point x="174.0" y="198.0" />
-      <point x="74.0" y="198.0" />
-      <point x="0.0" y="38.0" />
+      <point x="-1.4403292186671024E-4" y="-38.000382716049444" />
+      <point x="695.755" y="315.0" />
+      <point x="594.755" y="315.0" />
+      <point x="-1.4403292186671024E-4" y="37.999617283950585" />
     </edge>
     <edge source="jarai.patterns.gof.creational.abstractFactory.HerrenHose" target="jarai.patterns.gof.creational.abstractFactory.Hose" relationship="GENERALIZATION">
-      <point x="-0.0" y="-27.0" />
-      <point x="-0.0" y="49.5" />
-    </edge>
-    <edge source="jarai.patterns.gof.creational.abstractFactory.HerrenKleiderfabrik" target="jarai.patterns.gof.creational.abstractFactory.Kleiderfabrik" relationship="GENERALIZATION">
-      <point x="0.0" y="-38.0" />
-      <point x="-26.0" y="198.0" />
-      <point x="74.0" y="198.0" />
-      <point x="0.0" y="38.0" />
-    </edge>
-    <edge source="jarai.patterns.gof.creational.abstractFactory.DamenHemd" target="jarai.patterns.gof.creational.abstractFactory.Hemd" relationship="GENERALIZATION">
-      <point x="0.0" y="-27.0" />
-      <point x="111.0" y="-27.0" />
-      <point x="32.0" y="-27.0" />
+      <point x="-0.5" y="-27.0" />
       <point x="0.0" y="49.5" />
     </edge>
+    <edge source="jarai.patterns.gof.creational.abstractFactory.DamenHemd" target="jarai.patterns.gof.creational.abstractFactory.Hemd" relationship="GENERALIZATION">
+      <point x="-1.4403292186671024E-4" y="-27.000382716049387" />
+      <point x="632.755" y="90.0" />
+      <point x="553.255" y="90.0" />
+      <point x="-1.4403292186671024E-4" y="49.49961728395061" />
+    </edge>
+    <edge source="jarai.patterns.gof.creational.abstractFactory.HerrenKleiderfabrik" target="jarai.patterns.gof.creational.abstractFactory.Kleiderfabrik" relationship="GENERALIZATION">
+      <point x="-1.4403292186671024E-4" y="-38.000382716049444" />
+      <point x="494.755" y="315.0" />
+      <point x="594.755" y="315.0" />
+      <point x="-1.4403292186671024E-4" y="37.999617283950585" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.0340425531914894" showDependencies="false" x="140.0" y="84.0" />
-  <SelectedNodes>
-    <node>jarai.patterns.gof.creational.abstractFactory.Hose</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic" zoom="1.4182590233545647" showDependencies="false" x="661.5" y="200.5" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>

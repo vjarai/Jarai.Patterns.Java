@@ -1,4 +1,4 @@
-## Test Mermaid Diagrams
+## Beziehungen: Aggregation/Composition vs. Vererbung
 
 ```mermaid
 classDiagram
