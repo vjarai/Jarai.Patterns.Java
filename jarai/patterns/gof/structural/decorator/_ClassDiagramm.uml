@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jarai.patterns.gof.structural.decorator</OriginalElement>
+  <nodes>
+    <node x="-79.0" y="-61.0">jarai.patterns.gof.structural.decorator.Book</node>
+    <node x="-101.0" y="88.0">jarai.patterns.gof.structural.decorator.BorrowableDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.decorator.BorrowableDecorator" target="jarai.patterns.gof.structural.decorator.Book" relationship="GENERALIZATION">
+      <point x="50.5" y="-60.5" />
+      <point x="50.5" y="63.0" />
+      <point x="39.5" y="63.0" />
+      <point x="39.5" y="49.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.decorator.BorrowableDecorator" target="jarai.patterns.gof.structural.decorator.Book" relationship="TO_ONE">
+      <point x="-50.5" y="-60.5" />
+      <point x="-50.5" y="63.0" />
+      <point x="-39.5" y="63.0" />
+      <point x="-39.5" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="98.5" y="74.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
