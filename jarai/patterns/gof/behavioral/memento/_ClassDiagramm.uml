@@ -3,29 +3,18 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="-124.49999999999999" y="-72.0">jarai.patterns.gof.behavioral.memento.Memento</node>
-    <node x="40.175824175824175" y="57.0">jarai.patterns.gof.behavioral.memento.UndoBuffer</node>
-    <node x="-262.5439560439561" y="57.0">jarai.patterns.gof.behavioral.memento.Urheber</node>
+    <node x="69.9835164835165" y="207.74175824175825">jarai.patterns.gof.behavioral.memento.UndoBuffer</node>
+    <node x="-94.69230769230766" y="78.74175824175825">jarai.patterns.gof.behavioral.memento.Memento</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="jarai.patterns.gof.behavioral.memento.Urheber" target="jarai.patterns.gof.behavioral.memento.Memento" relationship="DEPENDENCY">
-      <point x="59.000000000000014" y="-71.5" />
-      <point x="-96.04395604395607" y="31.0" />
-      <point x="-47.499999999999986" y="31.0" />
-      <point x="-0.0" y="38.5" />
-    </edge>
     <edge source="jarai.patterns.gof.behavioral.memento.UndoBuffer" target="jarai.patterns.gof.behavioral.memento.Memento" relationship="TO_MANY">
       <point x="0.0" y="-60.5" />
-      <point x="146.67582417582418" y="-33.5" />
+      <point x="176.4835164835165" y="117.24175824175825" />
       <point x="77.0" y="0.0" />
     </edge>
-    <edge source="jarai.patterns.gof.behavioral.memento.UndoBuffer" target="jarai.patterns.gof.behavioral.memento.Urheber" relationship="TO_ONE">
-      <point x="-106.5" y="11.0" />
-      <point x="107.5" y="0.0" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.1741935483870967" showDependencies="true" x="-67.5" y="160.5" />
+  <settings layout="Hierarchic" zoom="1.1741935483870967" showDependencies="true" x="121.21428571428572" y="223.59615384615384" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

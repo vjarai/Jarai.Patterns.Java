@@ -6,18 +6,18 @@ public class UndoBuffer {
 
     private final Vector<Memento> mementos = new Vector<>();
 
-    private final Urheber urheber;
+    private final Editor editor;
 
-    UndoBuffer(Urheber urheber) {
-        this.urheber = urheber;
+    UndoBuffer(Editor editor) {
+        this.editor = editor;
     }
 
-    void speichereZustand() {
-        mementos.add(urheber.erzeugeMemento());
+    void save() {
+        mementos.add(editor.createMemento());
     }
 
-    void rueckgaengigZustand(int i) {
-        urheber.setzeMemento(mementos.get(i));
+    void undo(int i) {
+        editor.restoreMemento(mementos.get(i));
     }
 
 }

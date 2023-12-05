@@ -3,14 +3,14 @@ package jarai.patterns.gof.behavioral.memento;
 
 public class Memento {
 
-    private final String zustand;
+    private final String text;
 
     Memento(String zustand) {
-        this.zustand = zustand;
+        this.text = zustand;
     }
 
-    String getZustand() {
-        return zustand;
+    String getText() {
+        return text;
     }
 
 }

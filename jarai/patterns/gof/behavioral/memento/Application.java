@@ -4,21 +4,21 @@ public class Application {
 
     public static void main(String[] args) {
 
-        Urheber urheber = new Urheber();
-        UndoBuffer undoBuffer = new UndoBuffer(urheber);
+        Editor editor = new Editor();
+        UndoBuffer undoBuffer = new UndoBuffer(editor);
 
-        urheber.setzeZustand("Zustand0");
-        urheber.zeigeZustand();
-        undoBuffer.speichereZustand();
+        editor.setText("Hallo");
+        undoBuffer.save();
+        editor.showText();
 
-        urheber.setzeZustand("Zustand1");
-        urheber.zeigeZustand();
-        undoBuffer.speichereZustand();
+        editor.setText("Hallo Welt");
+        undoBuffer.save();
+        editor.showText();
 
-        undoBuffer.rueckgaengigZustand(0);
-        urheber.zeigeZustand();
+        undoBuffer.undo(0);
+        editor.showText();
 
-        undoBuffer.rueckgaengigZustand(1);
-        urheber.zeigeZustand();
+        undoBuffer.undo(1);
+        editor.showText();
     }
 }
