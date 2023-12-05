@@ -4,9 +4,9 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
 
-public class Publisher {
+public class Aktie {
     private final PropertyChangeSupport propertyChangeSupport = new PropertyChangeSupport(this);
-    private String news;
+    private double kurs;
 
     public void addPropertyChangeListener(PropertyChangeListener pcl) {
 
@@ -18,9 +18,9 @@ public class Publisher {
         propertyChangeSupport.removePropertyChangeListener(pcl);
     }
 
-    public void setNews(String value) {
-        propertyChangeSupport.firePropertyChange("news", this.news, value);
-        this.news = value;
+    public void setKurs(double value) {
+        propertyChangeSupport.firePropertyChange("news", this.kurs, value);
+        this.kurs = value;
     }
 
 

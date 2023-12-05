@@ -2,11 +2,51 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="59.071428571428555" y="-61.0">jarai.patterns.gof.behavioral.strategy.Arbeiter</node>
+    <node x="-110.0" y="99.5">jarai.patterns.gof.behavioral.strategy.Maler</node>
+    <node x="40.0" y="99.5">jarai.patterns.gof.behavioral.strategy.Schreiner</node>
+    <node x="29.0" y="237.0">jarai.patterns.gof.behavioral.strategy.Application</node>
+    <node x="190.0" y="66.0">jarai.patterns.gof.behavioral.strategy.Firma</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic" zoom="1.1811023622047243" showDependencies="true" x="2205.556666666667" y="1352.1100000000001" />
-  <SelectedNodes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.strategy.Application" target="jarai.patterns.gof.behavioral.strategy.Schreiner" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.strategy.Application" target="jarai.patterns.gof.behavioral.strategy.Maler" relationship="CREATE">
+      <point x="-76.0" y="0.0" />
+      <point x="-45.0" y="264.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.strategy.Schreiner" target="jarai.patterns.gof.behavioral.strategy.Arbeiter" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="105.0" y="68.0" />
+      <point x="124.071" y="68.0" />
+      <point x="-4.285714285554576E-4" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.strategy.Application" target="jarai.patterns.gof.behavioral.strategy.Firma" relationship="CREATE">
+      <point x="76.0" y="0.0" />
+      <point x="299.5" y="264.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.strategy.Firma" target="jarai.patterns.gof.behavioral.strategy.Arbeiter" relationship="TO_MANY">
+      <point x="0.0" y="-60.5" />
+      <point x="299.5" y="-22.5" />
+      <point x="65.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.strategy.Maler" target="jarai.patterns.gof.behavioral.strategy.Arbeiter" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-45.0" y="68.0" />
+      <point x="124.071" y="68.0" />
+      <point x="-4.285714285554576E-4" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="159.5" y="125.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.behavioral.strategy.Application</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>

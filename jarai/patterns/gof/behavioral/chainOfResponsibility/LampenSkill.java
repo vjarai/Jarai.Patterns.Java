@@ -5,9 +5,12 @@ public class LampenSkill extends AlexaSkill {
 
     public LampenSkill() {
 
-        super("LampenSkill", "Licht");
+        super("LampenSkill");
     }
 
+    public boolean canHandleRequest(String anfrage) {
+        return anfrage.contains("Licht");
+    }
     public void handleRequest(String anfrage) {
         System.out.println(name + " sagt: Licht eingeschaltet");
     }

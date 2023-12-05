@@ -5,12 +5,12 @@ public class Application {
 
     public static void main(String[] args) {
 
-        var publisher = new Publisher();
-        var subscriber = new Subscriber();
+        var aktie = new Aktie();
+        var beobachter = new Beobachter();
 
-        publisher.addPropertyChangeListener(subscriber);
+        aktie.addPropertyChangeListener(beobachter);
 
-        publisher.setNews("news");
+        aktie.setKurs(100);
 
     }
 }
