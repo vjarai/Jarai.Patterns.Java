@@ -19,7 +19,7 @@ public class Application {
         samsungPhone.aufladen(usbNetzteil);
 
         iphone.aufladen(new UsbToLightningAdapter(usbNetzteil));
-        samsungPhone.aufladen(new LightToUsbingAdapter(appleNetzteil));
+        samsungPhone.aufladen(new LightningToUsbAdapter(appleNetzteil));
 
     }
 

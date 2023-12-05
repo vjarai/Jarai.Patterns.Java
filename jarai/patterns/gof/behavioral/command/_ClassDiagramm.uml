@@ -3,50 +3,50 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="-100.0" y="192.0">jarai.patterns.gof.behavioral.command.MakroBefehl</node>
-    <node x="340.0" y="214.5">jarai.patterns.gof.behavioral.command.SenkeArmBefehl</node>
-    <node x="380.88461538461536" y="66.0">jarai.patterns.gof.behavioral.command.Roboter</node>
-    <node x="-5.0" y="66.0">jarai.patterns.gof.behavioral.command.Befehl</node>
-    <node x="120.0" y="214.5">jarai.patterns.gof.behavioral.command.HebeArmBefehl</node>
+    <node x="544.8846153846154" y="71.0">jarai.patterns.gof.behavioral.command.Roboter</node>
+    <node x="284.0" y="219.5">jarai.patterns.gof.behavioral.command.SenkeArmBefehl</node>
+    <node x="64.0" y="197.0">jarai.patterns.gof.behavioral.command.MakroBefehl</node>
+    <node x="504.0" y="219.5">jarai.patterns.gof.behavioral.command.HebeArmBefehl</node>
+    <node x="159.0" y="71.0">jarai.patterns.gof.behavioral.command.Befehl</node>
   </nodes>
   <notes />
   <edges>
     <edge source="jarai.patterns.gof.behavioral.command.MakroBefehl" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="GENERALIZATION">
       <point x="50.0" y="-60.5" />
-      <point x="50.0" y="172.0" />
-      <point x="219.99999999999994" y="172.0" />
-      <point x="219.99999999999994" y="162.0" />
-      <point x="145.0" y="162.0" />
+      <point x="214.0" y="177.0" />
+      <point x="384.0" y="177.0" />
+      <point x="384.0" y="167.0" />
+      <point x="309.0" y="167.0" />
       <point x="50.0" y="38.0" />
     </edge>
-    <edge source="jarai.patterns.gof.behavioral.command.SenkeArmBefehl" target="jarai.patterns.gof.behavioral.command.Roboter" relationship="DEPENDENCY">
-      <point x="50.0" y="-38.0" />
-      <point x="490.0" y="172.0" />
-      <point x="449.88461538461536" y="172.0" />
-      <point x="0.0" y="38.0" />
-    </edge>
     <edge source="jarai.patterns.gof.behavioral.command.SenkeArmBefehl" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="GENERALIZATION">
-      <point x="-50.0" y="-38.0" />
-      <point x="390.0" y="172.0" />
-      <point x="220.0" y="172.0" />
-      <point x="219.99999999999994" y="162.0" />
-      <point x="145.0" y="162.0" />
+      <point x="0.0" y="-38.0" />
+      <point x="384.0" y="167.0" />
+      <point x="309.0" y="167.0" />
       <point x="50.0" y="38.0" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.command.HebeArmBefehl" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="GENERALIZATION">
-      <point x="-2.8421709430404007E-14" y="-38.0" />
-      <point x="219.99999999999994" y="162.0" />
-      <point x="145.0" y="162.0" />
+      <point x="-50.0" y="-38.0" />
+      <point x="554.0" y="177.0" />
+      <point x="384.0" y="177.0" />
+      <point x="384.0" y="167.0" />
+      <point x="309.0" y="167.0" />
       <point x="50.0" y="38.0" />
     </edge>
     <edge source="jarai.patterns.gof.behavioral.command.MakroBefehl" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="TO_MANY">
       <point x="-50.0" y="-60.5" />
-      <point x="-50.0" y="172.0" />
-      <point x="45.0" y="172.0" />
+      <point x="114.0" y="177.0" />
+      <point x="209.0" y="177.0" />
       <point x="-50.0" y="38.0" />
     </edge>
+    <edge source="jarai.patterns.gof.behavioral.command.HebeArmBefehl" target="jarai.patterns.gof.behavioral.command.Roboter" relationship="DEPENDENCY">
+      <point x="50.0" y="-38.0" />
+      <point x="654.0" y="177.0" />
+      <point x="613.8846153846154" y="177.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.3778337531486147" showDependencies="true" x="230.0" y="199.5" />
+  <settings layout="Hierarchic" zoom="1.3818181818181818" showDependencies="true" x="394.0" y="204.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

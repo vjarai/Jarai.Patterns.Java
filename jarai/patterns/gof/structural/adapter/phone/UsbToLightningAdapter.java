@@ -10,7 +10,9 @@ public class UsbToLightningAdapter extends AppleNetzteil {
 
     @Override
     public int liefereStromViaLightning() {
-        return usbNetzteil.liefereStromViaUsb();
+        int strom = usbNetzteil.liefereStromViaUsb();
+        System.out.println("UsbToLightningAdapter liefert Strom via Lightning: " + strom);
+        return strom;
 
     }
 }

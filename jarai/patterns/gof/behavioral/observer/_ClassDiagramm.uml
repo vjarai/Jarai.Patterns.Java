@@ -2,11 +2,16 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="-188.0" y="-73.0">jarai.patterns.gof.behavioral.observer.Aktie</node>
+    <node x="-165.0" y="131.5">jarai.patterns.gof.behavioral.observer.Beobachter</node>
+  </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="981.0" y="313.66666666666663" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="true" x="0.0" y="68.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.behavioral.observer.Aktie</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

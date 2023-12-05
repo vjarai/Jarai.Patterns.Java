@@ -3,19 +3,21 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="69.9835164835165" y="207.74175824175825">jarai.patterns.gof.behavioral.memento.UndoBuffer</node>
-    <node x="-94.69230769230766" y="78.74175824175825">jarai.patterns.gof.behavioral.memento.Memento</node>
+    <node x="79.71978021978026" y="201.4835164835165">jarai.patterns.gof.behavioral.memento.UndoBuffer</node>
+    <node x="119.71978021978026" y="74.4835164835165">jarai.patterns.gof.behavioral.memento.Memento</node>
   </nodes>
   <notes />
   <edges>
     <edge source="jarai.patterns.gof.behavioral.memento.UndoBuffer" target="jarai.patterns.gof.behavioral.memento.Memento" relationship="TO_MANY">
       <point x="0.0" y="-60.5" />
-      <point x="176.4835164835165" y="117.24175824175825" />
-      <point x="77.0" y="0.0" />
+      <point x="0.0" y="38.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.1741935483870967" showDependencies="true" x="121.21428571428572" y="223.59615384615384" />
-  <SelectedNodes />
+  <settings layout="Hierarchic" zoom="1.1741935483870967" showDependencies="true" x="309.2142857142858" y="226.55494505494505" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.behavioral.memento.UndoBuffer</node>
+    <node>jarai.patterns.gof.behavioral.memento.Memento</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>

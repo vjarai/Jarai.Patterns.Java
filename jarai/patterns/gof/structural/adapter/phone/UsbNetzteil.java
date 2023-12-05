@@ -2,6 +2,8 @@ package jarai.patterns.gof.structural.adapter.phone;
 
 public class UsbNetzteil {
     public int liefereStromViaUsb() {
-        return 500;
+        int strom = 500;
+        System.out.println("UsbNetzteil liefert Strom: " + strom);
+        return strom;
     }
 }
