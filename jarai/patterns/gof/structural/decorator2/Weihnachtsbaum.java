@@ -1,4 +1,4 @@
-package jarai.patterns.gof.structural.decorator;
+package jarai.patterns.gof.structural.decorator2;
 
 public class Weihnachtsbaum {
     public void show() {

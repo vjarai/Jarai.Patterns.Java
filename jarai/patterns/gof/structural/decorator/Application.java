@@ -1,19 +1,15 @@
 package jarai.patterns.gof.structural.decorator;
 
-public class Application {
 
+public class Application {
 
     public static void main(String[] args) {
 
-        Weihnachtsbaum baum = new Weihnachtsbaum();
-        LamettaDecorator baumMitLametta = new LamettaDecorator(baum);
-        KerzenDecorator baumMitKerzen = new KerzenDecorator(baumMitLametta);
-        LichterkettenDecorator baumMitLichterkette = new LichterkettenDecorator(baumMitKerzen);
+        var buch = new Book("Rowling", "Harry Potter");
 
-        baumMitKerzen.anzuenden();
-        //baumMitLichterkette.einschalten();
+        var ausleihbaresBuch = new BorrowableDecorator(buch);
+        ausleihbaresBuch.BorrowItem("Fritz");
+        ausleihbaresBuch.Show();
 
-        baumMitLichterkette.show();
-        System.out.println(".");
     }
 }

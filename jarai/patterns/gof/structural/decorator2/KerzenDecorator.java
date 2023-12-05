@@ -1,4 +1,4 @@
-package jarai.patterns.gof.structural.decorator;
+package jarai.patterns.gof.structural.decorator2;
 
 public class KerzenDecorator extends WeihnachtsbaumDecorator {
     private boolean isBurning;

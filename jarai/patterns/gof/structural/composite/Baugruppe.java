@@ -3,23 +3,30 @@ package jarai.patterns.gof.structural.composite;
 import java.util.LinkedList;
 
 
-public abstract class Baugruppe extends Bauteil {
+public class Baugruppe extends Bauteil {
 
     protected final LinkedList<Bauteil> bauteile = new LinkedList<>();        // Component interface
 
-    public Baugruppe(double preis) {
-        super(preis);
+    public Baugruppe(String name) {
+        super(name, 0);
     }
 
     void anzeigen() {
         super.anzeigen();
-        Bauteil bauteil;
 
-        for (Bauteil value : bauteile) {
-            bauteil = value;
+        for (var bauteil : bauteile) {
             bauteil.anzeigen();
         }
 
+    }
+
+    public double getPreis() {
+        double preis = 0;
+
+        for (var bauteil : bauteile) {
+            preis += bauteil.getPreis();
+        }
+        return preis;
     }
 
     void hinzufuegen(Bauteil bauteil) {

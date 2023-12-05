@@ -5,15 +5,15 @@ public class Application {
 
     public static void main(String[] args) {
 
-        var meinComputer = new Computer("IBM", 100);
+        var meinComputer = new Baugruppe("PC");
 
-        var meineMutterplatine = new Mutterplatine("Asus", 120);
-        meineMutterplatine.hinzufuegen(new Prozessor(2400, 300));
-        meineMutterplatine.hinzufuegen(new Ram(512, 250));
+        var meineMutterplatine = new Baugruppe("Mutterplatine");
+        meineMutterplatine.hinzufuegen(new Bauteil("Prozessor", 300));
+        meineMutterplatine.hinzufuegen(new Bauteil("Ram", 250));
 
         meinComputer.hinzufuegen(meineMutterplatine);
-        meinComputer.hinzufuegen(new Festplatte("C:", 100));
-        meinComputer.hinzufuegen(new Festplatte("D:", 100));
+        meinComputer.hinzufuegen(new Bauteil("Festplatte", 100));
+        meinComputer.hinzufuegen(new Bauteil("Gehaeuse", 100));
 
 
         meinComputer.anzeigen();
