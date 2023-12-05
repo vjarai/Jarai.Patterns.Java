@@ -25,10 +25,11 @@ public class IterableContainer implements Iterable<String> {
 
         @Override
         public String next() throws NoSuchElementException {
-            if (hasNext())
-                return records[aktuellePosition++];
-            else
+            if (!hasNext())
                 throw new NoSuchElementException();
+
+            return records[aktuellePosition++];
+
         }
 
     }

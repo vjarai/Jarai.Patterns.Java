@@ -13,9 +13,9 @@ public class Application {
 
         System.out.println("Zweite Schleife ************** ");
 
-        for (var iterator = container.iterator(); iterator.hasNext(); )
+        var iterator = container.iterator();
+        while (iterator.hasNext())
             System.out.println(iterator.next());
-
 
     }
 }
