@@ -6,7 +6,7 @@ public class Application {
     public static void main(String[] args) {
 
         var roboter = new Roboter();
-        var befehl = new HebeArm();
+        var befehl = new HebeArmBefehl();
 
         befehl.ausfuehren(roboter);
         befehl.rueckgaengig(roboter);
@@ -14,9 +14,9 @@ public class Application {
 
         var makroBefehl = new MakroBefehl();
 
-        makroBefehl.add(new HebeArm());
-        makroBefehl.add(new HebeArm());
-        makroBefehl.add(new SenkeArm());
+        makroBefehl.add(new HebeArmBefehl());
+        makroBefehl.add(new HebeArmBefehl());
+        makroBefehl.add(new SenkeArmBefehl());
 
         makroBefehl.ausfuehren(roboter);
 
